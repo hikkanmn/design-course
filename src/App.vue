@@ -2,7 +2,7 @@
 import MenuLink from '/src/components/MenuLink.vue'
 import FooterContacts from '/src/components/FooterContacts.vue'
 import CompositionBlock from '/src/components/CompositionBlock.vue'
-import RhythmBlock from '/src/components/RhythmBlock.vue'
+// import RhythmBlock from '/src/components/RhythmBlock.vue'
 import TypographyBlock from '/src/components/TypographyBlock.vue'
 import ColoristBlock from '/src/components/ColoristBlock.vue'
 import AdditionalButton from '/src/components/AdditionalButton.vue'
@@ -54,7 +54,7 @@ import AdditionalButton from '/src/components/AdditionalButton.vue'
       <p class="text-[35px] font-myUnbounded font-light text-customLime">начинается с основ</p>
     </div>
 
-    <div class="grid grid-cols-12 grid-rows-4 gap-y-[30px] gap-x-[10px] mt-12 px-[135px]">
+    <div class="grid grid-cols-12 grid-rows-4 gap-y-[30px] gap-x-[10px] mt-20 px-[135px]">
       <!-- Текстовый блок -->
       <p
         class="font-myUnbounded font-regular text-[35px] col-start-1 col-end-8 row-start-2 row-end-4 text-white text-lg leading-relaxed"
@@ -75,21 +75,19 @@ import AdditionalButton from '/src/components/AdditionalButton.vue'
 
     <!-- .  -->
     <div>
-      <div class="grid grid-cols-12 grid-rows-4 gap-y-[30px] gap-x-[10px] mt-12 px-[135px]">
+      <div class="grid grid-cols-12 grid-rows-4 gap-y-[30px] gap-x-[10px] my-28 px-[135px]">
         <!-- Блок 1: Композиция -->
         <CompositionBlock />
 
-        <!-- Блок 2: Ритм -->
-        <RhythmBlock />
+        <!-- Блок 2: Колористика -->
+        <ColoristBlock />
+        <!-- <RhythmBlock /> -->
 
         <!-- Блок 3: Типографика -->
         <TypographyBlock />
 
         <!-- Кнопка: Дополнительные материалы -->
         <AdditionalButton />
-
-        <!-- Блок 4: Колористика -->
-        <ColoristBlock />
       </div>
     </div>
   </main>

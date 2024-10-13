@@ -3,7 +3,7 @@ import ContactCard from '/src/components/ContactCard.vue'
 </script>
 
 <template>
-  <div class="flex justify-between items-center pt-[105px] px-[135px]">
+  <div class="flex justify-between items-center px-[135px]">
     <!-- Карточка 1 -->
     <ContactCard
       name="Варя Дорошенко"

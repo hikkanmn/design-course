@@ -4,9 +4,9 @@
     <div
       class="w-full h-[290px] bg-customPurple rounded-br-[60px] rounded-bl-[60px] rounded-tr-[60px] flex justify-center items-center gap-10 p-4"
     >
-      <div class="w-16 h-16 bg-white"></div>
-      <div class="w-16 h-16 bg-white rounded-full"></div>
-      <div class="w-16 h-16 bg-white"></div>
+      <div class="w-[100px] h-[100px] bg-white"></div>
+      <div class="w-[100px] h-[100px] bg-white rounded-full"></div>
+      <div class="w-[100px] h-[100px] bg-white"></div>
     </div>
   </div>
 </template>

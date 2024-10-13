@@ -1,7 +1,7 @@
 <template>
-  <div class="col-start-1 col-end-7 row-start-10 row-span-1 flex justify-center items-center">
+  <div class="col-start-8 col-end-13 row-start-8 row-span-1 flex justify-center items-center">
     <button
-      class="lowercase font-myUnbounded font-regular text-[25px] bg-customOrange text-white px-8 py-3 rounded-full shadow-lg hover:bg-orange-400 flex items-center"
+      class="lowercase font-myUnbounded font-regular text-[25px] bg-customOrange text-white px-8 py-3 rounded-full shadow-lg hover:bg-customLime hover:text-customBlack transition-all duration-300 flex items-center"
     >
       дополнительные материалы
       <span class="ml-4">
