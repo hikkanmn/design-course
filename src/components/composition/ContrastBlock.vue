@@ -49,11 +49,11 @@
       <div
         @mouseover="isHoveredc = true"
         @mouseleave="isHoveredc = false"
-        class="grid grid-cols-2 grid-rows-2 gap-6 w-[310px] h-[310px] border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition duration-700 ease-in-out"
+        class="grid grid-cols-2 grid-rows-2 gap-6 w-[310px] h-[310px] border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition duration-700 ease-in-out"
       >
         <div
-          :class="{ 'w-[100%] h-[100%]': isHoveredc, 'w-[50%] h-[50%]': !isHoveredc }"
-          class= "self-center justify-self-center w-full h-full bg-customLime transition-all transform duration-700 ease-in-out"
+          :class="{ 'scale-100': isHoveredc, 'scale-50': !isHoveredc }"
+          class="w-full h-full bg-customLime transition-all transform duration-700 ease-in-out"
         ></div>
         <div
           :class="{ 'scale-50': isHoveredc, 'scale-100': !isHoveredc }"
@@ -71,7 +71,7 @@
       <div
         @mouseover="isHoveredr = true"
         @mouseleave="isHoveredr = false"
-        class="grid grid-cols-2 grid-rows-2 gap-6 w-[310px] h-[310px] border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition duration-700 ease-in-out"
+        class="grid grid-cols-2 grid-rows-2 gap-6 w-[310px] h-[310px] border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition duration-700 ease-in-out"
       >
         <div
           :class="{ 'rounded-[60px]': isHoveredr, 'rounded-none': !isHoveredr }"
