@@ -29,23 +29,23 @@ import QuizBlock from '/src/components/QuizBlock.vue'
     <QuizBlock
       number="1"
       question="Какой из этих вариантов композиции демонстрирует ассиметрию?"
-      first_link="/src/img/quiz/composition/1_1.svg"
-      second_link="/src/img/quiz/composition/1_2.svg"
-      third_link="/src/img/quiz/composition/1_3.svg"
+      first_link="./src/img/quiz/composition/1_1.svg"
+      second_link="./src/img/quiz/composition/1_2.svg"
+      third_link="./src/img/quiz/composition/1_3.svg"
     />
     <QuizBlock
       number="2"
       question="На какой композиции внимание зрителя сосредоточено по центру?"
-      first_link="/src/img/quiz/composition/2_1.svg"
-      second_link="/src/img/quiz/composition/2_2.svg"
-      third_link="/src/img/quiz/composition/2_3.svg"
+      first_link="./src/img/quiz/composition/2_1.svg"
+      second_link="./src/img/quiz/composition/2_2.svg"
+      third_link="./src/img/quiz/composition/2_3.svg"
     />
     <QuizBlock
       number="3"
       question="Какой из этих вариантов композиции демонстрирует ритм?"
-      first_link="/src/img/quiz/composition/3_1.svg"
-      second_link="/src/img/quiz/composition/3_2.svg"
-      third_link="/src/img/quiz/composition/3_3.svg"
+      first_link="./src/img/quiz/composition/3_1.svg"
+      second_link="./src/img/quiz/composition/3_2.svg"
+      third_link="./src/img/quiz/composition/3_3.svg"
     />
   </div>
 </template>
