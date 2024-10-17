@@ -21,3 +21,11 @@ body,
 main {
   @apply no-scrollbar;
 }
+
+p,
+span,
+h1,
+h2,
+h3 {
+  cursor: default;
+}

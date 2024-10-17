@@ -8,7 +8,7 @@ import MenuLink from '/src/components/MenuLink.vue'
       <!-- Главная страница -->
       <MenuLink
         text="главная страница"
-        bgColor="bg-customPurple text-white hover:bg-customLime hover:text-customBlack transition-all duration-300"
+        bgColor="bg-customPurple text-white hover:bg-customLime hover:text-customBlack transition-all transform duration-500 ease-in-out"
         to="/"
       />
 
@@ -16,22 +16,22 @@ import MenuLink from '/src/components/MenuLink.vue'
       <div class="space-x-[28px]">
         <MenuLink
           text="композиция"
-          bgColor="bg-customLime text-customBlack hover:bg-customOrange hover:text-white transition-all duration-300"
+          bgColor="bg-customLime text-customBlack hover:bg-customOrange hover:text-white transition-all transform duration-500 ease-in-out"
           to="/composition"
         />
         <MenuLink
           text="колористика"
-          bgColor="bg-customLime text-customBlack hover:bg-customOrange hover:text-white transition-all duration-300"
+          bgColor="bg-customLime text-customBlack hover:bg-customOrange hover:text-white transition-all transform duration-500 ease-in-out"
           to="/color"
         />
         <MenuLink
           text="типографика"
-          bgColor="bg-customLime text-customBlack hover:bg-customOrange hover:text-white transition-all duration-300"
+          bgColor="bg-customLime text-customBlack hover:bg-customOrange hover:text-white transition-all transform duration-500 ease-in-out"
           to="/typography"
         />
         <MenuLink
           text="ресурсы"
-          bgColor="bg-customLime text-customBlack hover:bg-customOrange hover:text-white transition-all duration-300"
+          bgColor="bg-customLime text-customBlack hover:bg-customOrange hover:text-white transition-all transform duration-500 ease-in-out"
           to="/resources"
         />
       </div>

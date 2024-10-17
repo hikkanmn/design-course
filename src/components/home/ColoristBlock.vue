@@ -6,12 +6,12 @@
     Колористика
   </h2>
   <div
-    class="col-start-8 col-end-13 row-start-5 row-span-3 w-full h-full bg-customLime rounded-br-[60px] rounded-bl-[60px] rounded-tl-[60px] flex flex-col justify-center items-center p-4"
+    class="group col-start-8 col-end-13 row-start-5 row-span-3 w-full bg-customLime rounded-br-[60px] rounded-bl-[60px] rounded-tl-[60px] flex flex-col justify-center items-center p-4 hover:bg-opacity-10 border-customLime border-4 transition-all transform duration-1000 ease-in-out"
   >
     <div class="flex gap-x-[40px]">
-      <div class="w-[110px] h-[110px] bg-customBlack rounded-full"></div>
-      <div class="w-[110px] h-[110px] bg-customPurple rounded-full"></div>
-      <div class="w-[110px] h-[110px] bg-customOrange rounded-full"></div>
+      <div class="w-[110px] h-[110px] bg-customBlack rounded-[60px] hover:scale-[0.8] border-4 border-opacity-0 border-white hover:border-opacity-100 group-hover:bg-white transition-all transform duration-700 ease-in-out"></div>
+      <div class="w-[110px] h-[110px] bg-customPurple rounded-[60px] hover:scale-[0.8] transition-all transform duration-700 ease-in-out"></div>
+      <div class="w-[110px] h-[110px] bg-customOrange rounded-[60px] hover:scale-[0.8] transition-all transform duration-700 ease-in-out"></div>
     </div>
   </div>
   <div

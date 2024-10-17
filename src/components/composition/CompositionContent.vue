@@ -12,8 +12,9 @@
     <!-- баланс -->
     <p
       class="font-myUnbounded font-medium text-[55px] text-customPurple col-start-1 col-end-2 row-start-2 row-end-3"
-      >1</p
     >
+      1
+    </p>
     <h2
       class="text-[22px] text-white font-myUnbounded font-medium uppercase col-start-2 col-end-5 row-start-2 row-end-3"
     >
@@ -22,8 +23,9 @@
     <!-- контраст -->
     <p
       class="font-myUnbounded font-medium text-[55px] text-customPurple col-start-1 col-end-2 row-start-3 row-end-4"
-      >2</p
     >
+      2
+    </p>
     <h2
       class="text-[22px] text-white font-myUnbounded font-medium uppercase col-start-2 col-end-5 row-start-3 row-end-4"
     >
@@ -32,8 +34,9 @@
     <!-- ритм -->
     <p
       class="font-myUnbounded font-medium text-[55px] text-customPurple col-start-5 col-end-6 row-start-2 row-end-3"
-      >3</p
     >
+      3
+    </p>
     <h2
       class="text-[22px] text-white font-myUnbounded font-medium uppercase col-start-6 col-end-9 row-start-2 row-end-3"
     >

@@ -20,6 +20,10 @@ export default {
         medium: 500,
         bold: 700
       }
+    },
+    /*создание собственных фоновых изображений*/
+    backgroundImage: {
+      myGoldenRatio: "url('/src/img/golden_ratio.svg')" /*первое фото главной страницы*/
     }
   },
   plugins: []

@@ -1,15 +1,12 @@
 <template>
   <div class="mt-[70px] mb-[-150px]">
     <!-- Заголовок -->
-    <div class="w-full flex text-center flex-col">
-      <h1 class="text-[141px] uppercase font-myMedium text-white flex flex-col">
-        дизайн <span class="mt-[-75px]">просто</span>
+    <div class="group w-full flex text-center flex-col">
+      <h1
+        class="text-[141px] uppercase font-myMedium text-white flex flex-col group-hover:text-customOrange transition-all transform duration-500 ease-in-out"
+      >
+        дизайн <span class="mt-[-75px] group-hover:text-customPurple transition-all duration-100 transform ease-in-out">просто</span>
       </h1>
-      <!-- <img
-        class="w-[150px] h-[150px] -z-10 fixed top-[320px] left-[160px]"
-        src="/src/img/decoration_star.svg"
-        alt="Ошибка прогрузки изображения! Перезагрузите страницу"
-      /> -->
     </div>
 
     <!-- Текст "начинается с основ" -->
@@ -34,7 +31,7 @@
       <!-- Кнопка с стрелкой -->
       <div class="flex items-center justify-end col-start-10 col-end-13 row-start-2 row-end-4">
         <button
-          class="flex items-center px-[25px] py-[15px] w-full justify-center lowercase font-myUnbounded font-medium text-[22px] bg-customOrange text-white rounded-full hover:bg-customLime hover:text-customBlack transition-all duration-300"
+          class="flex items-center px-[25px] py-[15px] w-full justify-center lowercase font-myUnbounded font-medium text-[22px] bg-customOrange text-white rounded-full hover:bg-customLime hover:scale-110 hover:text-customBlack transition-all transform duration-500 ease-in-out"
         >
           начать сейчас
         </button>

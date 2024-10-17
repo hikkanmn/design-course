@@ -6,6 +6,7 @@ import RhythmBlock from '/src/components/composition/RhythmBlock.vue'
 import UnityBlock from '/src/components/composition/UnityBlock.vue'
 import GoldenRatioBlock from '/src/components/composition/GoldenRatioBlock.vue'
 import ThirdsRuleBlock from '/src/components/composition/ThirdsRuleBlock.vue'
+import LastCompositionSection from '/src/components/composition/LastCompositionSection.vue'
 </script>
 
 <template>
@@ -17,6 +18,8 @@ import ThirdsRuleBlock from '/src/components/composition/ThirdsRuleBlock.vue'
   <UnityBlock />
   <GoldenRatioBlock />
   <ThirdsRuleBlock />
+
+  <LastCompositionSection />
 </template>
 
 <script>

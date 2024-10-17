@@ -5,12 +5,16 @@
     Композиция
   </h2>
   <div
-    class="col-start-1 col-end-7 row-start-2 row-span-3 w-full h-full bg-customPurple rounded-br-[60px] rounded-bl-[60px] rounded-tr-[60px] flex justify-center items-center gap-10 p-4"
+    class="col-start-1 col-end-7 row-start-2 row-span-3 w-full bg-customPurple rounded-br-[60px] rounded-bl-[60px] rounded-tr-[60px] flex justify-center items-center gap-10 p-4 hover:bg-opacity-10 border-customPurple border-4 transition-all transform duration-1000 ease-in-out"
   >
-    <div class="w-[110px] h-[110px] bg-white"></div>
-    <div class="w-[110px] h-[110px] bg-white rounded-full"></div>
+    <div
+      class="w-[110px] h-[110px] bg-white hover:opacity-50 hover:scale-110 transition-all transform duration-500 ease-in-out"
+    ></div>
+    <div
+      class="w-[110px] h-[110px] bg-white hover:opacity-50 rounded-[60px] hover:scale-110 transition-all transform duration-500 ease-in-out"
+    ></div>
     <img
-      class="w-[115px] h-[115px]"
+      class="w-[115px] h-[115px] hover:scale-[1.15] hover:opacity-50 transition-all transform duration-500 ease-in-out"
       src="/src/img/triangle.svg"
       alt="Ошибка прогрузки изображения! Перезагрузите страницу"
     />
