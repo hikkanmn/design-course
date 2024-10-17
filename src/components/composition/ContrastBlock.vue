@@ -53,7 +53,7 @@
       >
         <div
           :class="{ 'w-[100%] h-[100%]': isHoveredc, 'w-[50%] h-[50%]': !isHoveredc }"
-          class= "self-center justify-self-center w-[50%] h-[50%] bg-customLime transition-all transform duration-700 ease-in-out"
+          class= "self-center justify-self-center w-full h-full bg-customLime transition-all transform duration-700 ease-in-out"
         ></div>
         <div
           :class="{ 'scale-50': isHoveredc, 'scale-100': !isHoveredc }"
