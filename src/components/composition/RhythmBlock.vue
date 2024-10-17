@@ -19,17 +19,17 @@ import RhythmExample from '/src/components/composition/RhythmExample.vue'
   <RhythmExample
     main_text="Повторение:"
     text_about="использование одинаковых элементов с определенным интервалом"
-    img_link="/src/img/rhythm_1_example.svg"
+    img_link="/src/img/rhythm_1_example.svg?version=1"
   />
   <RhythmExample
     main_text="Вариация:"
     text_about="изменение размера, цвета, формы повторяющихся элементов"
-    img_link="/src/img/rhythm_2_example.svg"
+    img_link="/src/img/rhythm_2_example.svg?version=1"
   />
   <RhythmExample
     main_text="Прогрессия:"
     text_about="постепенное изменение размера, цвета, формы или ориентации повторяющихся элементов"
-    img_link="/src/img/rhythm_3_example.svg"
+    img_link="/src/img/rhythm_3_example.svg?version=1"
   />
   <div class="px-[135px] font-myUnbounded font-light text-[22px] flex flex-col my-20 text-white">
     <h3 class="text-customLime mb-6">Баланс в дизайне важен, потому что:</h3>
