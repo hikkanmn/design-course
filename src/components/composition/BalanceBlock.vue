@@ -57,7 +57,7 @@
     </div>
     <p
       :class="{ 'text-white': isHoveredr, 'text-customOrange': !isHoveredr }"
-      class="hover:text-white col-start-7 col-end-12 row-start-7 row-end-8 text-customOrange font-myUnbounded font-medium text-[22px] lowercase transition duration-700 ease-in-out"
+      class="col-start-7 col-end-12 row-start-7 row-end-8 text-customOrange font-myUnbounded font-medium text-[22px] lowercase transition duration-700 ease-in-out"
     >
       асимметричный баланс
     </p>

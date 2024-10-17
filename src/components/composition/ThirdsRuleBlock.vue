@@ -26,12 +26,12 @@
     <div
       class="col-start-3 col-end-13 row-start-2 row-end-5 border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] flex flex-col justify-center items-center py-4 pr-16 pl-16 gap-8"
     >
-      <p class="font-myUnbounded text-white font-medium text-[22px]">
+      <p class="font-myUnbounded text-white font-light text-[22px]">
         Четыре точки пересечения линий сетки считаются
         <span class="text-customOrange"> "сильными точками" </span>, которые привлекают внимание
         зрителя.
       </p>
-      <p class="font-myUnbounded text-white font-medium text-[22px]">
+      <p class="font-myUnbounded text-white font-light text-[22px]">
         Размещение ключевых элементов дизайна (например, главного объекта, заголовка) в одной из
         точек пересечения делает их более заметными и привлекательными.
       </p>
@@ -39,7 +39,7 @@
     <div
       class="col-start-1 col-end-10 row-start-5 row-end-7 border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] flex flex-col justify-center items-center py-4 pr-16 pl-16 gap-8"
     >
-      <p class="font-myUnbounded text-white font-medium text-[22px]">
+      <p class="font-myUnbounded text-white font-light text-[22px]">
         Вместо того, чтобы размещать главный объект в точке пересечения, также можно
         <span class="text-customOrange"> заполнить </span> одну из
         <span class="text-customOrange"> ячеек </span> изображением или текстом главного элемента.

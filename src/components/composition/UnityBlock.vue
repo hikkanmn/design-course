@@ -25,7 +25,7 @@
     <div
       class="col-start-3 col-end-13 row-start-3 row-end-5 border-4 border-customLime rounded-full rounded-br-[60px] flex justify-center items-center py-4 pr-28 pl-20"
     >
-      <p class="font-myUnbounded font-medium text-[22px] text-white">
+      <p class="font-myUnbounded font-light text-[22px] text-white">
         Согласованность стиля: использование единого стиля для всех элементов дизайна: шрифты,
         цвета, формы, текстуры, композиция.
       </p>
@@ -33,7 +33,7 @@
     <div
       class="col-start-1 col-end-11 row-start-5 row-end-7 border-4 border-customPurple rounded-full rounded-bl-[60px] flex justify-center items-center py-4 pl-28 pr-20"
     >
-      <p class="font-myUnbounded font-medium text-[22px] text-white">
+      <p class="font-myUnbounded font-light text-[22px] text-white">
         Сочетание элементов: создание связей между элементами дизайна через цвет, форму, текстуру
         или расположение.
       </p>
@@ -41,7 +41,7 @@
     <div
       class="col-start-3 col-end-13 row-start-7 row-end-9 border-4 border-customLime rounded-full rounded-br-[60px] flex justify-center items-center py-4 pr-28 pl-20"
     >
-      <p class="font-myUnbounded font-medium text-[22px] text-white">
+      <p class="font-myUnbounded font-light text-[22px] text-white">
         Использование "связующего звена": элемент дизайна, который повторяется или проходит через
         весь дизайн.
       </p>

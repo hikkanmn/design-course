@@ -5,14 +5,14 @@ import QuizBlock from '/src/components/QuizBlock.vue'
 <template>
   <!-- Текст "начинается с основ" -->
   <div class="mb-28">
-    <div class="flex justify-between">
+    <div class="flex justify-start">
       <div
-        class="pr-10 w-fit py-2 bg-customPurple rounded-r-full pl-[135px] mr-[135px] my-20 text-white flex items-center"
+        class="pr-10 w-fit py-2 bg-customPurple rounded-r-full pl-[135px] mr-10 my-20 text-white flex items-center"
       >
         <p class="text-[43px] font-myMedium">квиз</p>
       </div>
       <p
-        class="mr-[135px] my-20 text-white flex items-center justify-end text-[43px] font-myMedium"
+        class="mr-[135px] my-20 text-white flex items-center text-[43px] font-myMedium"
       >
         на тему —&ensp;<span class="text-customPurple"> композиция</span>
       </p>
@@ -57,7 +57,7 @@ import QuizBlock from '/src/components/QuizBlock.vue'
         </div>
       </div>
     </QuizBlock>
-    <QuizBlock number="2" question="На какой композиции внимание зрителя сосредоточено по центру?">
+    <QuizBlock number="2" question="На какой композиции внимание зрителя сосредоточено по центру?">
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
           class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
