@@ -26,27 +26,99 @@ import QuizBlock from '/src/components/QuizBlock.vue'
       </p>
     </div>
 
-    <QuizBlock
-      number="1"
-      question="Какой из этих вариантов композиции демонстрирует ассиметрию?"
-      first_link="/src/img/quiz/composition/1_1.svg?version=1"
-      second_link="/src/img/quiz/composition/1_2.svg?version=1"
-      third_link="/src/img/quiz/composition/1_3.svg?version=1"
-    />
-    <QuizBlock
-      number="2"
-      question="На какой композиции внимание зрителя сосредоточено по центру?"
-      first_link="/src/img/quiz/composition/2_1.svg?version=1"
-      second_link="/src/img/quiz/composition/2_2.svg?version=1"
-      third_link="/src/img/quiz/composition/2_3.svg?version=1"
-    />
-    <QuizBlock
-      number="3"
-      question="Какой из этих вариантов композиции демонстрирует ритм?"
-      first_link="/src/img/quiz/composition/3_1.svg?version=1"
-      second_link="/src/img/quiz/composition/3_2.svg?version=1"
-      third_link="/src/img/quiz/composition/3_3.svg?version=1"
-    />
+    <QuizBlock number="1" question="Какой из этих вариантов композиции демонстрирует ассиметрию?">
+      <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
+        <div
+          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+        >
+          <img
+            class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+            src="/src/img/quiz/composition/1_1.svg"
+            alt="Ошибка загрузки изображения! Перезагрузите страницу"
+          />
+        </div>
+        <div
+          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+        >
+          <img
+            class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+            src="/src/img/quiz/composition/1_2.svg"
+            alt="Ошибка загрузки изображения! Перезагрузите страницу"
+          />
+        </div>
+        <div
+          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+        >
+          <img
+            class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+            src="/src/img/quiz/composition/1_3.svg"
+            alt="Ошибка загрузки изображения! Перезагрузите страницу"
+          />
+        </div>
+      </div>
+    </QuizBlock>
+    <QuizBlock number="2" question="На какой композиции внимание зрителя сосредоточено по центру?">
+      <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
+        <div
+          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+        >
+          <img
+            class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+            src="/src/img/quiz/composition/2_1.svg"
+            alt="Ошибка загрузки изображения! Перезагрузите страницу"
+          />
+        </div>
+        <div
+          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+        >
+          <img
+            class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+            src="/src/img/quiz/composition/2_2.svg"
+            alt="Ошибка загрузки изображения! Перезагрузите страницу"
+          />
+        </div>
+        <div
+          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+        >
+          <img
+            class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+            src="/src/img/quiz/composition/2_3.svg"
+            alt="Ошибка загрузки изображения! Перезагрузите страницу"
+          />
+        </div>
+      </div>
+    </QuizBlock>
+    <QuizBlock number="3" question="Какой из этих вариантов композиции демонстрирует ритм?">
+      <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
+        <div
+          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+        >
+          <img
+            class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+            src="/src/img/quiz/composition/3_1.svg"
+            alt="Ошибка загрузки изображения! Перезагрузите страницу"
+          />
+        </div>
+        <div
+          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+        >
+          <img
+            class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+            src="/src/img/quiz/composition/3_2.svg"
+            alt="Ошибка загрузки изображения! Перезагрузите страницу"
+          />
+        </div>
+        <div
+          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+        >
+          <img
+            class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+            src="/src/img/quiz/composition/3_3.svg"
+            alt="Ошибка загрузки изображения! Перезагрузите страницу"
+          />
+        </div>
+      </div>
+    </QuizBlock>
   </div>
 </template>
 

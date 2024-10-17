@@ -19,18 +19,33 @@ import RhythmExample from '/src/components/composition/RhythmExample.vue'
   <RhythmExample
     main_text="Повторение:"
     text_about="использование одинаковых элементов с определенным интервалом"
-    img_link="/src/rhythm_1_example.svg?version=1"
-  />
+  >
+    <img
+      class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+      src="/src/img/rhythm_1_example.svg"
+      alt="Ошибка загрузки изображения! Перезагрузите страницу"
+    />
+  </RhythmExample>
   <RhythmExample
     main_text="Вариация:"
     text_about="изменение размера, цвета, формы повторяющихся элементов"
-    img_link="/src/rhythm_2_example.svg?version=1"
-  />
+  >
+    <img
+      class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+      src="/src/img/rhythm_2_example.svg"
+      alt="Ошибка загрузки изображения! Перезагрузите страницу"
+    />
+  </RhythmExample>
   <RhythmExample
     main_text="Прогрессия:"
     text_about="постепенное изменение размера, цвета, формы или ориентации повторяющихся элементов"
-    img_link="/src/rhythm_3_example.svg"
-  />
+  >
+    <img
+      class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+      src="/src/img/rhythm_3_example.svg"
+      alt="Ошибка загрузки изображения! Перезагрузите страницу"
+    />
+  </RhythmExample>
   <div class="px-[135px] font-myUnbounded font-light text-[22px] flex flex-col my-20 text-white">
     <h3 class="text-customLime mb-6">Баланс в дизайне важен, потому что:</h3>
     <p>• Делает дизайн более привлекательным и приятным для восприятия.</p>

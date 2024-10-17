@@ -10,35 +10,7 @@
       {{ question }}
     </p>
 
-    <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
-      <div
-        class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
-      >
-        <img
-          class="hover:scale-110 transition-all transform duration-700 ease-in-out"
-          :src="first_link"
-          alt="Ошибка загрузки изображения! Перезагрузите страницу"
-        />
-      </div>
-      <div
-        class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
-      >
-        <img
-          class="hover:scale-110 transition-all transform duration-700 ease-in-out"
-          :src="second_link"
-          alt="Ошибка загрузки изображения! Перезагрузите страницу"
-        />
-      </div>
-      <div
-        class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
-      >
-        <img
-          class="hover:scale-110 transition-all transform duration-700 ease-in-out"
-          :src="third_link"
-          alt="Ошибка загрузки изображения! Перезагрузите страницу"
-        />
-      </div>
-    </div>
+    <slot></slot>
 
     <div class="col-start-1 col-end-13 row-start-5 row-end-6 flex justify-between items-center">
       <button
@@ -69,18 +41,6 @@ export default {
       required: true
     },
     question: {
-      type: String,
-      required: true
-    },
-    first_link: {
-      type: String,
-      required: true
-    },
-    second_link: {
-      type: String,
-      required: true
-    },
-    third_link: {
       type: String,
       required: true
     }

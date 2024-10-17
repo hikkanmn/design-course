@@ -14,11 +14,7 @@
       <div
         class="w-full h-[310px] flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] py-20 px-48 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
       >
-        <img
-          class="hover:scale-110 transition-all transform duration-700 ease-in-out"
-          :src="`${img_link}`"
-          alt="Ошибка загрузки изображения! Перезагрузите страницу"
-        />
+        <slot></slot>
       </div>
     </div>
   </div>
@@ -33,10 +29,6 @@ export default {
       required: true
     },
     text_about: {
-      type: String,
-      required: true
-    },
-    img_link: {
       type: String,
       required: true
     }
