@@ -53,7 +53,7 @@
       >
         <div
           :class="{ 'scale-100': isHoveredc, 'scale-50': !isHoveredc }"
-          class="w-full h-full scale-50 bg-customLime transition-all transform duration-700 ease-in-out"
+          class="scale-50 bg-customLime transition-all transform duration-700 ease-in-out"
         ></div>
         <div
           :class="{ 'scale-50': isHoveredc, 'scale-100': !isHoveredc }"
