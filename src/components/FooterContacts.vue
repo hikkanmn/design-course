@@ -8,19 +8,19 @@ import ContactCard from '/src/components/ContactCard.vue'
     <ContactCard
       name="Варя Дорошенко"
       email="varvaradorosh@mail.ru"
-      lineColor="border-indigo-600"
+      lineColor="border-customPurple"
     />
     <!-- Карточка 2 -->
     <ContactCard
       name="Виктория Абрамова"
       email="abramovava.infom@gmail.com"
-      lineColor="border-lime-400"
+      lineColor="border-customLime"
     />
     <!-- Карточка 3 -->
     <ContactCard
       name="Татьяна Коновалова"
-      email="varvaradorosh@mail.ru"
-      lineColor="border-indigo-600"
+      email="tanyshkaaa1506@gmail.com"
+      lineColor="border-customPurple"
     />
   </div>
 </template>

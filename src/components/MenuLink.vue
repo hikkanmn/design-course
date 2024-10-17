@@ -1,10 +1,11 @@
 <template>
-  <a
+  <!-- router-link оборачивает кнопку, путь задается через пропс to -->
+  <router-link
+    :to="to"
     :class="`${bgColor} font-myUnbounded font-light text-[17px] px-4 py-2 rounded-full cursor-pointer`"
-    href="#"
   >
     {{ text }}
-  </a>
+  </router-link>
 </template>
 
 <script>
@@ -15,6 +16,11 @@ export default {
       required: true
     },
     bgColor: {
+      type: String,
+      required: true
+    },
+    to: {
+      // Новый пропс для пути
       type: String,
       required: true
     }

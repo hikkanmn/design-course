@@ -1,45 +1,20 @@
 <script setup>
 import NavigationMenu from '/src/components/NavigationMenu.vue'
-import IntroSection from '/src/components/IntroSection.vue'
-import FooterContacts from '/src/components/FooterContacts.vue'
-import CompositionBlock from '/src/components/CompositionBlock.vue'
-import TypographyBlock from '/src/components/TypographyBlock.vue'
-import ColoristBlock from '/src/components/ColoristBlock.vue'
-import AdditionalButton from '/src/components/AdditionalButton.vue'
 </script>
 
 <template>
-  <!-- Меню навигации -->
-  <NavigationMenu />
-
-  <main class="my-0 mx-auto box-border">
-    <!-- Вступительный раздел -->
-    <IntroSection />
-    <div>
-      <div class="grid grid-cols-12 grid-rows-4 gap-y-[30px] gap-x-[10px] my-28 px-[135px]">
-        <!-- Блок 1: Композиция -->
-        <CompositionBlock />
-
-        <!-- Блок 2: Колористика -->
-        <ColoristBlock />
-        <!-- <RhythmBlock /> -->
-
-        <!-- Блок 3: Типографика -->
-        <TypographyBlock />
-
-        <!-- Кнопка: Дополнительные материалы -->
-        <AdditionalButton />
-      </div>
-    </div>
-  </main>
-
-  <footer>
-    <FooterContacts />
-  </footer>
+  <div id="app">
+    <!-- Меню навигации -->
+    <NavigationMenu />
+    <!-- Здесь будет отображаться контент в зависимости от маршрута -->
+    <router-view />
+  </div>
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'App'
+}
 </script>
 
 <style scoped>
@@ -63,6 +38,14 @@ export default {}
   font-family: 'myUnbounded';
   src: url('/src/font/Unbounded-Regular.ttf') format('truetype');
   font-weight: 400; /* Вес для regular */
+  font-style: normal;
+}
+
+/* жирное для выделений */
+@font-face {
+  font-family: 'myUnbounded';
+  src: url('/src/font/Unbounded-Medium.ttf') format('truetype');
+  font-weight: 500; /* Вес для medium */
   font-style: normal;
 }
 

@@ -4,33 +4,37 @@ import MenuLink from '/src/components/MenuLink.vue'
 
 <template>
   <header class="flex justify-center">
-    <nav class="px-[135px] py-[50px] w-full">
-      <div class="flex justify-between items-center">
+    <nav class="px-[135px] py-[50px] w-full flex justify-between items-center">
         <!-- Главная страница -->
         <MenuLink
           text="главная страница"
-          class="bg-customPurple text-white hover:bg-customLime hover:text-customBlack transition-all duration-300"
+          bgColor="bg-customPurple text-white hover:bg-customLime hover:text-customBlack transition-all duration-300"
+          to="/"
         />
+
         <!-- Ссылки меню -->
         <div class="space-x-[28px]">
           <MenuLink
-            text="разделы курса"
-            class="bg-customLime text-customBlack hover:bg-customOrange hover:text-white transition-all duration-300"
+            text="композиция"
+            bgColor="bg-customLime text-customBlack hover:bg-customOrange hover:text-white transition-all duration-300"
+            to="/composition"
+          />
+          <MenuLink
+            text="колористика"
+            bgColor="bg-customLime text-customBlack hover:bg-customOrange hover:text-white transition-all duration-300"
+            to="/color"
+          />
+          <MenuLink
+            text="типографика"
+            bgColor="bg-customLime text-customBlack hover:bg-customOrange hover:text-white transition-all duration-300"
+            to="/typography"
           />
           <MenuLink
             text="ресурсы"
-            class="bg-customLime text-customBlack hover:bg-customOrange hover:text-white transition-all duration-300"
-          />
-          <MenuLink
-            text="галерея"
-            class="bg-customLime text-customBlack hover:bg-customOrange hover:text-white transition-all duration-300"
-          />
-          <MenuLink
-            text="контакты"
-            class="bg-customLime text-customBlack hover:bg-customOrange hover:text-white transition-all duration-300"
+            bgColor="bg-customLime text-customBlack hover:bg-customOrange hover:text-white transition-all duration-300"
+            to="/resources"
           />
         </div>
-      </div>
     </nav>
   </header>
 </template>
