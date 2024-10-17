@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import RhythmExample from '/src/components/composition/RhythmExample.vue'
+</script>
 
 <template>
   <!-- Текст "начинается с основ" -->
@@ -8,19 +10,33 @@
     <p class="text-[65px] font-myMedium">ритм</p>
     <span class="font-myUnbounded font-medium text-[65px]">3</span>
   </div>
-  <div class="grid grid-cols-12 grid-rows-8 gap-y-[30px] gap-x-[10px] px-[135px]">
-    <p
-      class="col-start-1 col-end-12 row-start-1 row-end-2 text-white font-myUnbounded font-light text-[22px]"
-    >
+  <div class="px-[135px]">
+    <p class="text-white font-myUnbounded font-light text-[22px]">
       <span class="text-customLime">Ритм в дизайне </span>— это повторение и вариация элементов,
       которые создают динамику и движение в композиции.
     </p>
-    <div class="col-start-1 col-end-13 row-start-3 row-end-4 flex justify-between items-end">
-      <p class="text-customLime font-myUnbounded font-light text-[22px] flex items-center">
-        Существует разные виды ритма:
-      </p>
-      <p class="text-customOrange font-myUnbounded font-medium text-[22px] lowercase">повторение</p>
-    </div>
+  </div>
+  <RhythmExample
+    main_text="Повторение:"
+    text_about="использование одинаковых элементов с определенным интервалом"
+    img_link="/src/img/rhythm_1_example.svg"
+  />
+  <RhythmExample
+    main_text="Вариация:"
+    text_about="изменение размера, цвета, формы повторяющихся элементов"
+    img_link="/src/img/rhythm_2_example.svg"
+  />
+  <RhythmExample
+    main_text="Прогрессия:"
+    text_about="постепенное изменение размера, цвета, формы или ориентации повторяющихся элементов"
+    img_link="/src/img/rhythm_3_example.svg"
+  />
+  <div class="px-[135px] font-myUnbounded font-light text-[22px] flex flex-col my-20 text-white">
+    <h3 class="text-customLime mb-6">Баланс в дизайне важен, потому что:</h3>
+    <p>• Делает дизайн более привлекательным и приятным для восприятия.</p>
+    <p>• Создает чувство порядка и уверенности в информации.</p>
+    <p>• Улучшает читаемость и восприятие контента.</p>
+    <p>• Помогает выделить ключевые элементы дизайна.</p>
   </div>
 </template>
 
