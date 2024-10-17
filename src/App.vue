@@ -1,5 +1,6 @@
 <script setup>
 import NavigationMenu from '/src/components/NavigationMenu.vue'
+import FooterContacts from '/src/components/FooterContacts.vue'
 </script>
 
 <template>
@@ -8,6 +9,8 @@ import NavigationMenu from '/src/components/NavigationMenu.vue'
     <NavigationMenu />
     <!-- Здесь будет отображаться контент в зависимости от маршрута -->
     <router-view />
+    <!-- Футер -->
+    <FooterContacts />
   </div>
 </template>
 

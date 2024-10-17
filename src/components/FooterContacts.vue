@@ -3,7 +3,7 @@ import ContactCard from '/src/components/ContactCard.vue'
 </script>
 
 <template>
-  <div class="flex justify-between items-center px-[135px]">
+  <footer class="flex justify-between items-center px-[135px]">
     <!-- Карточка 1 -->
     <ContactCard
       name="Варя Дорошенко"
@@ -22,7 +22,7 @@ import ContactCard from '/src/components/ContactCard.vue'
       email="tanyshkaaa1506@gmail.com"
       lineColor="border-customPurple"
     />
-  </div>
+  </footer>
 </template>
 
 <script>

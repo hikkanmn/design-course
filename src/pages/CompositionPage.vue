@@ -1,10 +1,15 @@
-<script setup></script>
+<script setup>
+import CompositionIntroSection from '/src/components/composition/CompositionIntroSection.vue'
+import MainComposition from '/src/components/composition/MainComposition.vue'
+</script>
 
 <template>
-  <div class="text-white">
-    <h1>Страница "Композиция"</h1>
-    <p>Здесь рассказывается о композиции в дизайне.</p>
-  </div>
+  <main class="my-0 mx-auto box-border">
+    <!-- Вступительный раздел -->
+    <CompositionIntroSection />
+    <!-- Основной контент -->
+    <MainComposition />
+  </main>
 </template>
 
 <script>

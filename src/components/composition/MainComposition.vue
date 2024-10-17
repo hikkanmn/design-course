@@ -1,0 +1,30 @@
+<script setup>
+import CompositionContent from '/src/components/composition/CompositionContent.vue'
+import BalanceBlock from '/src/components/composition/BalanceBlock.vue'
+import ContrastBlock from '/src/components/composition/ContrastBlock.vue'
+import RhythmBlock from '/src/components/composition/RhythmBlock.vue'
+import UnityBlock from '/src/components/composition/UnityBlock.vue'
+import GoldenRatioBlock from '/src/components/composition/GoldenRatioBlock.vue'
+import ThirdsRuleBlock from '/src/components/composition/ThirdsRuleBlock.vue'
+</script>
+
+<template>
+  <CompositionContent />
+  <!-- <div class="grid grid-cols-12 grid-rows-12 gap-y-[30px] gap-x-[10px] mb-28 px-[135px]"></div> -->
+  <BalanceBlock />
+  <ContrastBlock />
+  <RhythmBlock />
+  <UnityBlock />
+  <GoldenRatioBlock />
+  <ThirdsRuleBlock />
+</template>
+
+<script>
+export default {
+  name: 'MainComposition'
+}
+</script>
+
+<style scoped>
+/* Стили для страницы "Композиция" */
+</style>
