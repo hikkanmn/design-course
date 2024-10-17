@@ -16,7 +16,7 @@
       >
         <img
           class="hover:scale-110 transition-all transform duration-700 ease-in-out"
-          :src="`${first_link}`"
+          :src="first_link"
           alt="Ошибка загрузки изображения! Перезагрузите страницу"
         />
       </div>
@@ -25,7 +25,7 @@
       >
         <img
           class="hover:scale-110 transition-all transform duration-700 ease-in-out"
-          :src="`${second_link}`"
+          :src="second_link"
           alt="Ошибка загрузки изображения! Перезагрузите страницу"
         />
       </div>
@@ -34,7 +34,7 @@
       >
         <img
           class="hover:scale-110 transition-all transform duration-700 ease-in-out"
-          :src="`${third_link}`"
+          :src="third_link"
           alt="Ошибка загрузки изображения! Перезагрузите страницу"
         />
       </div>

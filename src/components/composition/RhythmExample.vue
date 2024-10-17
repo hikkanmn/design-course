@@ -16,7 +16,7 @@
       >
         <img
           class="hover:scale-110 transition-all transform duration-700 ease-in-out"
-          :src="`${img_link}`"
+          :src="img_link"
           alt="Ошибка загрузки изображения! Перезагрузите страницу"
         />
       </div>

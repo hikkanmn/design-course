@@ -6,7 +6,7 @@
     <h1
       @mouseover="isHovered = true"
       @mouseleave="isHovered = false"
-      class="font-myMedium uppercase hover:text-[100px] text-[95px] text-center col-start-1 col-end-13 row-start-2 row-end-3 text-white hover:text-customOrange hover:mt-[-20px]  leading-relaxed transition-all transform duration-500 ease-in-out"
+      class="font-myMedium uppercase hover:text-[100px] text-[95px] text-center col-start-1 col-end-13 row-start-2 row-end-3 text-white hover:text-customOrange hover:mt-[-20px] leading-relaxed transition-all transform duration-500 ease-in-out"
     >
       композиция
     </h1>

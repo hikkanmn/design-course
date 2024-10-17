@@ -10,7 +10,9 @@
   </div>
   <!--  bg-myGoldenRatio bg-no-repeat bg-contain -->
   <div class="grid grid-cols-12 grid-rows-6 gap-y-[30px] gap-x-[10px] px-[135px]">
-    <div class="col-start-1 col-end-8 row-start-1 row-end-7 flex flex-col justify-between gap-20 pr-4">
+    <div
+      class="col-start-1 col-end-8 row-start-1 row-end-7 flex flex-col justify-between gap-20 pr-4"
+    >
       <p class="text-white font-myUnbounded font-light text-[22px]">
         <span class="text-customLime">Золотое сечение в дизайне </span> — это принцип гармонии и
         баланса, основанный на математическом соотношении примерно 1,618.
@@ -41,7 +43,9 @@
       <span class="text-customOrange">Золотое сечение </span> — это система пропорций, а не просто
       <span class="text-customOrange"> «спираль»</span>
     </p>
-    <div class="bg-myGoldenRatio bg-no-repeat col-start-8 col-end-13 row-start-4 row-end-7 bg-contain"></div>
+    <div
+      class="bg-myGoldenRatio bg-no-repeat col-start-8 col-end-13 row-start-4 row-end-7 bg-contain"
+    ></div>
   </div>
 </template>
 

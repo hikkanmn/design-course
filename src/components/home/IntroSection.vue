@@ -5,7 +5,11 @@
       <h1
         class="text-[141px] uppercase font-myMedium text-white flex flex-col group-hover:text-customOrange transition-all transform duration-500 ease-in-out"
       >
-        дизайн <span class="mt-[-75px] group-hover:text-customPurple transition-all duration-100 transform ease-in-out">просто</span>
+        дизайн
+        <span
+          class="mt-[-75px] group-hover:text-customPurple transition-all duration-100 transform ease-in-out"
+          >просто</span
+        >
       </h1>
     </div>
 
