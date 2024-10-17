@@ -7,6 +7,7 @@ import FooterContacts from '/src/components/FooterContacts.vue'
   <div id="app">
     <!-- Меню навигации -->
     <NavigationMenu />
+
     <!-- Здесь будет отображаться контент в зависимости от маршрута -->
     <router-view />
     <!-- Футер -->
