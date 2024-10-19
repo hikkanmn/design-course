@@ -45,7 +45,7 @@ export default {
   font-style: normal;
 }
 
-/* жирное для выделений */
+/* полужирное для выделений */
 @font-face {
   font-family: 'myUnbounded';
   src: url('/src/font/Unbounded-Medium.ttf') format('truetype');
@@ -53,11 +53,19 @@ export default {
   font-style: normal;
 }
 
+/* жирное для выделений */
+@font-face {
+  font-family: 'myUnbounded';
+  src: url('/src/font/Unbounded-Bold.ttf') format('truetype');
+  font-weight: 600; /* Вес для bold */
+  font-style: normal;
+}
+
 /* для типографики */
 @font-face {
   font-family: 'mySoyuzGrotesk';
   src: url('/src/font/SoyuzGroteskBold.otf') format('opentype');
-  font-weight: 400; /* Вес для regular */
+  font-weight: 600; /* Вес для bold */
   font-style: normal;
 }
 
@@ -81,7 +89,7 @@ export default {
 @font-face {
   font-family: 'myIBMPlexMono';
   src: url('/src/font/IBMPlexMono-Medium.ttf') format('truetype');
-  font-weight: 500; /* Вес для medium */
+  font-weight: 400; /* Вес для regular */
   font-style: normal;
 }
 

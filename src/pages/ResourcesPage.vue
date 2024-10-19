@@ -1,8 +1,17 @@
+<script setup>
+import ResourcesIntroSection from '/src/components/resources/ResourcesIntroSection.vue'
+import MainResources from '/src/components/resources/MainResources.vue'
+import ScrollToTop from '/src/components/ScrollToTop.vue'
+</script>
+
 <template>
-  <div class="text-white">
-    <h1>Страница "Ресурсы"</h1>
-    <p>Здесь рассказывается о композиции в дизайне.</p>
-  </div>
+  <main class="my-0 mx-auto box-border">
+    <ScrollToTop />
+    <!-- Вступительный раздел -->
+    <ResourcesIntroSection />
+    <!-- Основной контент -->
+    <MainResources />
+  </main>
 </template>
 
 <script>
@@ -11,6 +20,4 @@ export default {
 }
 </script>
 
-<style scoped>
-/* Стили для страницы "Композиция" */
-</style>
+<style scoped></style>

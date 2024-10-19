@@ -3,12 +3,11 @@
 <template>
   <div class="grid grid-cols-12 grid-rows-2 gap-y-[30px] gap-x-[10px] px-[135px] pt-32 mb-20">
     <h1
-      class="font-myMedium uppercase text-[95px] text-end col-start-1 col-end-13 row-start-1 row-end-2 text-white hover:text-customOrange leading-relaxed transition-all transform duration-500 ease-in-out"
+      class="font-myMedium uppercase text-[100px] text-end col-start-1 col-end-13 row-start-1 row-end-2 text-white hover:text-customOrange leading-relaxed transition-all transform duration-500 ease-in-out"
     >
-      т<span class="font-myPlayfireDiaplay">и</span>по<span class="font-myPacifico">г</span>ра<span
-        class="font-myIBMPlexMono"
-        >ф</span
-      >и<span class="font-myCaveat">к</span>а
+      т<span class="playfair-display lowercase">и</span>по<span class="pacifico-regular lowercase"
+        >г</span
+      >ра<span class="ibm-plex-mono-medium lowercase">ф</span>и<span class="caveat-medium">к</span>а
     </h1>
 
     <div class="flex items-center col-start-1 col-end-13 row-start-2 row-end-3">
@@ -33,4 +32,29 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.playfair-display {
+  font-family: 'myPlayfairDisplay';
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.pacifico-regular {
+  font-family: 'myPacifico';
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-mono-medium {
+  font-family: 'myIBMPlexMono';
+  font-weight: 500;
+  font-style: normal;
+}
+
+.caveat-medium {
+  font-family: 'myCaveat';
+  font-weight: 400;
+  font-style: normal;
+}
+</style>

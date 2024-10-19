@@ -16,9 +16,8 @@ import ScrollToTop from '/src/components/ScrollToTop.vue'
 
 <script>
 export default {
-  name: 'CompositionPage'
+  name: 'ColorPage'
 }
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
