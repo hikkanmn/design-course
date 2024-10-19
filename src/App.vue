@@ -60,4 +60,36 @@ export default {
   font-weight: 400; /* Вес для regular */
   font-style: normal;
 }
+
+/* для типографики */
+@font-face {
+  font-family: 'myPlayfairDisplay';
+  src: url('/src/font/PlayfairDisplay-Medium.ttf') format('truetype');
+  font-weight: 500; /* Вес для medium */
+  font-style: normal;
+}
+
+/* для типографики */
+@font-face {
+  font-family: 'myPacifico';
+  src: url('/src/font/Pacifico-Regular.ttf') format('truetype');
+  font-weight: 400; /* Вес для regular */
+  font-style: normal;
+}
+
+/* для типографики */
+@font-face {
+  font-family: 'myIBMPlexMono';
+  src: url('/src/font/IBMPlexMono-Medium.ttf') format('truetype');
+  font-weight: 500; /* Вес для medium */
+  font-style: normal;
+}
+
+/* для типографики */
+@font-face {
+  font-family: 'myCaveat';
+  src: url('/src/font/Caveat-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400; /* Вес для regular */
+  font-style: normal;
+}
 </style>

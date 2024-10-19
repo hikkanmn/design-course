@@ -1,8 +1,17 @@
+<script setup>
+import TypographyIntroSection from '/src/components/typography/TypographyIntroSection.vue'
+import MainTypography from '/src/components/typography/MainTypography.vue'
+import ScrollToTop from '/src/components/ScrollToTop.vue'
+</script>
+
 <template>
-  <div class="text-white">
-    <h1>Страница "Типографика"</h1>
-    <p>Здесь рассказывается о композиции в дизайне.</p>
-  </div>
+  <main class="my-0 mx-auto box-border">
+    <ScrollToTop />
+    <!-- Вступительный раздел -->
+    <TypographyIntroSection />
+    <!-- Основной контент -->
+    <MainTypography />
+  </main>
 </template>
 
 <script>
@@ -11,6 +20,4 @@ export default {
 }
 </script>
 
-<style scoped>
-/* Стили для страницы "Композиция" */
-</style>
+<style scoped></style>

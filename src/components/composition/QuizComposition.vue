@@ -11,9 +11,7 @@ import QuizBlock from '/src/components/QuizBlock.vue'
       >
         <p class="text-[43px] font-myMedium">квиз</p>
       </div>
-      <p
-        class="mr-[135px] my-20 text-white flex items-center text-[43px] font-myMedium"
-      >
+      <p class="mr-[135px] my-20 text-white flex items-center text-[43px] font-myMedium">
         на тему —&ensp;<span class="text-customPurple"> композиция</span>
       </p>
     </div>

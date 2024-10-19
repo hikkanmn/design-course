@@ -4,11 +4,11 @@
   <!-- Основной текст и кнопка -->
 
   <div class="grid grid-cols-12 grid-rows-3 gap-y-[30px] gap-x-[10px] px-[135px] items-end">
-    <p
+    <h1
       class="font-myMedium uppercase text-[40px] flex justify-center col-start-1 col-end-13 row-start-1 row-end-2 text-white leading-relaxed border-t-8 border-t-customLime pt-8"
     >
       основные принципы композиции
-    </p>
+    </h1>
     <!-- баланс -->
     <p
       class="font-myUnbounded font-medium text-[55px] text-customPurple col-start-1 col-end-2 row-start-2 row-end-3"

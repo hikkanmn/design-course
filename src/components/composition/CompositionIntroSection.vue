@@ -53,7 +53,7 @@
 
 <script>
 export default {
-  name: 'CompositionSection',
+  name: 'CompositionIntroSection',
   data() {
     return {
       isHovered: false // Режим наведения (по умолчанию выключен)

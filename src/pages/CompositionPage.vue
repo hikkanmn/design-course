@@ -21,5 +21,4 @@ export default {
 </script>
 
 <style scoped>
-/* Стили для страницы "Композиция" */
 </style>
