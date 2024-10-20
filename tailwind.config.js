@@ -5,9 +5,16 @@ export default {
     extend: {
       colors: {
         customPurple: '#5541BA',
+        customPurple_o66: '#5541BA66',
+        customPurple_o33: '#5541BA33',
         customLime: '#B1F532',
         customOrange: '#FF6316',
-        customBlack: '#191921'
+        customBlack: '#191921',
+        customGreen: '#158466',
+        customYellow: '#FEFE33',
+        customRed: '#FE2712',
+        customLightPurple: '#BAB0EF',
+        customBlue: '#448DBE'
       },
       fontFamily: {
         myMedium: ['myMedium', 'sans-serif'],

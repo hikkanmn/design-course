@@ -1,0 +1,169 @@
+<script setup>
+import QuizBlock from '/src/components/QuizBlock.vue'
+</script>
+
+<template>
+  <!-- Текст "начинается с основ" -->
+  <div class="mb-28">
+    <div class="flex justify-start">
+      <div
+        class="pr-10 w-fit py-2 bg-customPurple rounded-r-full pl-[135px] mr-10 my-20 text-white flex items-center"
+      >
+        <p class="text-[43px] font-myMedium">квиз</p>
+      </div>
+      <p class="mr-[135px] my-20 text-white flex items-center text-[43px] font-myMedium">
+        на тему —&ensp;<span class="text-customPurple"> колористика</span>
+      </p>
+    </div>
+
+    <div class="flex items-center mb-20 mx-[135px]">
+      <p class="text-white font-myUnbounded font-light text-[22px] flex align-center">
+        Проверьте свои знания на практике! Этот квиз поможет вам оценить, как хорошо вы усвоили
+        основные принципы цветового круга, цветовых гармоний и психологии цвета. Готовы ли вы
+        доказать, что стали настоящим мастером цвета?
+      </p>
+    </div>
+
+    <QuizBlock number="1" question="Какой из представленных цветов является основным?">
+      <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
+        <div
+          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+        >
+          <div
+            class="bg-customYellow w-full aspect-square m-8 hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+          ></div>
+        </div>
+        <div
+          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+        >
+          <div
+            class="bg-customOrange w-full aspect-square m-8 hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+          ></div>
+        </div>
+        <div
+          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+        >
+          <div
+            class="bg-customGreen w-full aspect-square m-8 hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+          ></div>
+        </div>
+      </div>
+    </QuizBlock>
+
+    <QuizBlock number="2" question="Какое из сочетаний цветов является комплементарным?">
+      <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
+        <div
+          class="w-[310px] gap-5 group aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+        >
+          <div
+            class="bg-customBlue group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+          ></div>
+          <div
+            class="bg-customOrange group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+          ></div>
+        </div>
+        <div
+          class="w-[310px] gap-5 group aspect-square flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+        >
+          <div
+            class="bg-customPurple group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+          ></div>
+          <div
+            class="bg-customPurple_o66 group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+          ></div>
+        </div>
+        <div
+          class="w-[310px] gap-5 group aspect-square flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+        >
+          <div
+            class="bg-customLime group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+          ></div>
+          <div
+            class="bg-customOrange group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+          ></div>
+        </div>
+      </div>
+    </QuizBlock>
+
+    <QuizBlock number="3" question="Какая из палитр содержит как теплые, так и холодные цвета?">
+      <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
+        <div
+          class="w-[310px] gap-5 group aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-12 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+        >
+          <div
+            class="bg-customPurple group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+          ></div>
+          <div
+            class="bg-customBlue group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+          ></div>
+          <div
+            class="bg-customGreen group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+          ></div>
+        </div>
+        <div
+          class="w-[310px] gap-5 group aspect-square flex items-center justify-center border-4 border-white rounded-[60px] p-12 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+        >
+          <div
+            class="bg-customYellow group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+          ></div>
+          <div
+            class="bg-customLime group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+          ></div>
+          <div
+            class="bg-customRed group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+          ></div>
+        </div>
+        <div
+          class="w-[310px] gap-5 group aspect-square flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-12 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+        >
+          <div
+            class="bg-customOrange group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+          ></div>
+          <div
+            class="bg-customRed group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+          ></div>
+          <div
+            class="bg-customPurple group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+          ></div>
+        </div>
+      </div>
+    </QuizBlock>
+
+    <QuizBlock
+      number="4"
+      question="Какой из цветов вызывает ассоциацию с теплом, энтузиазмом, весельем?"
+    >
+      <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
+        <div
+          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+        >
+          <div
+            class="bg-customLime w-full aspect-square m-8 hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+          ></div>
+        </div>
+        <div
+          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+        >
+          <div
+            class="bg-customOrange w-full aspect-square m-8 hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+          ></div>
+        </div>
+        <div
+          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+        >
+          <div
+            class="bg-customYellow w-full aspect-square m-8 hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+          ></div>
+        </div>
+      </div>
+    </QuizBlock>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'QuizColor'
+}
+</script>
+
+<style scoped></style>
