@@ -3,6 +3,12 @@ export default {
   content: ['./index.html', './src/**/*.{vue, js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      textStrokeWidth: {
+        2: '2px'
+      },
+      textStrokeColor: {
+        customPurple: '#5541BA'
+      },
       colors: {
         customPurple: '#5541BA',
         customPurple_o66: '#5541BA66',
@@ -19,7 +25,20 @@ export default {
       fontFamily: {
         myMedium: ['myMedium', 'sans-serif'],
         myUnbounded: ['myUnbounded', 'sans-serif'],
-        mySoyuzGrotesk: ['mySoyuzGrotesk', 'sans-serif']
+        mySoyuzGrotesk: ['mySoyuzGrotesk', 'sans-serif'],
+        myPlayfairDisplay: ['myPlayfairDisplay', 'serif'],
+        myPacifico: ['myPacifico', 'cursive'],
+        myIBMPlexMono: ['myIBMPlexMono', 'serif'],
+        myCaveat: ['myCaveat', 'cursive'],
+        myJost: ['myJost', 'serif'],
+        myPhudu: ['myPhudu', 'sans-serif'],
+        mySoledago: ['mySoledago', 'sans-serif'],
+        myAlice: ['myAlice', 'serif'],
+        myVollkornSC: ['myVollkornSC', 'serif'],
+        myBravoSC: ['myBravoSC', 'sans-serif'],
+        myStampatelloFaceto: ['myStampatelloFaceto', 'sans-serif'],
+        myGeologica: ['myGeologica', 'sans-serif'],
+        myComfortaa: ['myComfortaa', 'sans-serif']
       },
       fontWeight: {
         light: 300,

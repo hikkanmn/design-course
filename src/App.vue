@@ -29,6 +29,15 @@ export default {
   font-weight: 500;
   font-style: normal;
 }
+
+/* экстралайт для текста */
+@font-face {
+  font-family: 'myUnbounded';
+  src: url('/src/font/Unbounded-ExtraLight.ttf') format('truetype');
+  font-weight: 200; /* Вес для extralight */
+  font-style: normal;
+}
+
 /* лайт для текста */
 @font-face {
   font-family: 'myUnbounded';
@@ -58,6 +67,14 @@ export default {
   font-family: 'myUnbounded';
   src: url('/src/font/Unbounded-Bold.ttf') format('truetype');
   font-weight: 600; /* Вес для bold */
+  font-style: normal;
+}
+
+/* жирное для выделений */
+@font-face {
+  font-family: 'myUnbounded';
+  src: url('/src/font/Unbounded-Black.ttf') format('truetype');
+  font-weight: 900; /* Вес для black */
   font-style: normal;
 }
 
@@ -98,6 +115,118 @@ export default {
   font-family: 'myCaveat';
   src: url('/src/font/Caveat-VariableFont_wght.ttf') format('truetype');
   font-weight: 400; /* Вес для regular */
+  font-style: normal;
+}
+
+/* для типографики */
+@font-face {
+  font-family: 'myJost';
+  src: url('/src/font/Jost-Black.ttf') format('truetype');
+  font-weight: 900; /* Вес для black */
+  font-style: normal;
+}
+
+/* для типографики */
+@font-face {
+  font-family: 'myJost';
+  src: url('/src/font/Jost-BlackItalic.ttf') format('truetype');
+  font-weight: 900; /* Вес для blackitalic */
+  font-style: normal;
+}
+
+/* для типографики */
+@font-face {
+  font-family: 'myJost';
+  src: url('/src/font/Jost-ExtraLight.ttf') format('truetype');
+  font-weight: 200; /* Вес для extralight */
+  font-style: normal;
+}
+
+/* для типографики */
+@font-face {
+  font-family: 'myJost';
+  src: url('/src/font/Jost-Italic.ttf') format('truetype');
+  font-weight: 400; /* Вес для italic */
+  font-style: normal;
+}
+
+/* для типографики */
+@font-face {
+  font-family: 'myJost';
+  src: url('/src/font/Jost-Regular.ttf') format('truetype');
+  font-weight: 400; /* Вес для regular */
+  font-style: normal;
+}
+
+/* для типографики */
+@font-face {
+  font-family: 'myJost';
+  src: url('/src/font/Jost-SemiBold.ttf') format('truetype');
+  font-weight: 600; /* Вес для semobold */
+  font-style: normal;
+}
+
+/* для типографики */
+@font-face {
+  font-family: 'myPhudu';
+  src: url('/src/font/Phudu-Medium.ttf') format('truetype');
+  font-weight: 500; /* Вес для medium */
+  font-style: normal;
+}
+
+/* для типографики */
+@font-face {
+  font-family: 'mySoledago';
+  src: url('/src/font/Soledago.ttf') format('truetype');
+  font-weight: 400; /* Вес для regular */
+  font-style: normal;
+}
+
+/* для типографики */
+@font-face {
+  font-family: 'myAlice';
+  src: url('/src/font/Alice-Regular.ttf') format('truetype');
+  font-weight: 400; /* Вес для regular */
+  font-style: normal;
+}
+
+/* для типографики */
+@font-face {
+  font-family: 'myVollkornSC';
+  src: url('/src/font/VollkornSC-Regular.ttf') format('truetype');
+  font-weight: 400; /* Вес для regular */
+  font-style: normal;
+}
+
+/* для типографики */
+@font-face {
+  font-family: 'myBravoSC';
+  src: url('/src/font/bravosc.ttf') format('truetype');
+  font-weight: 400; /* Вес для regular */
+  font-style: normal;
+}
+
+/* для типографики */
+@font-face {
+  font-family: 'myStampatelloFaceto';
+  src: url('/src/font/StampatelloFaceto.otf') format('opentype');
+  font-weight: 400; /* Вес для regular */
+  font-style: normal;
+}
+
+/* для типографики */
+@font-face {
+  font-family: 'myComfortaa';
+  src: url('/src/font/Comfortaa-Bold.ttf') format('truetype');
+  font-weight: 600; /* Вес для bold */
+  font-style: normal;
+}
+
+/* для типографики */
+@font-face {
+  font-family: 'myGeologica';
+  src: url('/src/font/Geologica-Bold.ttf') format('truetype');
+  font-weight: 600; /* Вес для bold */
   font-style: normal;
 }
 </style>

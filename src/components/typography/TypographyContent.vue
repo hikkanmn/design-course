@@ -38,7 +38,6 @@
       <h2 class="font-myUnbounded text-white text-[22px]">сочетание</h2>
     </div>
   </div>
-  <div class="h-[40px] bg-customPurple mr-[135px] rounded-r-[100px] mb-20"></div>
 </template>
 
 <script>

@@ -1,18 +1,21 @@
 <script setup>
 import TypographyContent from '/src/components/typography/TypographyContent.vue'
+import TypefaceBlock from '/src/components/typography/TypefaceBlock.vue'
+import SizeBlock from '/src/components/typography/SizeBlock.vue'
+import ClassificationBlock from '/src/components/typography/ClassificationBlock.vue'
+import CombinationBlock from '/src/components/typography/CombinationBlock.vue'
+import QuizTypography from '/src/components/typography/QuizTypography.vue'
+import LastTypographySection from '/src/components/typography/LastTypographySection.vue'
 </script>
 
 <template>
   <TypographyContent />
-  <!-- <div class="grid grid-cols-12 grid-rows-12 gap-y-[30px] gap-x-[10px] mb-28 px-[135px]"></div> -->
-  <!-- <BalanceBlock />
-  <ContrastBlock />
-  <RhythmBlock />
-  <UnityBlock />
-  <GoldenRatioBlock />
-  <ThirdsRuleBlock />
-  <QuizComposition />
-  <LastCompositionSection /> -->
+  <TypefaceBlock />
+  <SizeBlock />
+  <ClassificationBlock />
+  <CombinationBlock />
+  <QuizTypography />
+  <LastTypographySection />
 </template>
 
 <script>
