@@ -29,7 +29,7 @@
     </h3>
     <!-- 1st font type -->
     <p
-      class="col-start-1 col-end-8 row-start-2 row-end-3 text-white text-[22px] font-myUnbounded font-light"
+      class="col-start-1 col-end-8 row-start-2 row-end-3 text-white text-[22px] font-myUnbounded font-light self-center"
     >
       <span class="text-customOrange">Гротески: </span>современные шрифты без засечек. Чистые,
       простые и динамичные. Используются для веб-дизайна, современного брендинга.
@@ -47,7 +47,7 @@
 
     <!-- 2nd font block  -->
     <p
-      class="col-start-1 col-end-8 row-start-4 row-end-5 text-white text-[22px] font-myUnbounded font-light"
+      class="col-start-1 col-end-8 row-start-4 row-end-5 text-white text-[22px] font-myUnbounded font-light self-center"
     >
       <span class="text-customOrange">Акцидентные: </span>шрифты с острыми углами, ярким характером,
       часто используются в рекламе и дизайне плакатов.
@@ -60,10 +60,10 @@
 
     <!-- 3rd font type -->
     <p
-      class="col-start-1 col-end-8 row-start-6 row-end-7 text-white text-[22px] font-myUnbounded font-light"
+      class="col-start-1 col-end-8 row-start-6 row-end-7 text-white text-[22px] font-myUnbounded font-light self-center"
     >
-      <span class="text-customOrange">Гротески: </span>современные шрифты без засечек. Чистые,
-      простые и динамичные. Используются для веб-дизайна, современного брендинга.
+      <span class="text-customOrange">Текстовые: </span>шрифты, предназначенные для больших объемов
+      текста. Они обычно имеют засечки и хорошую читаемость.
     </p>
     <img
       class="col-start-8 col-end-9 row-start-6 row-end-7 self-center"
@@ -78,10 +78,10 @@
 
     <!-- 4th font block  -->
     <p
-      class="col-start-1 col-end-8 row-start-8 row-end-9 text-white text-[22px] font-myUnbounded font-light"
+      class="col-start-1 col-end-8 row-start-8 row-end-9 text-white text-[22px] font-myUnbounded font-light self-center"
     >
-      <span class="text-customOrange">Акцидентные: </span>шрифты с острыми углами, ярким характером,
-      часто используются в рекламе и дизайне плакатов.
+      <span class="text-customOrange">Антиквы: </span>классические шрифты с засечками, отличаются
+      элегантностью и формальностью. Используются для книг, журналов, официальных документов.
     </p>
     <div
       class="col-start-8 col-end-13 row-start-8 row-end-9 bg-customLime rounded-l-[100px] rounded-tr-[100px] px-10 py-4 flex items-center justify-end"
@@ -91,10 +91,10 @@
 
     <!-- 5th font type -->
     <p
-      class="col-start-1 col-end-8 row-start-10 row-end-11 text-white text-[22px] font-myUnbounded font-light"
+      class="col-start-1 col-end-8 row-start-10 row-end-11 text-white text-[22px] font-myUnbounded font-light self-center"
     >
-      <span class="text-customOrange">Гротески: </span>современные шрифты без засечек. Чистые,
-      простые и динамичные. Используются для веб-дизайна, современного брендинга.
+      <span class="text-customOrange">Брусковые: </span>шрифты с прямыми линиями и резкими
+      переходами. Используются для создания строгого и контрастного визуального эффекта.
     </p>
     <img
       class="col-start-8 col-end-9 row-start-10 row-end-11 self-center"
@@ -109,10 +109,10 @@
 
     <!-- 6th font block  -->
     <p
-      class="col-start-1 col-end-8 row-start-12 row-end-13 text-white text-[22px] font-myUnbounded font-light"
+      class="col-start-1 col-end-8 row-start-12 row-end-13 text-white text-[22px] font-myUnbounded font-light self-center"
     >
-      <span class="text-customOrange">Акцидентные: </span>шрифты с острыми углами, ярким характером,
-      часто используются в рекламе и дизайне плакатов.
+      <span class="text-customOrange">Рукописные: </span>шрифты имитируют письмо от руки и таким
+      образом персонализируют текст.
     </p>
     <div
       class="col-start-8 col-end-13 row-start-12 row-end-13 bg-customLime rounded-l-[100px] rounded-tr-[100px] px-10 py-4 flex items-center justify-end"
