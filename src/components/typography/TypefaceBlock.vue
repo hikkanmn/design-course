@@ -67,27 +67,27 @@
     >
       <p class="text-white text-[25px] font-myJost font-regular">стандартное начертание</p>
     </div>
-        <div
+    <div
       class="col-start-9 col-end-13 row-start-5 row-end-6 border-4 border-customLime rounded-l-[60px] rounded-tr-[60px] flex items-center justify-end px-10"
     >
       <p class="text-white text-[25px] font-myJost font-extralight">тонкое начертание</p>
     </div>
-        <div
+    <div
       class="col-start-9 col-end-13 row-start-6 row-end-7 border-4 border-customPurple rounded-l-[60px] rounded-tr-[60px] flex items-center justify-end px-10"
     >
       <p class="text-white text-[25px] font-myJost font-semibold">полужирное начертание</p>
     </div>
-        <div
+    <div
       class="col-start-9 col-end-13 row-start-7 row-end-8 border-4 border-customLime rounded-l-[60px] rounded-tr-[60px] flex items-center justify-end px-10"
     >
       <p class="text-white text-[25px] font-myJost font-black">жирное начертание</p>
     </div>
-        <div
+    <div
       class="col-start-9 col-end-13 row-start-8 row-end-9 border-4 border-customPurple rounded-l-[60px] rounded-tr-[60px] flex items-center justify-end px-10"
     >
       <p class="text-white text-[25px] font-myJost italic">курсивное начертание</p>
     </div>
-        <div
+    <div
       class="col-start-9 col-end-13 row-start-9 row-end-10 border-4 border-customLime rounded-l-[60px] rounded-tr-[60px] flex items-center justify-end px-10"
     >
       <p class="text-white text-[25px] font-myJost font-black italic">курсивно-жирное</p>

@@ -24,7 +24,11 @@ import QuizBlock from '/src/components/QuizBlock.vue'
       </p>
     </div>
 
-    <QuizBlock number="1" question="Какой из представленных цветов является основным?">
+    <QuizBlock
+      number="1"
+      question="Какой из представленных цветов является основным?"
+      answer="first"
+    >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
           class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
@@ -50,7 +54,11 @@ import QuizBlock from '/src/components/QuizBlock.vue'
       </div>
     </QuizBlock>
 
-    <QuizBlock number="2" question="Какое из сочетаний цветов является комплементарным?">
+    <QuizBlock
+      number="2"
+      question="Какое из сочетаний цветов является комплементарным?"
+      answer="first"
+    >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
           class="w-[310px] gap-5 group aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
@@ -85,7 +93,11 @@ import QuizBlock from '/src/components/QuizBlock.vue'
       </div>
     </QuizBlock>
 
-    <QuizBlock number="3" question="Какая из палитр содержит как теплые, так и холодные цвета?">
+    <QuizBlock
+      number="3"
+      question="Какая из палитр содержит как теплые, так и холодные цвета?"
+      answer="third"
+    >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
           class="w-[310px] gap-5 group aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-12 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
@@ -132,6 +144,7 @@ import QuizBlock from '/src/components/QuizBlock.vue'
     <QuizBlock
       number="4"
       question="Какой из цветов вызывает ассоциацию с теплом, энтузиазмом, весельем?"
+      answer="second"
     >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div

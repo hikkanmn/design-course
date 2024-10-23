@@ -10,7 +10,9 @@
     >
       <span class="font-myUnbounded font-medium text-[55px] text-customBlack">1</span>
     </div>
-    <div class="col-start-2 col-end-13 row-start-2 row-end-4 flex flex-col text-start ml-4 justify-end">
+    <div
+      class="col-start-2 col-end-13 row-start-2 row-end-4 flex flex-col text-start ml-4 justify-end"
+    >
       <h2 class="font-myMedium uppercase text-[52px] text-white leading-none mb-6">
         цветовой круг
       </h2>

@@ -3,7 +3,7 @@
 <template>
   <div class="grid grid-cols-12 grid-rows-2 gap-y-[30px] gap-x-[10px] px-[135px] pt-32 mb-20">
     <h1
-      class="font-myMedium uppercase text-[100px] text-end col-start-1 col-end-13 row-start-1 row-end-2 text-white leading-relaxed transition-all transform duration-500 ease-in-out animate-pulse"
+      class="font-myMedium uppercase text-[100px] text-end col-start-1 col-end-13 row-start-1 row-end-2 text-white leading-relaxed transition-all transform duration-500 ease-in-out"
     >
       <span class="hover:tracking-widest transition-all transform duration-500 ease-in-out">т</span
       ><span
