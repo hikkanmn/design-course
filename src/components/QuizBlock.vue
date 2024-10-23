@@ -53,6 +53,17 @@
       </button>
     </div>
   </div>
+
+  <!-- Появление объясняющего текста -->
+  <div class="col-start-1 col-end-13 flex justify-center items-center">
+<p
+        v-if="showExplanation"
+        class="border-4 border-customLime rounded-[60px] p-6 text-white text-[22px] font-myUnbounded font-light"
+      >
+        <span class="text-customLime">Верно! </span> {{ explanationAnswer }}
+      </p>
+
+  </div>
 </template>
 
 <script>
@@ -70,6 +81,10 @@ export default {
     answer: {
       type: String,
       required: true
+    },
+    explanationAnswer: {
+      type: String,
+      required: true
     }
   },
   data() {
@@ -81,54 +96,39 @@ export default {
   },
   methods: {
     changeButtonText(buttonId) {
+      this.showExplanation = false
+
       if (buttonId === 'buttonOne') {
         if (this.answer === 'first') {
           this.buttonTextOne = 'Правильно'
-          this.buttonTextTwo = 'Ответить'
-          this.buttonTextThree = 'Ответить'
-        } else if (this.answer === 'second') {
+          this.showExplanation = true
+        } else {
           this.buttonTextOne = 'Неправильно'
-          this.buttonTextTwo = 'Ответить'
-          this.buttonTextThree = 'Ответить'
-        } else if (this.answer === 'third') {
-          this.buttonTextOne = 'Неправильно'
-          this.buttonTextTwo = 'Ответить'
-          this.buttonTextThree = 'Ответить'
         }
+        this.buttonTextTwo = 'Ответить'
+        this.buttonTextThree = 'Ответить'
       } else if (buttonId === 'buttonTwo') {
-        if (this.answer === 'first') {
-          this.buttonTextTwo = 'Неправильно'
-          this.buttonTextOne = 'Ответить'
-          this.buttonTextThree = 'Ответить'
-        } else if (this.answer === 'second') {
+        if (this.answer === 'second') {
           this.buttonTextTwo = 'Правильно'
-          this.buttonTextOne = 'Ответить'
-          this.buttonTextThree = 'Ответить'
-        } else if (this.answer === 'third') {
+          this.showExplanation = true
+        } else {
           this.buttonTextTwo = 'Неправильно'
-          this.buttonTextOne = 'Ответить'
-          this.buttonTextThree = 'Ответить'
         }
+        this.buttonTextOne = 'Ответить'
+        this.buttonTextThree = 'Ответить'
       } else if (buttonId === 'buttonThree') {
-        if (this.answer === 'first') {
-          this.buttonTextThree = 'Неправильно'
-          this.buttonTextTwo = 'Ответить'
-          this.buttonTextOne = 'Ответить'
-        } else if (this.answer === 'second') {
-          this.buttonTextThree = 'Неправильно'
-          this.buttonTextTwo = 'Ответить'
-          this.buttonTextOne = 'Ответить'
-        } else if (this.answer === 'third') {
+        if (this.answer === 'third') {
           this.buttonTextThree = 'Правильно'
-          this.buttonTextTwo = 'Ответить'
-          this.buttonTextOne = 'Ответить'
+          this.showExplanation = true
+        } else {
+          this.buttonTextThree = 'Неправильно'
         }
+        this.buttonTextOne = 'Ответить'
+        this.buttonTextTwo = 'Ответить'
       }
     }
   }
 }
 </script>
 
-<style scoped>
-/* Стили для страницы "Композиция" */
-</style>
+<style scoped></style>
