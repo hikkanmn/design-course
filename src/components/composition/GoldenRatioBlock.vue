@@ -3,7 +3,7 @@
 <template>
   <!-- Текст "начинается с основ" -->
   <div
-    class="pr-16 py-2 bg-customPurple rounded-r-full pl-[135px] mr-[135px] my-20 text-white flex justify-between items-center"
+    class="pr-16 py-2 bg-customPurple hover:bg-opacity-50 hover:border-r-4 hover:border-white rounded-r-full pl-[135px] mr-[135px] my-20 text-white flex justify-between items-center"
   >
     <p class="text-[65px] font-myMedium">золотое сечение</p>
     <span class="font-myUnbounded font-medium text-[65px]">5</span>
@@ -44,7 +44,7 @@
       <span class="text-customOrange"> «спираль»</span>
     </p>
     <div
-      class="bg-myGoldenRatio bg-no-repeat col-start-8 col-end-13 row-start-4 row-end-7 bg-contain"
+      class="bg-myGoldenRatio hover:scale-90 bg-no-repeat col-start-8 col-end-13 row-start-4 row-end-7 bg-contain"
     ></div>
   </div>
 </template>

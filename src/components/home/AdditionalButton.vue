@@ -2,7 +2,7 @@
   <div
     class="col-start-8 col-end-13 row-start-11 row-span-1 flex justify-center items-center h-fit mb-4"
   >
-    <router-link to="/resources" @click="scrollToTop">
+    <router-link title="переход к разделу Ресурсы" to="/resources" @click="scrollToTop">
       <button
         class="lowercase font-myUnbounded font-regular text-[22px] hover:scale-110 bg-customOrange text-white px-8 py-3 rounded-full shadow-lg hover:bg-customLime hover:text-customBlack flex items-center"
       >

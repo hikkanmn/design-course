@@ -3,6 +3,20 @@ export default {
   content: ['./index.html', './src/**/*.{vue, js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' }
+        },
+        scroll_reverse: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(100%)' }
+        }
+      },
+      animation: {
+        scroll: 'scroll 15s linear infinite',
+        scroll_reverse: 'scroll_reverse 15s linear infinite'
+      },
       colors: {
         customPurple: '#5541BA',
         customPurple_o66: '#5541BA66',
@@ -41,6 +55,7 @@ export default {
         bold: 700
       }
     },
+
     /*создание собственных фоновых изображений*/
     backgroundImage: {
       myGoldenRatio: "url('/src/img/golden_ratio.svg')" /*первое фото главной страницы*/

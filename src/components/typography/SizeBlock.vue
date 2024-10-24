@@ -4,9 +4,11 @@
   <div class="mr-[135px] bg-customPurple rounded-r-[100px] h-[40px]"></div>
   <div class="grid grid-cols-12 grid-rows-4 gap-y-[30px] gap-x-[10px] px-[135px] mt-10 mb-20">
     <div
-      class="col-start col-end-2 row-start-1 row-end-2 bg-customLime rounded-[60px] px-12 py-2 flex items-center justify-center"
+      class="col-start col-end-2 row-start-1 row-end-2 group hover:bg-customOrange bg-customLime rounded-[60px] px-12 py-2 flex items-center justify-center"
     >
-      <span class="font-myUnbounded font-bold text-customBlack text-[55px]">2</span>
+      <span class="font-myUnbounded font-bold text-customBlack text-[55px] group-hover:text-white"
+        >2</span
+      >
     </div>
     <h2
       class="col-start-3 col-end-6 row-start-1 row-end-2 self-center font-myMedium text-white text-[52px]"
@@ -56,7 +58,7 @@
       </p>
     </div>
     <div
-      class="col-start-6 col-end-13 row-start-1 row-end-2 border-4 border-customPurple rounded-l-[100px] rounded-tr-[100px] px-10 py-6 flex items-center text-end"
+      class="col-start-6 col-end-13 row-start-1 row-end-2 border-4 hover:bg-customPurple hover:bg-opacity-20 border-customPurple rounded-l-[100px] rounded-tr-[100px] px-10 py-6 flex items-center text-end"
     >
       <p class="text-white text-[22px] font-myUnbounded font-light">
         <span class="text-customPurple">Книги: </span>кегль для текста в книгах обычно составляет
@@ -72,7 +74,7 @@
       </p>
     </div>
     <div
-      class="col-start-6 col-end-13 row-start-3 row-end-4 border-4 border-customLime rounded-l-[100px] rounded-tr-[100px] px-10 py-6 flex items-center text-end"
+      class="col-start-6 col-end-13 row-start-3 row-end-4 border-4 hover:bg-customLime hover:bg-opacity-20 border-customLime rounded-l-[100px] rounded-tr-[100px] px-10 py-6 flex items-center text-end"
     >
       <p class="text-white text-[22px] font-myUnbounded font-light">
         <span class="text-customLime">Веб-сайты: </span>кегль для текста на веб-сайте обычно
@@ -88,7 +90,7 @@
       </p>
     </div>
     <div
-      class="col-start-6 col-end-13 row-start-5 row-end-6 border-4 border-customPurple rounded-l-[100px] rounded-tr-[100px] px-10 py-6 flex items-center text-end"
+      class="col-start-6 col-end-13 row-start-5 row-end-6 border-4 hover:bg-customPurple hover:bg-opacity-20 border-customPurple rounded-l-[100px] rounded-tr-[100px] px-10 py-6 flex items-center text-end"
     >
       <p class="text-white text-[22px] font-myUnbounded font-light">
         <span class="text-customPurple">Заголовки: </span>кегль для заголовков больше: 20-30 pt или
@@ -108,12 +110,17 @@
         и уравновешенным.
       </p>
     </div>
-
-    <button
-      class="col-start-9 col-end-13 row-start-7 row-end-8 h-2/3 bg-customOrange text-white text-[22px] font-myUnbounded font-medium rounded-[100px] hover:text-customBlack hover:bg-customLime hover:scale-110"
+    <a
+      title="переход на Google Fonts"
+      href="http://googlefonts.com/"
+      class="col-start-9 col-end-13 row-start-7 row-end-8"
     >
-      где найти шрифты?
-    </button>
+      <button
+        class="w-full h-2/3 bg-customOrange text-white text-[22px] font-myUnbounded font-medium rounded-[100px] hover:text-customBlack hover:bg-customLime hover:scale-110"
+      >
+        где найти шрифты?
+      </button></a
+    >
   </div>
 </template>
 

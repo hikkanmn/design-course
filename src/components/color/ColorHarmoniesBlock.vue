@@ -37,11 +37,17 @@
       цвета
     </p>
     <div
-      class="col-start-1 col-end-6 row-start-2 row-end-4 border-4 border-white rounded-tr-[40px] rounded-b-[40px] py-14 gap-12 flex items-center justify-center"
+      class="group col-start-1 col-end-6 row-start-2 row-end-4 border-4 hover:bg-white hover:bg-opacity-5 border-white rounded-tr-[40px] rounded-b-[40px] py-14 gap-12 flex items-center justify-center"
     >
-      <div class="w-[70px] aspect-square bg-customGreen"></div>
-      <div class="w-[70px] aspect-square bg-customLime"></div>
-      <div class="w-[70px] aspect-square bg-customYellow"></div>
+      <div
+        class="w-[70px] aspect-square bg-customGreen group-hover:rounded-[100px] hover:scale-125"
+      ></div>
+      <div
+        class="w-[70px] aspect-square bg-customLime group-hover:rounded-[100px] hover:scale-125"
+      ></div>
+      <div
+        class="w-[70px] aspect-square bg-customYellow group-hover:rounded-[100px] hover:scale-125"
+      ></div>
     </div>
 
     <!-- 2nd block  -->
@@ -52,10 +58,14 @@
       напротив друг друга на цветовом круге
     </p>
     <div
-      class="col-start-1 col-end-6 row-start-5 row-end-7 border-4 border-white rounded-tr-[40px] rounded-b-[40px] py-14 gap-12 flex items-center justify-center"
+      class="group col-start-1 col-end-6 row-start-5 row-end-7 border-4 hover:bg-white hover:bg-opacity-5 border-white rounded-tr-[40px] rounded-b-[40px] py-14 gap-12 flex items-center justify-center"
     >
-      <div class="w-[70px] aspect-square bg-customPurple"></div>
-      <div class="w-[70px] aspect-square bg-customYellow"></div>
+      <div
+        class="w-[70px] aspect-square bg-customPurple group-hover:rounded-[100px] hover:scale-125"
+      ></div>
+      <div
+        class="w-[70px] aspect-square bg-customYellow group-hover:rounded-[100px] hover:scale-125"
+      ></div>
     </div>
 
     <!-- 3rd block  -->
@@ -66,11 +76,17 @@
       друг с другом на цветовом круге
     </p>
     <div
-      class="col-start-7 col-end-13 row-start-2 row-end-4 border-4 border-white rounded-tl-[40px] rounded-b-[40px] py-14 gap-12 flex items-center justify-center"
+      class="group col-start-7 col-end-13 row-start-2 row-end-4 border-4 hover:bg-white hover:bg-opacity-5 border-white rounded-tl-[40px] rounded-b-[40px] py-14 gap-12 flex items-center justify-center"
     >
-      <div class="w-[70px] aspect-square bg-customPurple"></div>
-      <div class="w-[70px] aspect-square bg-customPurple_o66"></div>
-      <div class="w-[70px] aspect-square bg-customPurple_o33"></div>
+      <div
+        class="w-[70px] aspect-square bg-customPurple group-hover:rounded-[100px] hover:scale-125"
+      ></div>
+      <div
+        class="w-[70px] aspect-square bg-customPurple_o66 group-hover:rounded-[100px] hover:scale-125"
+      ></div>
+      <div
+        class="w-[70px] aspect-square bg-customPurple_o33 group-hover:rounded-[100px] hover:scale-125"
+      ></div>
     </div>
 
     <!-- 4th block  -->
@@ -81,11 +97,17 @@
       равномерно на цветовом круге
     </p>
     <div
-      class="col-start-7 col-end-13 row-start-5 row-end-7 border-4 border-white rounded-tl-[40px] rounded-b-[40px] py-14 gap-12 flex items-center justify-center"
+      class="group col-start-7 col-end-13 row-start-5 row-end-7 border-4 hover:bg-white hover:bg-opacity-5 border-white rounded-tl-[40px] rounded-b-[40px] py-14 gap-12 flex items-center justify-center"
     >
-      <div class="w-[70px] aspect-square bg-customGreen"></div>
-      <div class="w-[70px] aspect-square bg-customOrange"></div>
-      <div class="w-[70px] aspect-square bg-customPurple"></div>
+      <div
+        class="w-[70px] aspect-square bg-customGreen group-hover:rounded-[100px] hover:scale-125"
+      ></div>
+      <div
+        class="w-[70px] aspect-square bg-customOrange group-hover:rounded-[100px] hover:scale-125"
+      ></div>
+      <div
+        class="w-[70px] aspect-square bg-customPurple group-hover:rounded-[100px] hover:scale-125"
+      ></div>
     </div>
 
     <!-- 5th block  -->
@@ -96,12 +118,20 @@
       форме квадрата или прямоугольника на цветовом круге
     </p>
     <div
-      class="col-start-7 col-end-13 row-start-8 row-end-10 border-4 border-white rounded-tl-[40px] rounded-b-[40px] py-14 gap-12 flex items-center justify-center"
+      class="group col-start-7 col-end-13 row-start-8 row-end-10 border-4 hover:bg-white hover:bg-opacity-5 border-white rounded-tl-[40px] rounded-b-[40px] py-14 gap-12 flex items-center justify-center"
     >
-      <div class="w-[70px] aspect-square bg-customGreen"></div>
-      <div class="w-[70px] aspect-square bg-customYellow"></div>
-      <div class="w-[70px] aspect-square bg-customRed"></div>
-      <div class="w-[70px] aspect-square bg-customPurple"></div>
+      <div
+        class="w-[70px] aspect-square bg-customGreen group-hover:rounded-[100px] hover:scale-125"
+      ></div>
+      <div
+        class="w-[70px] aspect-square bg-customYellow group-hover:rounded-[100px] hover:scale-125"
+      ></div>
+      <div
+        class="w-[70px] aspect-square bg-customRed group-hover:rounded-[100px] hover:scale-125"
+      ></div>
+      <div
+        class="w-[70px] aspect-square bg-customPurple group-hover:rounded-[100px] hover:scale-125"
+      ></div>
     </div>
 
     <div

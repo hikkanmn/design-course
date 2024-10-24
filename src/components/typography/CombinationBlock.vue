@@ -4,9 +4,11 @@
   <div class="mr-[135px] bg-customPurple rounded-r-[100px] h-[40px]"></div>
   <div class="grid grid-cols-12 grid-rows-2 gap-y-[30px] gap-x-[10px] px-[135px] mb-20 mt-10">
     <div
-      class="col-start col-end-2 row-start-1 row-end-2 bg-customLime rounded-[60px] px-12 py-2 flex items-center justify-center"
+      class="col-start col-end-2 row-start-1 row-end-2 group hover:bg-customOrange bg-customLime rounded-[60px] px-12 py-2 flex items-center justify-center"
     >
-      <span class="font-myUnbounded font-bold text-customBlack text-[55px]">4</span>
+      <span class="font-myUnbounded font-bold text-customBlack text-[55px] group-hover:text-white"
+        >4</span
+      >
     </div>
     <h2
       class="col-start-3 col-end-6 row-start-1 row-end-2 self-center font-myMedium text-white text-[52px]"
@@ -34,7 +36,7 @@
       (например, шрифт с засечками и шрифт без засечек), чтобы создать контраст и выделить элементы.
     </p>
     <div
-      class="col-start-7 col-end-13 row-start-2 row-end-3 border-4 h-2/3 self-end border-white rounded-r-[100px] rounded-tl-[200px] px-10 py-4 flex items-center justify-center"
+      class="col-start-7 col-end-13 row-start-2 row-end-3 border-4 h-2/3 self-end hover:bg-white hover:bg-opacity-10 border-white rounded-r-[100px] rounded-tl-[200px] px-10 py-4 flex items-center justify-center"
     >
       <p class="text-[25px] font-myMedium text-customPurple">
         <span class="font-myComfortaa text-customLime">контраст </span>имеется?
@@ -43,7 +45,7 @@
 
     <!-- 2nd font block  -->
     <div
-      class="col-start-1 col-end-6 row-start-4 row-end-5 border-4 h-2/3 self-end border-white rounded-l-[100px] rounded-tr-[200px] px-10 py-4 flex items-center justify-center"
+      class="col-start-1 col-end-6 row-start-4 row-end-5 border-4 h-2/3 self-end hover:bg-white hover:bg-opacity-10 border-white rounded-l-[100px] rounded-tr-[200px] px-10 py-4 flex items-center justify-center"
     >
       <p class="text-[25px] font-myUnbounded font-extralight text-customPurple">
         разве я <span class="font-bold">много </span>вешу?
@@ -64,7 +66,7 @@
       шрифты с похожими характеристиками, чтобы создать гармоничный и уравновешенный образ.
     </p>
     <div
-      class="col-start-7 col-end-13 row-start-6 row-end-7 border-4 h-2/3 self-end border-white rounded-r-[100px] rounded-tl-[200px] px-10 py-4 flex items-center justify-center"
+      class="col-start-7 col-end-13 row-start-6 row-end-7 border-4 h-2/3 self-end hover:bg-white hover:bg-opacity-10 border-white rounded-r-[100px] rounded-tl-[200px] px-10 py-4 flex items-center justify-center"
     >
       <p class="text-[25px] font-myGeologica text-customLime">
         мы что,<span class="font-myUnbounded font-bold text-customPurple"> так похожи?</span>
@@ -73,7 +75,7 @@
 
     <!-- 4th font block  -->
     <div
-      class="col-start-1 col-end-6 row-start-8 row-end-9 border-4 h-2/3 self-end border-white rounded-l-[100px] rounded-tr-[200px] px-10 py-4 flex items-center justify-center"
+      class="col-start-1 col-end-6 row-start-8 row-end-9 border-4 h-2/3 self-end hover:bg-white hover:bg-opacity-10 border-white rounded-l-[100px] rounded-tr-[200px] px-10 py-4 flex items-center justify-center"
     >
       <p class="text-[25px] font-myUnbounded font-bold text-customLime">легко прочитал?</p>
     </div>

@@ -1,5 +1,6 @@
 <template>
   <router-link
+    title="переход к разделу Копмозиция"
     class="col-start-1 col-end-7 row-start-1 row-span-1 flex items-end justify-start"
     to="/composition"
     @click="scrollToTop"

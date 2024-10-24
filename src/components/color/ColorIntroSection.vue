@@ -21,7 +21,7 @@
       ><span class="text-customLime group-hover:text-white">а</span>
     </h1>
     <div
-      class="col-start-8 col-end-13 row-start-2 row-end-3 border-4 border-white rounded-l-[60px] rounded-tr-[60px] mb-20 flex items-center justify-center"
+      class="col-start-8 col-end-13 row-start-2 row-end-3 border-4 hover:bg-white hover:bg-opacity-20 border-white rounded-l-[60px] rounded-tr-[60px] mb-20 flex items-center justify-center"
     >
       <p class="font-myUnbounded text-white text-[31px] font-medium lowercase">важное о цвете</p>
     </div>

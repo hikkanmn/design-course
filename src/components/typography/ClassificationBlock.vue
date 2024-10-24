@@ -4,9 +4,9 @@
   <div class="mr-[135px] bg-customPurple rounded-r-[100px] h-[40px]"></div>
   <div class="grid grid-cols-12 grid-rows-2 gap-y-[30px] gap-x-[10px] px-[135px] mb-20 mt-10">
     <div
-      class="col-start col-end-2 row-start-1 row-end-2 bg-customLime rounded-[60px] px-12 py-2 flex items-center justify-center"
+      class="col-start col-end-2 row-start-1 row-end-2 group hover:bg-customOrange bg-customLime rounded-[60px] px-12 py-2 flex items-center justify-center"
     >
-      <span class="font-myUnbounded font-bold text-customBlack text-[55px]">3</span>
+      <span class="font-myUnbounded font-bold text-customBlack text-[55px] group-hover:text-white">3</span>
     </div>
     <h2
       class="col-start-3 col-end-6 row-start-1 row-end-2 self-center font-myMedium text-white text-[52px]"
@@ -40,7 +40,7 @@
       alt="Ошибка загрузки изображения! Попробуйте перезагрузить странцу"
     />
     <div
-      class="col-start-9 col-end-13 row-start-2 row-end-3 bg-customPurple rounded-l-[100px] rounded-tr-[100px] px-10 py-4 flex items-center justify-end"
+      class="col-start-9 col-end-13 row-start-2 row-end-3 hover:bg-opacity-10 border-4 border-customPurple bg-customPurple rounded-l-[100px] rounded-tr-[100px] px-10 py-4 flex items-center justify-end"
     >
       <p class="text-white text-[40px] font-myPhudu">Пример шрифта</p>
     </div>
@@ -53,9 +53,9 @@
       часто используются в рекламе и дизайне плакатов.
     </p>
     <div
-      class="col-start-8 col-end-13 row-start-4 row-end-5 bg-customLime rounded-l-[100px] rounded-tr-[100px] px-10 py-4 flex items-center justify-end"
+      class="col-start-8 col-end-13 row-start-4 row-end-5 group hover:bg-opacity-10 border-4 border-customLime bg-customLime rounded-l-[100px] rounded-tr-[100px] px-10 py-4 flex items-center justify-end"
     >
-      <p class="text-customBlack text-[45px] font-mySoledago">Пример шрифта</p>
+      <p class="text-customBlack text-[45px] font-mySoledago group-hover:text-white">Пример шрифта</p>
     </div>
 
     <!-- 3rd font type -->
@@ -71,7 +71,7 @@
       alt="Ошибка загрузки изображения! Попробуйте перезагрузить странцу"
     />
     <div
-      class="col-start-9 col-end-13 row-start-6 row-end-7 bg-customPurple rounded-l-[100px] rounded-tr-[100px] px-10 py-4 flex items-center justify-end"
+      class="col-start-9 col-end-13 row-start-6 row-end-7 hover:bg-opacity-10 border-4 border-customPurple bg-customPurple rounded-l-[100px] rounded-tr-[100px] px-10 py-4 flex items-center justify-end"
     >
       <p class="text-white text-[40px] font-myAlice">Пример шрифта</p>
     </div>
@@ -84,9 +84,9 @@
       элегантностью и формальностью. Используются для книг, журналов, официальных документов.
     </p>
     <div
-      class="col-start-8 col-end-13 row-start-8 row-end-9 bg-customLime rounded-l-[100px] rounded-tr-[100px] px-10 py-4 flex items-center justify-end"
+      class="col-start-8 col-end-13 row-start-8 row-end-9 group hover:bg-opacity-10 border-4 border-customLime bg-customLime rounded-l-[100px] rounded-tr-[100px] px-10 py-4 flex items-center justify-end"
     >
-      <p class="text-customBlack text-[40px] font-myVollkornSC">Пример шрифта</p>
+      <p class="text-customBlack text-[40px] font-myVollkornSC group-hover:text-white">Пример шрифта</p>
     </div>
 
     <!-- 5th font type -->
@@ -102,7 +102,7 @@
       alt="Ошибка загрузки изображения! Попробуйте перезагрузить странцу"
     />
     <div
-      class="col-start-9 col-end-13 row-start-10 row-end-11 bg-customPurple rounded-l-[100px] rounded-tr-[100px] px-10 py-4 flex items-center justify-end"
+      class="col-start-9 col-end-13 row-start-10 row-end-11 hover:bg-opacity-10 border-4 border-customPurple bg-customPurple rounded-l-[100px] rounded-tr-[100px] px-10 py-4 flex items-center justify-end"
     >
       <p class="text-white text-[40px] font-myBravoSC">Пример шрифта</p>
     </div>
@@ -115,9 +115,9 @@
       образом персонализируют текст.
     </p>
     <div
-      class="col-start-8 col-end-13 row-start-12 row-end-13 bg-customLime rounded-l-[100px] rounded-tr-[100px] px-10 py-4 flex items-center justify-end"
+      class="col-start-8 col-end-13 row-start-12 row-end-13 group hover:bg-opacity-10 border-4 border-customLime bg-customLime rounded-l-[100px] rounded-tr-[100px] px-10 py-4 flex items-center justify-end"
     >
-      <p class="text-customBlack text-[40px] font-myStampatelloFaceto">Пример шрифта</p>
+      <p class="text-customBlack text-[40px] font-myStampatelloFaceto group-hover:text-white">Пример шрифта</p>
     </div>
   </div>
 </template>

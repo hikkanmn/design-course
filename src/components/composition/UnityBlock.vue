@@ -3,7 +3,7 @@
 <template>
   <!-- Текст "начинается с основ" -->
   <div
-    class="pr-16 py-2 bg-customPurple rounded-r-full pl-[135px] mr-[135px] my-20 text-white flex justify-between items-center"
+    class="pr-16 py-2 bg-customPurple hover:bg-opacity-50 hover:border-r-4 hover:border-white rounded-r-full pl-[135px] mr-[135px] my-20 text-white flex justify-between items-center"
   >
     <p class="text-[65px] font-myMedium">единство</p>
     <span class="font-myUnbounded font-medium text-[65px]">4</span>
@@ -23,7 +23,7 @@
     </p>
 
     <div
-      class="col-start-3 col-end-13 row-start-3 row-end-5 border-4 border-customLime rounded-full rounded-br-[60px] flex justify-center items-center py-4 pr-28 pl-20"
+      class="col-start-3 col-end-13 row-start-3 row-end-5 border-4 hover:bg-customLime hover:bg-opacity-10 border-customLime rounded-full rounded-br-[60px] flex justify-center items-center py-4 pr-28 pl-20"
     >
       <p class="font-myUnbounded font-light text-[22px] text-white">
         Согласованность стиля: использование единого стиля для всех элементов дизайна: шрифты,
@@ -31,7 +31,7 @@
       </p>
     </div>
     <div
-      class="col-start-1 col-end-11 row-start-5 row-end-7 border-4 border-customPurple rounded-full rounded-bl-[60px] flex justify-center items-center py-4 pl-28 pr-20"
+      class="col-start-1 col-end-11 row-start-5 row-end-7 border-4 hover:bg-customPurple hover:bg-opacity-10 border-customPurple rounded-full rounded-bl-[60px] flex justify-center items-center py-4 pl-28 pr-20"
     >
       <p class="font-myUnbounded font-light text-[22px] text-white">
         Сочетание элементов: создание связей между элементами дизайна через цвет, форму, текстуру
@@ -39,7 +39,7 @@
       </p>
     </div>
     <div
-      class="col-start-3 col-end-13 row-start-7 row-end-9 border-4 border-customLime rounded-full rounded-br-[60px] flex justify-center items-center py-4 pr-28 pl-20"
+      class="col-start-3 col-end-13 row-start-7 row-end-9 border-4 hover:bg-customLime hover:bg-opacity-10 border-customLime rounded-full rounded-br-[60px] flex justify-center items-center py-4 pr-28 pl-20"
     >
       <p class="font-myUnbounded font-light text-[22px] text-white">
         Использование "связующего звена": элемент дизайна, который повторяется или проходит через

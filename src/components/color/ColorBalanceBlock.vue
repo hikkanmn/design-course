@@ -46,23 +46,23 @@
       и интересным.
     </p>
     <div
-      class="col-start-9 col-end-11 row-start-6 row-end-7 rounded-[30px] bg-customLightPurple"
+      class="col-start-9 col-end-11 row-start-6 row-end-7 rounded-[30px] bg-customLightPurple border-4 border-customLightPurple hover:bg-opacity-20"
     ></div>
-    <div class="col-start-11 col-end-13 row-start-6 row-end-7 rounded-[30px] bg-customPurple"></div>
+    <div class="col-start-11 col-end-13 row-start-6 row-end-7 rounded-[30px] bg-customPurple border-4 border-customPurple hover:bg-opacity-20"></div>
     <div class="col-start-4 col-end-13 row-start-7 row-end-8 border-t-4 border-t-white"></div>
 
     <!-- 2nd block  -->
     <div
-      class="col-start-1 col-end-2 row-start-8 row-end-9 rounded-[30px] bg-customOrange aspect-square"
+      class="col-start-1 col-end-2 row-start-8 row-end-9 rounded-[30px] bg-customOrange aspect-square border-4 border-customOrange hover:bg-opacity-20"
     ></div>
     <div
-      class="col-start-2 col-end-3 row-start-8 row-end-9 rounded-[30px] bg-customRed aspect-square"
+      class="col-start-2 col-end-3 row-start-8 row-end-9 rounded-[30px] bg-customRed aspect-square border-4 border-customRed hover:bg-opacity-20"
     ></div>
     <div
-      class="col-start-3 col-end-4 row-start-8 row-end-9 rounded-[30px] bg-customBlue aspect-square"
+      class="col-start-3 col-end-4 row-start-8 row-end-9 rounded-[30px] bg-customBlue aspect-square border-4 border-customBlue hover:bg-opacity-20"
     ></div>
     <div
-      class="col-start-4 col-end-5 row-start-8 row-end-9 rounded-[30px] bg-customPurple aspect-square"
+      class="col-start-4 col-end-5 row-start-8 row-end-9 rounded-[30px] bg-customPurple aspect-square border-4 border-customPurple hover:bg-opacity-20"
     ></div>
     <p
       class="col-start-6 col-end-13 row-start-8 row-end-9 text-[22px] font-myUnbounded font-light text-white"
@@ -80,13 +80,13 @@
       как акцентов создает ощущение баланса.
     </p>
     <div
-      class="col-start-9 col-end-10 row-start-10 row-end-11 rounded-[30px] bg-customPurple aspect-square"
+      class="col-start-9 col-end-10 row-start-10 row-end-11 rounded-[30px] bg-customPurple aspect-square border-4 border-customPurple hover:bg-opacity-20"
     ></div>
     <div
-      class="col-start-10 col-end-11 row-start-10 row-end-11 rounded-[30px] bg-customLime aspect-square"
+      class="col-start-10 col-end-11 row-start-10 row-end-11 rounded-[30px] bg-customLime aspect-square border-4 border-customLime hover:bg-opacity-20"
     ></div>
     <div
-      class="col-start-11 col-end-13 row-start-10 row-end-11 rounded-[30px] bg-customPurple h-[85%]"
+      class="col-start-11 col-end-13 row-start-10 row-end-11 rounded-[30px] bg-customPurple h-[85%] border-4 border-customPurple hover:bg-opacity-20"
     ></div>
     <div class="col-start-4 col-end-13 row-start-11 row-end-12 border-t-4 border-t-white"></div>
 

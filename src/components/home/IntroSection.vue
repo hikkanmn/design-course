@@ -31,11 +31,17 @@
 
       <!-- Кнопка с стрелкой -->
       <div class="flex items-center justify-end col-start-10 col-end-13 row-start-2 row-end-4">
-        <button
-          class="flex items-center px-[25px] py-[15px] w-full justify-center lowercase font-myUnbounded font-medium text-[22px] bg-customOrange text-white rounded-full hover:bg-customLime hover:scale-110 hover:text-customBlack"
-        >
-          начать сейчас
-        </button>
+        <router-link
+          title="переход к разделу Копмозиция"
+          class="flex items-center justify-center"
+          to="/composition"
+          @click="scrollToTop"
+          ><button
+            class="px-[25px] py-[15px] w-full lowercase font-myUnbounded font-medium text-[22px] bg-customOrange text-white rounded-full hover:bg-customLime hover:scale-110 hover:text-customBlack"
+          >
+            начать сейчас
+          </button>
+        </router-link>
       </div>
     </div>
     <div class="flex justify-end">
@@ -52,7 +58,15 @@
 
 <script>
 export default {
-  name: 'IntroSection'
+  name: 'IntroSection',
+  methods: {
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Плавно прокручиваем к верху
+      })
+    }
+  }
 }
 </script>
 

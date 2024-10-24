@@ -5,7 +5,7 @@ import RhythmExample from '/src/components/composition/RhythmExample.vue'
 <template>
   <!-- Текст "начинается с основ" -->
   <div
-    class="pr-16 py-2 bg-customPurple rounded-r-full pl-[135px] mr-[135px] my-20 text-white flex justify-between items-center"
+    class="pr-16 py-2 bg-customPurple hover:bg-opacity-50 hover:border-r-4 hover:border-white rounded-r-full pl-[135px] mr-[135px] my-20 text-white flex justify-between items-center"
   >
     <p class="text-[65px] font-myMedium">ритм</p>
     <span class="font-myUnbounded font-medium text-[65px]">3</span>
@@ -21,7 +21,7 @@ import RhythmExample from '/src/components/composition/RhythmExample.vue'
     text_about="использование одинаковых элементов с определенным интервалом"
   >
     <img
-      class="hover:scale-110"
+      class="filter grayscale-0 hover:grayscale"
       src="/src/img/rhythm_1_example.svg"
       alt="Ошибка загрузки изображения! Перезагрузите страницу"
     />
@@ -31,7 +31,7 @@ import RhythmExample from '/src/components/composition/RhythmExample.vue'
     text_about="изменение размера, цвета, формы повторяющихся элементов"
   >
     <img
-      class="hover:scale-110"
+      class="filter grayscale-0 hover:grayscale"
       src="/src/img/rhythm_2_example.svg"
       alt="Ошибка загрузки изображения! Перезагрузите страницу"
     />
@@ -41,7 +41,7 @@ import RhythmExample from '/src/components/composition/RhythmExample.vue'
     text_about="постепенное изменение размера, цвета, формы или ориентации повторяющихся элементов"
   >
     <img
-      class="hover:scale-110"
+      class="filter grayscale-0 hover:grayscale"
       src="/src/img/rhythm_3_example.svg"
       alt="Ошибка загрузки изображения! Перезагрузите страницу"
     />

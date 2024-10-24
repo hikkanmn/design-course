@@ -57,7 +57,7 @@
   <!-- основные принципы  -->
   <div class="flex justify-end mb-10">
     <div
-      class="w-fit py-5 pr-[135px] pl-12 border-b-4 border-l-4 border-t-4 border-customLime rounded-l-[60px]"
+      class="w-fit py-5 pr-[135px] pl-12 border-b-4 border-l-4 border-t-4 border-customLime hover:bg-customLime hover:bg-opacity-10 rounded-l-[60px]"
     >
       <p class="loercase font-myUnbounded from-medium text-white text-[22px]">основные принципы</p>
     </div>
@@ -71,7 +71,10 @@
     >
       энергия, страсть, опасность
     </p>
-    <div class="col-start-1 col-end-3 row-start-2 row-end-3 bg-customRed rounded-[30px]"></div>
+    <div
+      title="#FE2712"
+      class="col-start-1 col-end-3 row-start-2 row-end-3 bg-customRed rounded-[30px] border-4 border-customRed hover:bg-opacity-20"
+    ></div>
 
     <!-- block orange  -->
     <p
@@ -79,7 +82,10 @@
     >
       тепло, энтузиазм, веселье
     </p>
-    <div class="col-start-4 col-end-6 row-start-2 row-end-3 bg-customOrange rounded-[30px]"></div>
+    <div
+      title="#FF6316"
+      class="col-start-4 col-end-6 row-start-2 row-end-3 bg-customOrange rounded-[30px] border-4 border-customOrange hover:bg-opacity-20"
+    ></div>
 
     <!-- block yellow  -->
     <p
@@ -87,7 +93,10 @@
     >
       оптимизм, радость, энергия
     </p>
-    <div class="col-start-7 col-end-9 row-start-2 row-end-3 bg-customYellow rounded-[30px]"></div>
+    <div
+      title="#FEFE33"
+      class="col-start-7 col-end-9 row-start-2 row-end-3 bg-customYellow rounded-[30px] border-4 border-customYellow hover:bg-opacity-20"
+    ></div>
 
     <!-- block lime  -->
     <p
@@ -95,10 +104,16 @@
     >
       рост, природа, спокойствие
     </p>
-    <div class="col-start-10 col-end-12 row-start-2 row-end-3 bg-customLime rounded-[30px]"></div>
+    <div
+      title="#B1F532"
+      class="col-start-10 col-end-12 row-start-2 row-end-3 bg-customLime rounded-[30px] border-4 border-customLime hover:bg-opacity-20"
+    ></div>
 
     <!-- block blue  -->
-    <div class="col-start-1 col-end-3 row-start-3 row-end-4 bg-customBlue rounded-[30px]"></div>
+    <div
+      title="#448DBE"
+      class="col-start-1 col-end-3 row-start-3 row-end-4 bg-customBlue rounded-[30px] border-4 border-customBlue hover:bg-opacity-20"
+    ></div>
     <p
       class="col-start-1 col-end-3 row-start-4 row-end-5 text-[22px] text-white font-myUnbounded font-light"
     >
@@ -106,7 +121,10 @@
     </p>
 
     <!-- block purple  -->
-    <div class="col-start-4 col-end-6 row-start-3 row-end-4 bg-customPurple rounded-[30px]"></div>
+    <div
+      title="#5541BA"
+      class="col-start-4 col-end-6 row-start-3 row-end-4 bg-customPurple rounded-[30px] border-4 border-customPurple hover:bg-opacity-20"
+    ></div>
     <p
       class="col-start-4 col-end-6 row-start-4 row-end-5 text-[22px] text-white font-myUnbounded font-light"
     >
@@ -114,7 +132,10 @@
     </p>
 
     <!-- block black  -->
-    <div class="col-start-7 col-end-9 row-start-3 row-end-4 bg-black rounded-[30px]"></div>
+    <div
+      title="#000000"
+      class="col-start-7 col-end-9 row-start-3 row-end-4 bg-black rounded-[30px] border-4 border-black hover:bg-opacity-20"
+    ></div>
     <p
       class="col-start-7 col-end-9 row-start-4 row-end-5 text-[22px] text-white font-myUnbounded font-light"
     >
@@ -122,7 +143,10 @@
     </p>
 
     <!-- block white  -->
-    <div class="col-start-10 col-end-12 row-start-3 row-end-4 bg-white rounded-[30px]"></div>
+    <div
+      title="#FFFFFF"
+      class="col-start-10 col-end-12 row-start-3 row-end-4 bg-white rounded-[30px] border-4 border-white hover:bg-opacity-20"
+    ></div>
     <p
       class="col-start-10 col-end-12 row-start-4 row-end-5 text-[22px] text-white font-myUnbounded font-light"
     >

@@ -1,5 +1,6 @@
 <template>
   <router-link
+    title="переход к разделу Колористика"
     class="col-start-8 col-end-13 row-start-4 row-span-1 flex items-end justify-end"
     to="/color"
     @click="scrollToTop"

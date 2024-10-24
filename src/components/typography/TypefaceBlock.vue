@@ -4,9 +4,11 @@
   <div class="mr-[135px] bg-customPurple rounded-r-[100px] h-[40px]"></div>
   <div class="grid grid-cols-12 grid-rows-9 gap-y-[30px] gap-x-[10px] px-[135px] pt-10 mb-20">
     <div
-      class="col-start col-end-2 row-start-1 row-end-2 bg-customLime rounded-[60px] px-12 py-2 flex items-center justify-center"
+      class="col-start col-end-2 row-start-1 row-end-2 group hover:bg-customOrange bg-customLime rounded-[60px] px-12 py-2 flex items-center justify-center"
     >
-      <span class="font-myUnbounded font-bold text-customBlack text-[55px]">1</span>
+      <span class="font-myUnbounded font-bold text-customBlack text-[55px] group-hover:text-white"
+        >1</span
+      >
     </div>
     <h2
       class="col-start-3 col-end-8 row-start-1 row-end-2 self-center font-myMedium text-white text-[52px]"
@@ -55,32 +57,32 @@
       В гарнитуру входят:
     </p>
     <div
-      class="col-start-9 col-end-13 row-start-4 row-end-5 border-4 border-customPurple rounded-l-[60px] rounded-tr-[60px] flex items-center justify-end px-10"
+      class="col-start-9 col-end-13 row-start-4 row-end-5 border-4 hover:bg-customPurple hover:bg-opacity-20 border-customPurple rounded-l-[60px] rounded-tr-[60px] flex items-center justify-end px-10"
     >
       <p class="text-white text-[25px] font-myJost font-regular">стандартное начертание</p>
     </div>
     <div
-      class="col-start-9 col-end-13 row-start-5 row-end-6 border-4 border-customLime rounded-l-[60px] rounded-tr-[60px] flex items-center justify-end px-10"
+      class="col-start-9 col-end-13 row-start-5 row-end-6 border-4 hover:bg-customLime hover:bg-opacity-20 border-customLime rounded-l-[60px] rounded-tr-[60px] flex items-center justify-end px-10"
     >
       <p class="text-white text-[25px] font-myJost font-extralight">тонкое начертание</p>
     </div>
     <div
-      class="col-start-9 col-end-13 row-start-6 row-end-7 border-4 border-customPurple rounded-l-[60px] rounded-tr-[60px] flex items-center justify-end px-10"
+      class="col-start-9 col-end-13 row-start-6 row-end-7 border-4 hover:bg-customPurple hover:bg-opacity-20 border-customPurple rounded-l-[60px] rounded-tr-[60px] flex items-center justify-end px-10"
     >
       <p class="text-white text-[25px] font-myJost font-semibold">полужирное начертание</p>
     </div>
     <div
-      class="col-start-9 col-end-13 row-start-7 row-end-8 border-4 border-customLime rounded-l-[60px] rounded-tr-[60px] flex items-center justify-end px-10"
+      class="col-start-9 col-end-13 row-start-7 row-end-8 border-4 hover:bg-customLime hover:bg-opacity-20 border-customLime rounded-l-[60px] rounded-tr-[60px] flex items-center justify-end px-10"
     >
       <p class="text-white text-[25px] font-myJost font-black">жирное начертание</p>
     </div>
     <div
-      class="col-start-9 col-end-13 row-start-8 row-end-9 border-4 border-customPurple rounded-l-[60px] rounded-tr-[60px] flex items-center justify-end px-10"
+      class="col-start-9 col-end-13 row-start-8 row-end-9 border-4 hover:bg-customPurple hover:bg-opacity-20 border-customPurple rounded-l-[60px] rounded-tr-[60px] flex items-center justify-end px-10"
     >
       <p class="text-white text-[25px] font-myJost italic">курсивное начертание</p>
     </div>
     <div
-      class="col-start-9 col-end-13 row-start-9 row-end-10 border-4 border-customLime rounded-l-[60px] rounded-tr-[60px] flex items-center justify-end px-10"
+      class="col-start-9 col-end-13 row-start-9 row-end-10 border-4 hover:bg-customLime hover:bg-opacity-20 border-customLime rounded-l-[60px] rounded-tr-[60px] flex items-center justify-end px-10"
     >
       <p class="text-white text-[25px] font-myJost font-black italic">курсивно-жирное</p>
     </div>

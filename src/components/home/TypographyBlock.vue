@@ -1,5 +1,6 @@
 <template>
   <router-link
+    title="переход к разделу Типографика"
     class="col-start-1 col-end-7 row-start-7 row-span-1 flex items-end justify-start"
     to="/typography"
     @click="scrollToTop"
