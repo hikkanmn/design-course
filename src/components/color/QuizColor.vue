@@ -28,6 +28,7 @@ import QuizBlock from '/src/components/QuizBlock.vue'
       number="1"
       question="Какой из представленных цветов является основным?"
       answer="first"
+      explanationAnswer="Данный цвет является основным, основными цветами по цветовому кругу Иттена считаются: красный, синий и желтый."
     >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
@@ -58,6 +59,7 @@ import QuizBlock from '/src/components/QuizBlock.vue'
       number="2"
       question="Какое из сочетаний цветов является комплементарным?"
       answer="first"
+      explanationAnswer="Это сочетание цветов является комплементарным, так как эти цвета находятся напротив друг друга на цветовом круге Иттена. Также такими цветовыми сочетаниями считаются, например, фиолетовый и желтый."
     >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
@@ -97,6 +99,7 @@ import QuizBlock from '/src/components/QuizBlock.vue'
       number="3"
       question="Какая из палитр содержит как теплые, так и холодные цвета?"
       answer="third"
+      explanationAnswer="Холодными цветами являются: синие, фиолетовые, зеленые оттенки, а теплыми: желтые, красные, оранжевые."
     >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
@@ -145,6 +148,7 @@ import QuizBlock from '/src/components/QuizBlock.vue'
       number="4"
       question="Какой из цветов вызывает ассоциацию с теплом, энтузиазмом, весельем?"
       answer="second"
+      explanationAnswer="В психологии цвета оранжевый считается цветом, ассооциирующимся с теплом, энтузиазмом и весельем."
     >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div

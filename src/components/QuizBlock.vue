@@ -55,14 +55,13 @@
   </div>
 
   <!-- Появление объясняющего текста -->
-  <div class="col-start-1 col-end-13 flex justify-center items-center">
-<p
-        v-if="showExplanation"
-        class="border-4 border-customLime rounded-[60px] p-6 text-white text-[22px] font-myUnbounded font-light"
-      >
-        <span class="text-customLime">Верно! </span> {{ explanationAnswer }}
-      </p>
-
+  <div class="mx-[135px] flex justify-center items-center text-center">
+    <p
+      v-if="showExplanation"
+      class="border-4 border-customLime py-5 px-10 mb-16 rounded-[60px] text-white text-[22px] font-myUnbounded font-light"
+    >
+      <span class="text-customLime">Верно! </span> {{ explanationAnswer }}
+    </p>
   </div>
 </template>
 

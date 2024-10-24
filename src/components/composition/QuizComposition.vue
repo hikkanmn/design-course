@@ -28,7 +28,7 @@ import QuizBlock from '/src/components/QuizBlock.vue'
       number="1"
       question="Какой из этих вариантов композиции демонстрирует ассиметрию?"
       answer="second"
-      explanationAnswer="Этот вариант правильный потому-то потому-то круто кайф"
+      explanationAnswer="В этом варианте ответа представлена ассиметрия, так как предметы не упорядочены и нессиметричны по отношению к другим."
     >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
@@ -64,7 +64,7 @@ import QuizBlock from '/src/components/QuizBlock.vue'
       number="2"
       question="На какой композиции внимание зрителя сосредоточено по центру?"
       answer="third"
-      explanationAnswer="Этот вариант правильный потому-то потому-то круто кайф"
+      explanationAnswer="В этом варианте ответа внимание зрителя сосредоточено по центру, так как по центру распложены 2 квадрата, в отличие от углов, где имеется только по 1му квадрату."
     >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
@@ -100,7 +100,7 @@ import QuizBlock from '/src/components/QuizBlock.vue'
       number="3"
       question="Какой из этих вариантов композиции демонстрирует ритм?"
       answer="third"
-      explanationAnswer="Этот вариант правильный потому-то потому-то круто кайф"
+      explanationAnswer="В этом варианте ответа представлен ритм, так как одинаковые элементы используются с определенным интервалом."
     >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div

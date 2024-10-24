@@ -3,12 +3,6 @@ export default {
   content: ['./index.html', './src/**/*.{vue, js,ts,jsx,tsx}'],
   theme: {
     extend: {
-      textStrokeWidth: {
-        2: '2px'
-      },
-      textStrokeColor: {
-        customPurple: '#5541BA'
-      },
       colors: {
         customPurple: '#5541BA',
         customPurple_o66: '#5541BA66',

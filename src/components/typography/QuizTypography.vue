@@ -27,6 +27,7 @@ import QuizBlock from '/src/components/QuizBlock.vue'
       number="1"
       question="Какой из предложенных шрифтов имеет курсивное начертание?"
       answer="third"
+      explanationAnswer="Курсивным начертанием является начертание с характерным наклоном вбок."
     >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
@@ -60,6 +61,7 @@ import QuizBlock from '/src/components/QuizBlock.vue'
       number="2"
       question="Какой из предложенных шрифтов относится к классу шрифтов — антиква?"
       answer="second"
+      explanationAnswer="Антиквы — это классические шрифты с засечками, отличающиеся элегантностью и формальностью. "
     >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
@@ -89,7 +91,12 @@ import QuizBlock from '/src/components/QuizBlock.vue'
       </div>
     </QuizBlock>
 
-    <QuizBlock number="3" question="Какой из предложенных шрифтов имеет засечки?" answer="first">
+    <QuizBlock
+      number="3"
+      question="Какой из предложенных шрифтов имеет засечки?"
+      answer="first"
+      explanationAnswer="Засечками называется короткий, обычно перпендикулярный штрих на конце буквы, с которого начинается и которым заканчивается основной штрих знака."
+    >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
           class="w-[310px] group aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-12 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
@@ -122,6 +129,7 @@ import QuizBlock from '/src/components/QuizBlock.vue'
       number="4"
       question="Какие из сочетаний шрифтов составляют иерархию веса?"
       answer="third"
+      explanationAnswer="В этом варианте ответа представлена иерархия веса, так как используются разные начертания одного и того же шрифта."
     >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
