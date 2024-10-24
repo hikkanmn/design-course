@@ -4,7 +4,7 @@
   >
     <router-link to="/resources" @click="scrollToTop">
       <button
-        class="lowercase font-myUnbounded font-regular text-[22px] hover:scale-110 bg-customOrange text-white px-8 py-3 rounded-full shadow-lg hover:bg-customLime hover:text-customBlack transition-all transform duration-500 ease-in-out flex items-center"
+        class="lowercase font-myUnbounded font-regular text-[22px] hover:scale-110 bg-customOrange text-white px-8 py-3 rounded-full shadow-lg hover:bg-customLime hover:text-customBlack flex items-center"
       >
         дополнительные материалы
       </button>

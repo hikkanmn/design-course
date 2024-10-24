@@ -3,13 +3,10 @@
     <!-- Заголовок -->
     <div class="group w-full flex text-center flex-col">
       <h1
-        class="text-[141px] uppercase font-myMedium text-white flex flex-col group-hover:text-customOrange transition-all transform duration-500 ease-in-out"
+        class="text-[141px] uppercase font-myMedium text-white flex flex-col group-hover:text-customOrange"
       >
         дизайн
-        <span
-          class="mt-[-75px] group-hover:text-customPurple transition-all duration-100 transform ease-in-out"
-          >просто</span
-        >
+        <span class="mt-[-75px] group-hover:text-customPurple">просто</span>
       </h1>
     </div>
 
@@ -35,7 +32,7 @@
       <!-- Кнопка с стрелкой -->
       <div class="flex items-center justify-end col-start-10 col-end-13 row-start-2 row-end-4">
         <button
-          class="flex items-center px-[25px] py-[15px] w-full justify-center lowercase font-myUnbounded font-medium text-[22px] bg-customOrange text-white rounded-full hover:bg-customLime hover:scale-110 hover:text-customBlack transition-all transform duration-500 ease-in-out"
+          class="flex items-center px-[25px] py-[15px] w-full justify-center lowercase font-myUnbounded font-medium text-[22px] bg-customOrange text-white rounded-full hover:bg-customLime hover:scale-110 hover:text-customBlack"
         >
           начать сейчас
         </button>

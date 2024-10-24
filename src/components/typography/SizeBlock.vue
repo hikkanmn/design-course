@@ -21,14 +21,10 @@
     <p
       class="col-start-1 col-end-5 row-start-2 row-end-4 font-myMedium outline-4 outline-customPurple flex flex-col self-end group"
     >
-      <span
-        class="text-[74px] leading-6 text-customPurple group-hover:text-customPurple_o66 transition-all transform duration-700 ease-in-out"
+      <span class="text-[74px] leading-6 text-customPurple group-hover:text-customPurple_o66"
         >кегли</span
-      ><span
-        class="text-[55px] text-customPurple_o66 group-hover:text-customPurple transition-all transform duration-700 ease-in-out"
-        >бывают</span
-      ><span
-        class="text-[47px] leading-3 text-customPurple group-hover:text-customPurple_o66 transition-all transform duration-700 ease-in-out"
+      ><span class="text-[55px] text-customPurple_o66 group-hover:text-customPurple">бывают</span
+      ><span class="text-[47px] leading-3 text-customPurple group-hover:text-customPurple_o66"
         >разными</span
       >
     </p>
@@ -114,7 +110,7 @@
     </div>
 
     <button
-      class="col-start-9 col-end-13 row-start-7 row-end-8 h-2/3 bg-customOrange text-white text-[22px] font-myUnbounded font-medium rounded-[100px] hover:text-customBlack hover:bg-customLime hover:scale-110 transition-all transform duration-700 ease-in-out"
+      class="col-start-9 col-end-13 row-start-7 row-end-8 h-2/3 bg-customOrange text-white text-[22px] font-myUnbounded font-medium rounded-[100px] hover:text-customBlack hover:bg-customLime hover:scale-110"
     >
       где найти шрифты?
     </button>

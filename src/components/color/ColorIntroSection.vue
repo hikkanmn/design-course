@@ -8,36 +8,17 @@
       @mouseleave="isHovered = false"
       class="group font-myMedium uppercase text-[100px] text-center col-start-1 col-end-13 row-start-1 row-end-2 text-white mt-[-10px] leading-relaxed"
     >
-      <span class="group-hover:text-customPurple transition-all transform duration-500 ease-in-out"
-        >к</span
-      ><span
-        class="text-customOrange group-hover:text-customLime transition-all transform duration-500 ease-in-out"
-        >о</span
-      ><span class="group-hover:text-customPurple transition-all transform duration-500 ease-in-out"
-        >л</span
-      ><span
-        class="text-customLime group-hover:text-white transition-all transform duration-500 ease-in-out"
-        >о</span
-      ><span
-        class="text-customPurple group-hover:text-customOrange transition-all transform duration-500 ease-in-out"
-        >p</span
-      ><span class="group-hover:text-customPurple transition-all transform duration-500 ease-in-out"
-        >и</span
-      ><span
-        class="text-customPurple group-hover:text-customOrange transition-all transform duration-500 ease-in-out"
-        >с</span
-      ><span
-        class="text-customOrange group-hover:text-customLime transition-all transform duration-500 ease-in-out"
-        >т</span
-      ><span
-        class="text-customPurple group-hover:text-customOrange transition-all transform duration-500 ease-in-out"
-        >и</span
-      ><span class="group-hover:text-customPurple transition-all transform duration-500 ease-in-out"
-        >к</span
-      ><span
-        class="text-customLime group-hover:text-white transition-all transform duration-500 ease-in-out"
-        >а</span
-      >
+      <span class="group-hover:text-customPurple">к</span
+      ><span class="text-customOrange group-hover:text-customLime">о</span
+      ><span class="group-hover:text-customPurple">л</span
+      ><span class="text-customLime group-hover:text-white">о</span
+      ><span class="text-customPurple group-hover:text-customOrange">p</span
+      ><span class="group-hover:text-customPurple">и</span
+      ><span class="text-customPurple group-hover:text-customOrange">с</span
+      ><span class="text-customOrange group-hover:text-customLime">т</span
+      ><span class="text-customPurple group-hover:text-customOrange">и</span
+      ><span class="group-hover:text-customPurple">к</span
+      ><span class="text-customLime group-hover:text-white">а</span>
     </h1>
     <div
       class="col-start-8 col-end-13 row-start-2 row-end-3 border-4 border-white rounded-l-[60px] rounded-tr-[60px] mb-20 flex items-center justify-center"
@@ -46,7 +27,7 @@
     </div>
     <!-- Текстовый блок -->
     <p
-      class="font-myUnbounded font-light text-[25px] mt-[-40px] text-white col-start-1 col-end-13 row-start-3 row-end-4 leading-relaxed transition-all transform duration-500 ease-in-out"
+      class="font-myUnbounded font-light text-[25px] mt-[-40px] text-white col-start-1 col-end-13 row-start-3 row-end-4 leading-relaxed"
     >
       <span class="text-customLime">Колористика </span> — это искусство использования цвета для
       создания визуального эффекта, передачи эмоций и создания гармонии в композиции.

@@ -31,19 +31,19 @@
       >
         <div
           :class="{ 'bg-customPurple': isHoveredl, 'bg-customLime': !isHoveredl }"
-          class="w-full h-full transition-all transform duration-500 ease-in-out"
+          class="w-full h-full"
         ></div>
         <div
           :class="{ 'bg-customLime': isHoveredl, 'bg-customPurple': !isHoveredl }"
-          class="w-full h-full transition-all transform duration-500 ease-in-out"
+          class="w-full h-full"
         ></div>
         <div
           :class="{ 'bg-customPurple': isHoveredl, 'bg-customLime': !isHoveredl }"
-          class="w-full h-full transition-all transform duration-500 ease-in-out"
+          class="w-full h-full"
         ></div>
         <div
           :class="{ 'bg-customPurple': isHoveredl, 'bg-customLime': !isHoveredl }"
-          class="w-full h-full transition-all transform duration-500 ease-in-out"
+          class="w-full h-full"
         ></div>
       </div>
       <div
@@ -53,19 +53,19 @@
       >
         <div
           :class="{ 'scale-100': isHoveredc, 'scale-50': !isHoveredc }"
-          class="w-full h-full bg-customLime transition-all transform duration-700 ease-in-out"
+          class="w-full h-full bg-customLime"
         ></div>
         <div
           :class="{ 'scale-50': isHoveredc, 'scale-100': !isHoveredc }"
-          class="w-full h-full bg-customLime transition-all transform duration-700 ease-in-out"
+          class="w-full h-full bg-customLime"
         ></div>
         <div
           :class="{ 'scale-50': isHoveredc, 'scale-100': !isHoveredc }"
-          class="w-full h-full bg-customLime transition-all transform duration-700 ease-in-out"
+          class="w-full h-full bg-customLime"
         ></div>
         <div
           :class="{ 'scale-50': isHoveredc, 'scale-100': !isHoveredc }"
-          class="w-full h-full bg-customLime transition-all transform duration-700 ease-in-out"
+          class="w-full h-full bg-customLime"
         ></div>
       </div>
       <div
@@ -93,20 +93,20 @@
     </div>
     <p
       :class="{ 'text-white': isHoveredl, 'text-customOrange': !isHoveredl }"
-      class="col-start-1 col-end-5 row-start-6 row-end-7 font-myUnbounded font-medium text-[22px] lowercase transition-all transform duration-500 ease-in-out"
+      class="col-start-1 col-end-5 row-start-6 row-end-7 font-myUnbounded font-medium text-[22px] lowercase"
     >
       по цвету
     </p>
     <p
       :class="{ 'text-white': isHoveredc, 'text-customOrange': !isHoveredc }"
-      class="col-start-5 col-end-9 row-start-6 row-end-7 font-myUnbounded font-medium text-[22px] text-center lowercase transition-all transform duration-500 ease-in-out"
+      class="col-start-5 col-end-9 row-start-6 row-end-7 font-myUnbounded font-medium text-[22px] text-center lowercase"
     >
       по размеру
     </p>
 
     <p
       :class="{ 'text-white': isHoveredr, 'text-customOrange': !isHoveredr }"
-      class="col-start-9 col-end-13 row-start-6 row-end-7 font-myUnbounded font-medium text-[22px] text-end lowercase transition-all transform duration-500 ease-in-out"
+      class="col-start-9 col-end-13 row-start-6 row-end-7 font-myUnbounded font-medium text-[22px] text-end lowercase"
     >
       по форме
     </p>

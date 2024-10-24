@@ -3,7 +3,7 @@
 <template>
   <!-- Текст "начинается с основ" -->
   <div
-    class="pr-16 py-2 bg-customPurple rounded-r-full pl-[135px] mr-[135px] mt-32 mb-10 text-white flex justify-between items-center transition-all transform duration-500 ease-in-out"
+    class="pr-16 py-2 bg-customPurple rounded-r-full pl-[135px] mr-[135px] mt-32 mb-10 text-white flex justify-between items-center"
   >
     <p class="text-[65px] font-myMedium">баланс</p>
     <span class="font-myUnbounded font-medium text-[65px]">1</span>
@@ -30,10 +30,10 @@
     <div
       @mouseover="isHoveredl = true"
       @mouseleave="isHoveredl = false"
-      class="col-start-1 col-end-6 row-start-4 row-end-7 border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] flex justify-center items-center p-4 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all transform duration-700 ease-in-out"
+      class="col-start-1 col-end-6 row-start-4 row-end-7 border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] flex justify-center items-center p-4 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
     >
       <img
-        class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+        class="hover:scale-110"
         src="/src/img/balance_group_1.svg"
         alt="Ошибка загрузки изображения! Перезагрузите страницу"
       />
@@ -47,10 +47,10 @@
     <div
       @mouseover="isHoveredr = true"
       @mouseleave="isHoveredr = false"
-      class="col-start-7 col-end-12 row-start-4 row-end-7 border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] flex justify-center items-center p-4 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all transform duration-700 ease-in-out"
+      class="col-start-7 col-end-12 row-start-4 row-end-7 border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] flex justify-center items-center p-4 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
     >
       <img
-        class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+        class="hover:scale-110"
         src="/src/img/balance_group_2.svg"
         alt="Ошибка загрузки изображения! Перезагрузите страницу"
       />

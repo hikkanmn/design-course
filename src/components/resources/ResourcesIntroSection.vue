@@ -4,7 +4,7 @@
   <!-- Основной текст и кнопка -->
   <div class="grid grid-cols-12 grid-rows-3 gap-y-[30px] gap-x-[10px] px-[135px] pt-20">
     <h1
-      class="font-myMedium uppercase hover:text-[100px] text-[95px] col-start-1 col-end-12 row-start-1 row-end-2 text-white flex justify-between items-center leading-relaxed transition-all transform duration-500 ease-in-out"
+      class="font-myMedium uppercase hover:text-[100px] text-[95px] col-start-1 col-end-12 row-start-1 row-end-2 text-white flex justify-between items-center leading-relaxed"
     >
       ресурсы
       <img

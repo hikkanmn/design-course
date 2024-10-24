@@ -31,26 +31,26 @@ import QuizBlock from '/src/components/QuizBlock.vue'
     >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
-          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <span
-            class="text-customOrange text-[105px] font-myJost font-semibold hover:text-white hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="text-customOrange text-[105px] font-myJost font-semibold hover:text-white hover:scale-125"
             >Аа</span
           >
         </div>
         <div
-          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <span
-            class="text-customOrange text-[105px] font-myJost font-extralight hover:text-white hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="text-customOrange text-[105px] font-myJost font-extralight hover:text-white hover:scale-125"
             >Аа</span
           >
         </div>
         <div
-          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <span
-            class="text-customOrange text-[105px] font-myJost italic hover:text-white hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="text-customOrange text-[105px] font-myJost italic hover:text-white hover:scale-125"
             >Аа</span
           >
         </div>
@@ -65,26 +65,26 @@ import QuizBlock from '/src/components/QuizBlock.vue'
     >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
-          class="w-[310px] group aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] group aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <span
-            class="text-customLime text-[85px] font-myUnbounded font-regular hover:text-white hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="text-customLime text-[85px] font-myUnbounded font-regular hover:text-white hover:scale-125"
             >Аа</span
           >
         </div>
         <div
-          class="w-[310px] group aspect-square flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] group aspect-square flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <span
-            class="text-customLime text-[105px] font-myPlayfairDisplay mt-[-20px] hover:text-white hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="text-customLime text-[105px] font-myPlayfairDisplay mt-[-20px] hover:text-white hover:scale-125"
             >Аа</span
           >
         </div>
         <div
-          class="w-[310px] group aspect-square flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] group aspect-square flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <span
-            class="text-customLime text-[105px] font-myGeologica hover:text-white hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="text-customLime text-[105px] font-myGeologica hover:text-white hover:scale-125"
             >Аа</span
           >
         </div>
@@ -99,26 +99,26 @@ import QuizBlock from '/src/components/QuizBlock.vue'
     >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
-          class="w-[310px] group aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-12 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] group aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-12 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <span
-            class="text-customOrange text-[105px] font-myPlayfairDisplay hover:text-white hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="text-customOrange text-[105px] font-myPlayfairDisplay hover:text-white hover:scale-125"
             >Аа</span
           >
         </div>
         <div
-          class="w-[310px] group aspect-square flex items-center justify-center border-4 border-white rounded-[60px] p-12 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] group aspect-square flex items-center justify-center border-4 border-white rounded-[60px] p-12 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <span
-            class="text-customOrange text-[85px] font-myUnbounded font-bold hover:text-white hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="text-customOrange text-[85px] font-myUnbounded font-bold hover:text-white hover:scale-125"
             >Аа</span
           >
         </div>
         <div
-          class="w-[310px] group aspect-square flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-12 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] group aspect-square flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-12 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <span
-            class="text-customOrange text-[85px] font-myUnbounded font-regular hover:text-white hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="text-customOrange text-[85px] font-myUnbounded font-regular hover:text-white hover:scale-125"
             >Аа</span
           >
         </div>
@@ -133,38 +133,38 @@ import QuizBlock from '/src/components/QuizBlock.vue'
     >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
-          class="w-[310px] aspect-square flex flex-col justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] aspect-square flex flex-col justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <span
-            class="text-customLime text-[40px] mt-[-20px] font-myUnbounded font-regular hover:text-white hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="text-customLime text-[40px] mt-[-20px] font-myUnbounded font-regular hover:text-white hover:scale-125"
             >шрифт</span
           >
           <span
-            class="text-customLime text-[30px] leading-3 font-myUnbounded font-regular hover:text-white hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="text-customLime text-[30px] leading-3 font-myUnbounded font-regular hover:text-white hover:scale-125"
             >шрифт</span
           >
         </div>
         <div
-          class="w-[310px] aspect-square flex flex-col justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] aspect-square flex flex-col justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <span
-            class="text-customLime text-[40px] mt-[-20px] font-myUnbounded font-bold hover:text-white hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="text-customLime text-[40px] mt-[-20px] font-myUnbounded font-bold hover:text-white hover:scale-125"
             >шрифт</span
           >
           <span
-            class="text-customLime text-[30px] leading-3 font-myUnbounded font-bold hover:text-white hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="text-customLime text-[30px] leading-3 font-myUnbounded font-bold hover:text-white hover:scale-125"
             >шрифт</span
           >
         </div>
         <div
-          class="w-[310px] aspect-square flex flex-col justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] aspect-square flex flex-col justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <span
-            class="text-customLime text-[40px] mt-[-20px] font-myUnbounded font-black hover:text-white hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="text-customLime text-[40px] mt-[-20px] font-myUnbounded font-black hover:text-white hover:scale-125"
             >шрифт</span
           >
           <span
-            class="text-customLime text-[30px] leading-3 font-myUnbounded font-extralight hover:text-white hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="text-customLime text-[30px] leading-3 font-myUnbounded font-extralight hover:text-white hover:scale-125"
             >шрифт</span
           >
         </div>

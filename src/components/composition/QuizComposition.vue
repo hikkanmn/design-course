@@ -32,28 +32,28 @@ import QuizBlock from '/src/components/QuizBlock.vue'
     >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
-          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <img
-            class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+            class="hover:scale-110"
             src="/src/img/quiz/composition/1_1.svg"
             alt="Ошибка загрузки изображения! Перезагрузите страницу"
           />
         </div>
         <div
-          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <img
-            class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+            class="hover:scale-110"
             src="/src/img/quiz/composition/1_2.svg"
             alt="Ошибка загрузки изображения! Перезагрузите страницу"
           />
         </div>
         <div
-          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <img
-            class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+            class="hover:scale-110"
             src="/src/img/quiz/composition/1_3.svg"
             alt="Ошибка загрузки изображения! Перезагрузите страницу"
           />
@@ -68,28 +68,28 @@ import QuizBlock from '/src/components/QuizBlock.vue'
     >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
-          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <img
-            class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+            class="hover:scale-110"
             src="/src/img/quiz/composition/2_1.svg"
             alt="Ошибка загрузки изображения! Перезагрузите страницу"
           />
         </div>
         <div
-          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <img
-            class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+            class="hover:scale-110"
             src="/src/img/quiz/composition/2_2.svg"
             alt="Ошибка загрузки изображения! Перезагрузите страницу"
           />
         </div>
         <div
-          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <img
-            class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+            class="hover:scale-110"
             src="/src/img/quiz/composition/2_3.svg"
             alt="Ошибка загрузки изображения! Перезагрузите страницу"
           />
@@ -104,28 +104,28 @@ import QuizBlock from '/src/components/QuizBlock.vue'
     >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
-          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <img
-            class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+            class="hover:scale-110"
             src="/src/img/quiz/composition/3_1.svg"
             alt="Ошибка загрузки изображения! Перезагрузите страницу"
           />
         </div>
         <div
-          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <img
-            class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+            class="hover:scale-110"
             src="/src/img/quiz/composition/3_2.svg"
             alt="Ошибка загрузки изображения! Перезагрузите страницу"
           />
         </div>
         <div
-          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] h-[310px] flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <img
-            class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+            class="hover:scale-110"
             src="/src/img/quiz/composition/3_3.svg"
             alt="Ошибка загрузки изображения! Перезагрузите страницу"
           />

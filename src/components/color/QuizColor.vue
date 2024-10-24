@@ -32,24 +32,24 @@ import QuizBlock from '/src/components/QuizBlock.vue'
     >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
-          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <div
-            class="bg-customYellow w-full aspect-square m-8 hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="bg-customYellow w-full aspect-square m-8 hover:rounded-[100px] hover:scale-125"
           ></div>
         </div>
         <div
-          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <div
-            class="bg-customOrange w-full aspect-square m-8 hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="bg-customOrange w-full aspect-square m-8 hover:rounded-[100px] hover:scale-125"
           ></div>
         </div>
         <div
-          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <div
-            class="bg-customGreen w-full aspect-square m-8 hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="bg-customGreen w-full aspect-square m-8 hover:rounded-[100px] hover:scale-125"
           ></div>
         </div>
       </div>
@@ -63,33 +63,33 @@ import QuizBlock from '/src/components/QuizBlock.vue'
     >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
-          class="w-[310px] gap-5 group aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] gap-5 group aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <div
-            class="bg-customBlue group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="bg-customBlue group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125"
           ></div>
           <div
-            class="bg-customOrange group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="bg-customOrange group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125"
           ></div>
         </div>
         <div
-          class="w-[310px] gap-5 group aspect-square flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] gap-5 group aspect-square flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <div
-            class="bg-customPurple group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="bg-customPurple group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125"
           ></div>
           <div
-            class="bg-customPurple_o66 group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="bg-customPurple_o66 group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125"
           ></div>
         </div>
         <div
-          class="w-[310px] gap-5 group aspect-square flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] gap-5 group aspect-square flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <div
-            class="bg-customLime group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="bg-customLime group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125"
           ></div>
           <div
-            class="bg-customOrange group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="bg-customOrange group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125"
           ></div>
         </div>
       </div>
@@ -103,42 +103,42 @@ import QuizBlock from '/src/components/QuizBlock.vue'
     >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
-          class="w-[310px] gap-5 group aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-12 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] gap-5 group aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-12 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <div
-            class="bg-customPurple group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="bg-customPurple group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125"
           ></div>
           <div
-            class="bg-customBlue group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="bg-customBlue group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125"
           ></div>
           <div
-            class="bg-customGreen group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="bg-customGreen group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125"
           ></div>
         </div>
         <div
-          class="w-[310px] gap-5 group aspect-square flex items-center justify-center border-4 border-white rounded-[60px] p-12 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] gap-5 group aspect-square flex items-center justify-center border-4 border-white rounded-[60px] p-12 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <div
-            class="bg-customYellow group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="bg-customYellow group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125"
           ></div>
           <div
-            class="bg-customLime group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="bg-customLime group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125"
           ></div>
           <div
-            class="bg-customRed group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="bg-customRed group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125"
           ></div>
         </div>
         <div
-          class="w-[310px] gap-5 group aspect-square flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-12 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] gap-5 group aspect-square flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-12 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <div
-            class="bg-customOrange group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="bg-customOrange group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125"
           ></div>
           <div
-            class="bg-customRed group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="bg-customRed group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125"
           ></div>
           <div
-            class="bg-customPurple group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="bg-customPurple group-hover:bg-scale-125 w-full aspect-square group-hover:rounded-[100px] hover:scale-125"
           ></div>
         </div>
       </div>
@@ -152,24 +152,24 @@ import QuizBlock from '/src/components/QuizBlock.vue'
     >
       <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
         <div
-          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <div
-            class="bg-customLime w-full aspect-square m-8 hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="bg-customLime w-full aspect-square m-8 hover:rounded-[100px] hover:scale-125"
           ></div>
         </div>
         <div
-          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <div
-            class="bg-customOrange w-full aspect-square m-8 hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="bg-customOrange w-full aspect-square m-8 hover:rounded-[100px] hover:scale-125"
           ></div>
         </div>
         <div
-          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+          class="w-[310px] aspect-square flex items-center justify-center border-4 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] p-16 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
         >
           <div
-            class="bg-customYellow w-full aspect-square m-8 hover:rounded-[100px] hover:scale-125 transition-all transform duration-700 ease-in-out"
+            class="bg-customYellow w-full aspect-square m-8 hover:rounded-[100px] hover:scale-125"
           ></div>
         </div>
       </div>

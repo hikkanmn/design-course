@@ -21,7 +21,7 @@ import RhythmExample from '/src/components/composition/RhythmExample.vue'
     text_about="использование одинаковых элементов с определенным интервалом"
   >
     <img
-      class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+      class="hover:scale-110"
       src="/src/img/rhythm_1_example.svg"
       alt="Ошибка загрузки изображения! Перезагрузите страницу"
     />
@@ -31,7 +31,7 @@ import RhythmExample from '/src/components/composition/RhythmExample.vue'
     text_about="изменение размера, цвета, формы повторяющихся элементов"
   >
     <img
-      class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+      class="hover:scale-110"
       src="/src/img/rhythm_2_example.svg"
       alt="Ошибка загрузки изображения! Перезагрузите страницу"
     />
@@ -41,7 +41,7 @@ import RhythmExample from '/src/components/composition/RhythmExample.vue'
     text_about="постепенное изменение размера, цвета, формы или ориентации повторяющихся элементов"
   >
     <img
-      class="hover:scale-110 transition-all transform duration-700 ease-in-out"
+      class="hover:scale-110"
       src="/src/img/rhythm_3_example.svg"
       alt="Ошибка загрузки изображения! Перезагрузите страницу"
     />

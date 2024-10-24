@@ -12,7 +12,7 @@
 
     <div class="col-start-1 col-end-13 row-start-2 row-end-5 flex justify-between items-center">
       <div
-        class="w-full h-[310px] flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] py-20 px-48 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10 transition-all duration-700 ease-in-out"
+        class="w-full h-[310px] flex items-center justify-center border-4 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] py-20 px-48 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
       >
         <slot></slot>
       </div>

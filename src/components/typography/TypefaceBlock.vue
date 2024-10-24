@@ -21,28 +21,20 @@
     <p
       class="group col-start-1 col-end-8 row-start-3 row-end-8 font-myMedium flex flex-col justify-center"
     >
-      <span
-        class="text-[64px] leading-3 text-customPurple_o66 group-hover:text-customPurple transition-all transform duration-700 ease-in-out"
+      <span class="text-[64px] leading-3 text-customPurple_o66 group-hover:text-customPurple"
         >начертания</span
       >
-      <span
-        class="text-[83px] text-customPurple group-hover:text-customPurple_o66 transition-all transform duration-700 ease-in-out"
-        >очень</span
-      >
-      <span
-        class="text-[116px] leading-10 text-customPurple group-hover:text-customPurple_o66 transition-all transform duration-700 ease-in-out"
+      <span class="text-[83px] text-customPurple group-hover:text-customPurple_o66">очень</span>
+      <span class="text-[116px] leading-10 text-customPurple group-hover:text-customPurple_o66"
         >важны</span
       >
-      <span
-        class="text-[64px] leading-relaxed text-customPurple_o66 group-hover:text-customPurple transition-all transform duration-700 ease-in-out"
+      <span class="text-[64px] leading-relaxed text-customPurple_o66 group-hover:text-customPurple"
         >для</span
       >
-      <span
-        class="text-[64px] leading-6 text-customPurple_o66 group-hover:text-customPurple transition-all transform duration-700 ease-in-out"
+      <span class="text-[64px] leading-6 text-customPurple_o66 group-hover:text-customPurple"
         >восприятия</span
       >
-      <span
-        class="text-[60px] text-customPurple group-hover:text-customPurple_o66 transition-all transform duration-700 ease-in-out"
+      <span class="text-[60px] text-customPurple group-hover:text-customPurple_o66"
         >информации</span
       >
     </p>

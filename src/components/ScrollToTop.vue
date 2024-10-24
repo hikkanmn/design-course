@@ -2,14 +2,14 @@
   <button
     v-show="showButton"
     @click="scrollToTop"
-    class="group w-fit aspect-square fixed bottom-10 right-5 bg-customPurple border-none rounded-full pl-2 pr-1 cursor-pointer flex items-center justify-center hover:bg-customLime transition-all duration-500 ease-in-out"
+    class="group w-fit aspect-square fixed bottom-10 right-5 bg-customPurple border-none rounded-full pl-2 pr-1 cursor-pointer flex items-center justify-center hover:bg-customLime"
   >
     <!-- Иконка или текст кнопки -->
     <svg
       width="36"
       height="28"
       viewBox="0 0 28 28"
-      class="fill-white group-hover:fill-customBlack"
+      class="fill-white group-hover:fill-customBlack duration-0"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
