@@ -5,82 +5,144 @@
 <template>
   <div class="grid grid-cols-12 grid-rows-12 gap-y-[30px] gap-x-[10px] mb-28 px-[135px]">
     <!-- 1st block -->
-    <div
-      class="col-start-5 col-end-9 row-start-1 row-end-2 border-8 border-customPurple flex items-center justify-center p-5 rounded-[100px]"
+    <a
+      title="сайт Adobe Illusrator"
+      href="https://www.adobe.com/products/illustrator.html"
+      class="group hover:bg-customPurple hover:border-opacity-0 col-start-5 col-end-9 row-start-1 row-end-2 border-8 border-customPurple flex items-center justify-center p-2 rounded-[100px]"
     >
-      <p class="text-white font-myUnbounded font-medium text-[22px]">Adobe Illusrator</p>
-    </div>
-    <div
-      class="col-start-1 col-end-4 row-start-2 row-end-3 border-8 border-customLime p-5 rounded-[100px] flex items-center justify-center"
+      <button class="text-white group-hover:text-[20px] font-myUnbounded font-medium text-[22px]">
+        Adobe Illusrator
+      </button></a
     >
-      <p class="text-white font-myUnbounded font-medium text-[22px]">Figma</p>
-    </div>
-    <div
-      class="col-start-10 col-end-13 row-start-2 row-end-3 border-8 border-customLime p-5 rounded-[100px] flex items-center justify-center"
+
+    <a
+      title="сайт Figma"
+      href="https://www.figma.com/"
+      class="group hover:bg-customLime hover:border-opacity-0 col-start-1 col-end-4 row-start-2 row-end-3 border-8 border-customLime p-2 rounded-[100px] flex items-center justify-center"
     >
-      <p class="text-white font-myUnbounded font-medium text-[22px]">CorelDraw</p>
-    </div>
+      <button
+        class="text-white group-hover:text-customBlack group-hover:text-[20px] font-myUnbounded font-medium text-[22px]"
+      >
+        Figma
+      </button></a
+    >
+    <a
+      title="сайт CorelDraw"
+      href="https://www.coreldraw.com/en/"
+      class="group hover:bg-customLime hover:border-opacity-0 col-start-10 col-end-13 row-start-2 row-end-3 border-8 border-customLime p-2 rounded-[100px] flex items-center justify-center"
+      ><button
+        class="text-white group-hover:text-customBlack group-hover:text-[20px] font-myUnbounded font-medium text-[22px]"
+      >
+        CorelDraw
+      </button></a
+    >
+
     <div
-      class="col-start-5 col-end-9 row-start-3 row-end-4 bg-customOrange p-5 rounded-[100px] flex items-center justify-center"
+      class="group border-8 hover:bg-opacity-20 border-customOrange col-start-5 col-end-9 row-start-3 row-end-4 bg-customOrange p-5 rounded-[100px] flex items-center justify-center"
     >
       <p class="text-white font-myUnbounded font-medium text-[22px]">программы</p>
     </div>
-    <div
-      class="col-start-1 col-end-4 row-start-4 row-end-5 border-8 border-customPurple p-5 rounded-[100px] flex items-center justify-center"
-    >
-      <p class="text-white font-myUnbounded font-medium text-[22px]">InDesign</p>
-    </div>
-    <div
-      class="col-start-10 col-end-13 row-start-4 row-end-5 border-8 border-customPurple p-5 rounded-[100px] flex items-center justify-center"
-    >
-      <p class="text-white font-myUnbounded font-medium text-[22px]">ProCreate</p>
-    </div>
-    <div
-      class="col-start-5 col-end-9 row-start-5 row-end-6 border-8 border-customLime flex items-center justify-center p-5 rounded-[100px]"
-    >
-      <p class="text-white font-myUnbounded font-medium text-[22px]">Adobe Photoshop</p>
-    </div>
 
+    <a
+      title="сайт Adobe InDesign"
+      href="https://www.adobe.com/products/indesign.html"
+      class="group hover:bg-customPurple hover:border-opacity-0 col-start-1 col-end-4 row-start-4 row-end-5 border-8 border-customPurple p-2 rounded-[100px] flex items-center justify-center"
+    >
+      <button class="text-white group-hover:text-[20px] font-myUnbounded font-medium text-[22px]">
+        InDesign
+      </button></a
+    >
+    <a
+      title="сайт ProCreate"
+      href="https://procreate.com/"
+      class="group hover:bg-customPurple hover:border-opacity-0 col-start-10 col-end-13 row-start-4 row-end-5 border-8 border-customPurple p-2 rounded-[100px] flex items-center justify-center"
+    >
+      <button class="text-white group-hover:text-[20px] font-myUnbounded font-medium text-[22px]">
+        ProCreate
+      </button></a
+    >
+    <a
+      title="сайт Adobe Photoshop"
+      href="https://www.adobe.com/ru/products/photoshop.html"
+      class="group hover:bg-customLime hover:border-opacity-0 col-start-5 col-end-9 row-start-5 row-end-6 border-8 border-customLime flex items-center justify-center p-2 rounded-[100px]"
+      ><button
+        class="text-white group-hover:text-customBlack group-hover:text-[20px] font-myUnbounded font-medium text-[22px]"
+      >
+        Adobe Photoshop
+      </button></a
+    >
     <div
       class="col-start-1 col-end-13 row-start-6 row-end-7 h-[5px] bg-white self-center w-full"
     ></div>
 
     <!-- 2nd block -->
-    <div
-      class="col-start-3 col-end-6 row-start-7 row-end-8 bg-customLime flex items-center justify-center p-5 rounded-[100px]"
+    <a
+      title="сайт Pinterest"
+      href="https://ru.pinterest.com/"
+      class="group border-8 hover:bg-opacity-20 border-customLime col-start-3 col-end-6 row-start-7 row-end-8 bg-customLime flex items-center justify-center p-2 rounded-[100px]"
+      ><button
+        class="text-customBlack font-myUnbounded font-medium text-[22px] group-hover:text-[20px] group-hover:text-white"
+      >
+        Pinterest
+      </button></a
     >
-      <p class="text-customBlack font-myUnbounded font-medium text-[22px]">Pinterest</p>
-    </div>
-    <div
-      class="col-start-8 col-end-11 row-start-7 row-end-8 bg-customPurple p-5 rounded-[100px] flex items-center justify-center"
+
+    <a
+      title="сайт FreePik"
+      href="https://www.freepik.com/"
+      class="group border-8 hover:bg-opacity-20 border-customPurple col-start-8 col-end-11 row-start-7 row-end-8 bg-customPurple p-2 rounded-[100px] flex items-center justify-center"
+      ><button class="text-white font-myUnbounded font-medium text-[22px] group-hover:text-[20px]">
+        FreePik
+      </button></a
     >
-      <p class="text-white font-myUnbounded font-medium text-[22px]">FreePik</p>
-    </div>
-    <div
-      class="col-start-1 col-end-4 row-start-9 row-end-10 bg-customPurple p-5 rounded-[100px] flex items-center justify-center"
+
+    <a
+      title="сайт Behance"
+      href="https://www.behance.net/"
+      class="group border-8 hover:bg-opacity-20 border-customPurple col-start-1 col-end-4 row-start-9 row-end-10 bg-customPurple p-2 rounded-[100px] flex items-center justify-center"
+      ><button class="text-white font-myUnbounded font-medium text-[22px] group-hover:text-[20px]">
+        Behance
+      </button></a
     >
-      <p class="text-white font-myUnbounded font-medium text-[22px]">Behance</p>
-    </div>
+
     <div
-      class="col-start-5 col-end-9 row-start-9 row-end-10 border-8 border-customOrange p-5 rounded-[100px] flex items-center justify-center"
+      class="group hover:bg-opacity-20 hover:bg-customOrange col-start-5 col-end-9 row-start-9 row-end-10 border-8 border-customOrange p-2 rounded-[100px] flex items-center justify-center"
     >
       <p class="text-white font-myUnbounded font-medium text-[22px]">полезные сайты</p>
     </div>
-    <div
-      class="col-start-10 col-end-13 row-start-9 row-end-10 bg-customLime p-5 rounded-[100px] flex items-center justify-center"
+
+    <a
+      title="сайт Dribble"
+      href="https://dribbble.com/"
+      class="group border-8 hover:bg-opacity-20 border-customLime col-start-10 col-end-13 row-start-9 row-end-10 bg-customLime p-2 rounded-[100px] flex items-center justify-center"
+      ><button
+        class="text-customBlack font-myUnbounded font-medium text-[22px] group-hover:text-[20px] group-hover:text-white"
+      >
+        Dribble
+      </button></a
     >
-      <p class="text-customBlack font-myUnbounded font-medium text-[22px]">Dribble</p>
-    </div>
-    <div
-      class="col-start-3 col-end-6 row-start-11 row-end-12 bg-customLime p-5 rounded-[100px] flex items-center justify-center"
+
+    <a
+      title="сайт Bookcoverarchive"
+      href="http://bookcoverarchive.com/"
+      class="group border-8 hover:bg-opacity-20 border-customLime col-start-3 col-end-6 row-start-11 row-end-12 bg-customLime p-2 rounded-[100px] flex items-center justify-center"
     >
-      <p class="text-customBlack font-myUnbounded font-medium text-[22px]">Bookcoverarchive</p>
-    </div>
-    <div
-      class="col-start-8 col-end-11 row-start-11 row-end-12 bg-customPurple flex items-center justify-center p-5 rounded-[100px]"
+      <button
+        class="text-customBlack font-myUnbounded font-medium text-[22px] group-hover:text-[20px] group-hover:text-white"
+      >
+        Bookcoverarchive
+      </button></a
     >
-      <p class="text-white font-myUnbounded font-medium text-[22px]">Awwwards</p>
-    </div>
+
+    <a
+      title="сайт Awwwards"
+      href="https://www.awwwards.com/"
+      class="group border-8 hover:bg-opacity-20 border-customPurple col-start-8 col-end-11 row-start-11 row-end-12 bg-customPurple flex items-center justify-center p-2 rounded-[100px]"
+      ><button class="text-white font-myUnbounded font-medium text-[22px] group-hover:text-[20px]">
+        Awwwards
+      </button></a
+    >
+
     <div
       class="col-start-1 col-end-13 row-start-12 row-end-13 h-[5px] bg-customBlack self-center w-full"
     ></div>
@@ -89,10 +151,17 @@
 
 <script>
 export default {
-  name: 'MainColor'
+  name: 'MainResources'
 }
 </script>
 
 <style scoped>
-/* Стили для страницы "Композиция" */
+div,
+p,
+button,
+a {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+}
 </style>

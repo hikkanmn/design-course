@@ -1,9 +1,12 @@
 <template>
-  <h2
-    class="col-start-1 col-end-7 row-start-1 row-span-1 flex items-end justify-start text-white font-myMedium text-[35px] uppercase"
+  <router-link
+    class="col-start-1 col-end-7 row-start-1 row-span-1 flex items-end justify-start"
+    to="/composition"
+    @click="scrollToTop"
+    ><h2 class="text-white font-myMedium text-[35px] uppercase cursor-pointer hover:text-[37px] hover:text-customPurple transition-all transform duration-500 ease-in-out">
+      Композиция
+    </h2></router-link
   >
-    Композиция
-  </h2>
   <div
     class="col-start-1 col-end-7 row-start-2 row-span-3 w-full bg-customPurple rounded-br-[60px] rounded-bl-[60px] rounded-tr-[60px] flex justify-center items-center gap-10 p-4 hover:bg-opacity-10 border-customPurple border-4 transition-all transform duration-1000 ease-in-out"
   >
@@ -28,6 +31,14 @@
 
 <script>
 export default {
-  name: 'CompositionBlock'
+  name: 'CompositionBlock',
+  methods: {
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Плавно прокручиваем к верху
+      })
+    }
+  }
 }
 </script>

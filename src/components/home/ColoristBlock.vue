@@ -1,10 +1,12 @@
 <template>
-  <!-- <div class="col-start-8 col-end-13 row-start-3 row-span-3 text-end"> -->
-  <h2
-    class="col-start-8 col-end-13 row-start-4 row-span-1 flex items-end justify-end text-white font-myMedium text-[35px] uppercase mb-4"
+  <router-link
+    class="col-start-8 col-end-13 row-start-4 row-span-1 flex items-end justify-end"
+    to="/color"
+    @click="scrollToTop"
   >
-    Колористика
-  </h2>
+    <h2 class="text-white font-myMedium text-[35px] uppercase cursor-pointer hover:text-[37px] hover:text-customLime transition-all transform duration-500 ease-in-out">Колористика</h2>
+  </router-link>
+
   <div
     class="group col-start-8 col-end-13 row-start-5 row-span-3 w-full bg-customLime rounded-br-[60px] rounded-bl-[60px] rounded-tl-[60px] flex flex-col justify-center items-center p-4 hover:bg-opacity-10 border-customLime border-4 transition-all transform duration-1000 ease-in-out"
   >
@@ -29,6 +31,14 @@
 
 <script>
 export default {
-  name: 'ColoristBlock'
+  name: 'ColoristBlock',
+  methods: {
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Плавно прокручиваем к верху
+      })
+    }
+  }
 }
 </script>
