@@ -5,7 +5,7 @@
     to="/composition"
     @click="scrollToTop"
     ><h2
-      class="text-white font-myMedium lg:text-[30px] md:text-[26px] sm:text-[30px] text-[35px] uppercase cursor-pointer lg:hover:text-[32px] hover:text-[37px] hover:text-customPurple"
+      class="text-white font-myMedium lg:text-[30px] md:text-[26px] text-[35px] uppercase cursor-pointer lg:hover:text-[32px] hover:text-[37px] hover:text-customPurple"
     >
       Композиция
     </h2></router-link
