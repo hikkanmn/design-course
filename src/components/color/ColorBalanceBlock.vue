@@ -48,7 +48,9 @@
     <div
       class="col-start-9 col-end-11 row-start-6 row-end-7 rounded-[30px] bg-customLightPurple border-4 border-customLightPurple hover:bg-opacity-20"
     ></div>
-    <div class="col-start-11 col-end-13 row-start-6 row-end-7 rounded-[30px] bg-customPurple border-4 border-customPurple hover:bg-opacity-20"></div>
+    <div
+      class="col-start-11 col-end-13 row-start-6 row-end-7 rounded-[30px] bg-customPurple border-4 border-customPurple hover:bg-opacity-20"
+    ></div>
     <div class="col-start-4 col-end-13 row-start-7 row-end-8 border-t-4 border-t-white"></div>
 
     <!-- 2nd block  -->

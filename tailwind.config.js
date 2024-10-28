@@ -2,6 +2,14 @@
 export default {
   content: ['./index.html', './src/**/*.{vue, js,ts,jsx,tsx}'],
   theme: {
+    /*инициализация ключевых точек для адаптивной верстки*/
+    screens: {
+      xl: {max: '1920px'},
+      lg: { max: '1280px' },
+      md: { max: '1024px' },
+      sm: { max: '768px' },
+      xs: { max: '480px' }
+    },
     extend: {
       keyframes: {
         scroll: {

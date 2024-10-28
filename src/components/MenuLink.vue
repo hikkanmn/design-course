@@ -2,7 +2,7 @@
   <!-- router-link оборачивает кнопку, путь задается через пропс to -->
   <router-link
     :to="to"
-    :class="`${bgColor} font-myUnbounded font-light text-[17px] px-4 py-2 rounded-full cursor-pointer`"
+    :class="`${bgColor} font-myUnbounded font-light lg:text-[12px] text-[17px] px-4 py-2 rounded-full cursor-pointer text-center`"
   >
     {{ text }}
   </router-link>

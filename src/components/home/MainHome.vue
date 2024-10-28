@@ -6,7 +6,7 @@ import AdditionalButton from '/src/components/home/AdditionalButton.vue'
 </script>
 
 <template>
-  <div class="grid grid-cols-12 grid-rows-11 gap-y-[30px] gap-x-[10px] my-28 px-[135px]">
+  <div class="grid grid-cols-12 grid-rows-11 gap-y-[30px] gap-x-[10px] my-28 lg:my-0 px-[135px] lg:px-[100px] md:px-[50px] sm:px-[20px]">
     <!-- Блок 1: Композиция -->
     <CompositionBlock />
 

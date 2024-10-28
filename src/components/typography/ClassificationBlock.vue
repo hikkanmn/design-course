@@ -6,7 +6,9 @@
     <div
       class="col-start col-end-2 row-start-1 row-end-2 group hover:bg-customOrange bg-customLime rounded-[60px] px-12 py-2 flex items-center justify-center"
     >
-      <span class="font-myUnbounded font-bold text-customBlack text-[55px] group-hover:text-white">3</span>
+      <span class="font-myUnbounded font-bold text-customBlack text-[55px] group-hover:text-white"
+        >3</span
+      >
     </div>
     <h2
       class="col-start-3 col-end-6 row-start-1 row-end-2 self-center font-myMedium text-white text-[52px]"
@@ -55,7 +57,9 @@
     <div
       class="col-start-8 col-end-13 row-start-4 row-end-5 group hover:bg-opacity-10 border-4 border-customLime bg-customLime rounded-l-[100px] rounded-tr-[100px] px-10 py-4 flex items-center justify-end"
     >
-      <p class="text-customBlack text-[45px] font-mySoledago group-hover:text-white">Пример шрифта</p>
+      <p class="text-customBlack text-[45px] font-mySoledago group-hover:text-white">
+        Пример шрифта
+      </p>
     </div>
 
     <!-- 3rd font type -->
@@ -86,7 +90,9 @@
     <div
       class="col-start-8 col-end-13 row-start-8 row-end-9 group hover:bg-opacity-10 border-4 border-customLime bg-customLime rounded-l-[100px] rounded-tr-[100px] px-10 py-4 flex items-center justify-end"
     >
-      <p class="text-customBlack text-[40px] font-myVollkornSC group-hover:text-white">Пример шрифта</p>
+      <p class="text-customBlack text-[40px] font-myVollkornSC group-hover:text-white">
+        Пример шрифта
+      </p>
     </div>
 
     <!-- 5th font type -->
@@ -117,7 +123,9 @@
     <div
       class="col-start-8 col-end-13 row-start-12 row-end-13 group hover:bg-opacity-10 border-4 border-customLime bg-customLime rounded-l-[100px] rounded-tr-[100px] px-10 py-4 flex items-center justify-end"
     >
-      <p class="text-customBlack text-[40px] font-myStampatelloFaceto group-hover:text-white">Пример шрифта</p>
+      <p class="text-customBlack text-[40px] font-myStampatelloFaceto group-hover:text-white">
+        Пример шрифта
+      </p>
     </div>
   </div>
 </template>

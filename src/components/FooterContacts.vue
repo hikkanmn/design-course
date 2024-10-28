@@ -3,10 +3,12 @@ import ContactCard from '/src/components/ContactCard.vue'
 </script>
 
 <template>
-  <footer class="flex justify-between items-center px-[135px]">
+  <footer
+    class="flex sm:flex-col sm:gap-10 justify-between px-[135px] lg:px-[100px] md:px-[50px] sm:px-0 md:mb-20"
+  >
     <!-- Карточка 1 -->
     <ContactCard
-      name="Варя Дорошенко"
+      name="Варвара Дорошенко"
       email="varvaradorosh@mail.ru"
       lineColor="border-customPurple"
     />
