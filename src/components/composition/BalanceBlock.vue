@@ -55,7 +55,7 @@
     <div
       @mouseover="isHoveredr = true"
       @mouseleave="isHoveredr = false"
-      class="col-start-7 col-end-12 row-start-4 row-end-7 border-4 lg:row-end-6 xs:row-start-6 xs:row-end-8 border-white rounded-br-[60px] lg:rounded-br-[40px] md:rounded-br-[40px] sm:rounded-br-[30px] rounded-tl-[60px] lg:rounded-tl-[40px] md:rounded-tl-[40px] sm:rounded-tl-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] sm:h-fit sm:self-center flex justify-center items-center sm:py-20 xs:py-10 px-20 lg:px-16 md:px-12 sm:px-8 xs:px-4 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
+      class="col-start-7 col-end-12 row-start-4 row-end-7 border-4 lg:row-end-6 xs:row-start-6 xs:row-end-8 border-white rounded-br-[60px] lg:rounded-br-[40px] md:rounded-br-[40px] sm:rounded-br-[30px] rounded-tl-[60px] lg:rounded-tl-[40px] md:rounded-tl-[40px] sm:rounded-tl-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] sm:h-fit sm:self-center flex justify-center items-center sm:py-20 xs:py-[36px] px-20 lg:px-16 md:px-12 sm:px-8 xs:px-4 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
     >
       <img
         class="hover:scale-110"
