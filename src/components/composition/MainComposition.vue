@@ -12,7 +12,6 @@ import LastCompositionSection from '/src/components/composition/LastCompositionS
 
 <template>
   <CompositionContent />
-  <!-- <div class="grid grid-cols-12 grid-rows-12 gap-y-[30px] gap-x-[10px] mb-28 px-[135px]"></div> -->
   <BalanceBlock />
   <ContrastBlock />
   <RhythmBlock />

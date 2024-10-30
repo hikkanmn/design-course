@@ -11,14 +11,14 @@
     </h2></router-link
   >
   <div
-    class="col-start-1 col-end-7 row-start-8 row-span-3 sm:col-end-10 sm:row-span-2 xs:col-end-13 w-full bg-customPurple rounded-br-[60px] rounded-bl-[60px] rounded-tr-[60px] flex justify-center items-center text-center px-20 pb-10 hover:bg-opacity-10 border-customPurple border-4 duration-1000 text-white text-[11rem] font-mySoyuzGrotesk font-bold lowercase xl:text-[10rem] lg:text-[8rem]"
+    class="col-start-1 col-end-7 row-start-8 row-span-3 sm:col-end-10 sm:row-span-2 xs:col-end-13 w-full bg-customPurple rounded-br-[60px] rounded-bl-[60px] rounded-tr-[60px] flex justify-center items-center text-center px-20 py-10 hover:bg-opacity-10 border-customPurple border-4 duration-1000 text-white text-[11rem] font-mySoyuzGrotesk font-bold lowercase xl:text-[10rem] lg:text-[8rem]"
   >
     <p class="flex justify-center items-center gap-x-20 lg:flex-col w-full">
       <span
         class="hover:font-myUnbounded hover:opacity-50 hover:text-[80px] duration-1000 lg:self-start m-[-2rem]"
         >а</span
       ><span
-        class="hover:font-myMedium hover:opacity-50 hover:text-[90px] duration-1000 lg:self-end m-[-2rem]"
+        class="hover:font-myUnbounded hover:opacity-50 hover:text-[90px] duration-1000 lg:self-end m-[-2rem]"
         >б</span
       ><span
         class="hover:font-myUnbounded hover:opacity-50 hover:text-[90px] duration-1000 lg:self-start m-[-2rem]"
