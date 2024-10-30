@@ -1,6 +1,6 @@
 <template>
   <div
-    class="col-start-8 col-end-13 row-start-11 row-span-1 sm:col-start-1 flex justify-center items-center h-fit mb-4"
+    class="xs:hidden col-start-8 col-end-13 row-start-11 row-span-1 sm:col-start-1 flex justify-center items-center h-fit mb-4"
   >
     <router-link title="переход к разделу Ресурсы" to="/resources" @click="scrollToTop">
       <button

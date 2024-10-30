@@ -5,13 +5,13 @@
     to="/composition"
     @click="scrollToTop"
     ><h2
-      class="text-white font-myMedium lg:text-[30px] md:text-[26px] text-[35px] uppercase cursor-pointer lg:hover:text-[32px] hover:text-[37px] hover:text-customPurple"
+      class="text-white font-myMedium lg:text-[30px] md:text-[26px] xs:text-[22px] text-[35px] uppercase cursor-pointer lg:hover:text-[32px] hover:text-[37px] hover:text-customPurple"
     >
       Композиция
     </h2></router-link
   >
   <div
-    class="col-start-1 col-end-7 row-start-2 row-span-3 xs:col-end-13 sm:col-end-10 sm:row-span-2 w-full bg-customPurple rounded-br-[60px] rounded-bl-[60px] rounded-tr-[60px] flex justify-center items-center lg:flex-col gap-10 p-20 xl:p-16 lg:p-10 md:p-14 sm:p-10 hover:bg-opacity-10 border-customPurple border-4 duration-1000"
+    class="col-start-1 col-end-7 row-start-2 row-span-3 xs:row-span-3 xs:row-start-2 xs:col-end-13 sm:col-end-10 sm:row-span-2 w-full bg-customPurple rounded-br-[60px] rounded-bl-[60px] rounded-tr-[60px] flex justify-center items-center lg:flex-col gap-10 p-20 xl:p-16 lg:p-10 md:p-14 sm:p-10 xs:p-6 hover:bg-opacity-10 border-customPurple border-4 duration-1000"
   >
     <div
       class="w-1/6 xl:w-1/5 lg:w-1/3 aspect-square lg:self-start bg-white hover:opacity-50 hover:scale-110"
@@ -26,7 +26,7 @@
     />
   </div>
   <div
-    class="col-start-1 col-end-6 row-start-5 row-span-1 sm:row-start-4 lg:h-1/2 sm:h-1/3 lg:w-fit border-customPurple border-4 rounded-br-[60px] rounded-bl-[60px] rounded-tr-[60px] flex justify-start items-center px-14"
+    class="xs:hidden col-start-1 col-end-6 row-start-5 row-span-1 sm:row-start-4 lg:h-1/2 sm:h-1/3 lg:w-fit border-customPurple border-4 rounded-br-[60px] rounded-bl-[60px] rounded-tr-[60px] flex justify-start items-center px-14"
   >
     <p
       class="lowercase font-myUnbounded font-medium lg:text-[18px] sm:text-[22px] text-[22px] text-white"

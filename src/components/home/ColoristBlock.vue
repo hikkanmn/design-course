@@ -1,19 +1,19 @@
 <template>
   <router-link
     title="переход к разделу Колористика"
-    class="col-start-8 col-end-13 row-start-4 row-span-1 flex items-end justify-end"
+    class="col-start-8 col-end-13 row-start-4 row-span-1 xs:row-start-5 flex items-end justify-end"
     to="/color"
     @click="scrollToTop"
   >
     <h2
-      class="text-white font-myMedium lg:text-[30px] md:text-[26px] text-[35px] uppercase cursor-pointer lg:hover:text-[32px] hover:text-[37px] hover:text-customLime"
+      class="text-white font-myMedium lg:text-[30px] md:text-[26px] xs:text-[22px] text-[35px] uppercase cursor-pointer lg:hover:text-[32px] hover:text-[37px] hover:text-customLime"
     >
       Колористика
     </h2>
   </router-link>
 
   <div
-    class="group flex gap-x-10 lg:gap-x-0 col-start-8 col-end-13 row-start-5 row-span-3 xs:col-start-1 sm:col-start-4 sm:row-span-2 w-full bg-customLime rounded-br-[60px] rounded-bl-[60px] rounded-tl-[60px] justify-center items-center p-20 xl:p-16 lg:p-10 md:p-14 sm:p-10 hover:bg-opacity-10 border-customLime border-4 duration-1000"
+    class="group flex gap-x-10 lg:gap-x-0 col-start-8 col-end-13 row-start-5 row-span-3 xs:row-span-3 xs:row-start-6 xs:col-start-1 sm:col-start-4 sm:row-span-2 w-full bg-customLime rounded-br-[60px] rounded-bl-[60px] rounded-tl-[60px] justify-center items-center p-20 xl:p-16 lg:p-10 md:p-14 sm:p-10 xs:p-6 hover:bg-opacity-10 border-customLime border-4 duration-1000"
   >
     <!-- <div class="flex gap-x-10"> -->
     <div
@@ -28,7 +28,7 @@
     <!-- </div> -->
   </div>
   <div
-    class="col-start-9 col-end-13 row-start-8 row-span-1 sm:row-start-7 justify-self-end lg:h-1/2 sm:h-1/3 lg:w-fit text-white border-customLime border-4 rounded-br-[60px] rounded-bl-[60px] rounded-tl-[60px] flex justify-end items-center px-14"
+    class="xs:hidden col-start-9 col-end-13 row-start-8 row-span-1 sm:row-start-7 justify-self-end lg:h-1/2 sm:h-1/3 lg:w-fit text-white border-customLime border-4 rounded-br-[60px] rounded-bl-[60px] rounded-tl-[60px] flex justify-end items-center px-14"
   >
     <p
       class="lowercase font-myUnbounded font-medium lg:text-[18px] sm:text-[22px] text-[22px] text-white"

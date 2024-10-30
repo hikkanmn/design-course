@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-[70px] mb-[-150px] md:mb-[-50px] lg:mt-[50px] md:mt-[25px] sm:mt-0">
+  <div class="mt-[70px] mb-[-150px] md:mb-[-50px] xs:mb-0 lg:mt-[50px] md:mt-[25px] sm:mt-0">
     <!-- Заголовок -->
     <div class="group w-full flex text-center flex-col">
       <h1
@@ -32,7 +32,7 @@
     >
       <!-- Текстовый блок -->
       <p
-        class="font-myUnbounded font-light text-[30px] lg:text-[26px] md:text-[22px] sm:text-[20px] col-start-1 col-end-9 row-start-2 row-end-4 sm:col-end-13 text-white leading-relaxed"
+        class="font-myUnbounded font-light text-[30px] lg:text-[26px] md:text-[22px] sm:text-[20px] xs:text-[14px] col-start-1 col-end-9 row-start-2 row-end-4 sm:col-end-13 text-white leading-relaxed"
       >
         Этот сайт — пособие для студентов, решивших погрузиться в мир дизайна. Здесь ты найдешь все,
         что нужно, чтобы начать свой путь дизайнера и обучиться основам этой профессии.
