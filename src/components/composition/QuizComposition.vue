@@ -102,7 +102,7 @@ import QuizBlock from '/src/components/QuizBlock.vue'
       explanationAnswer="В этом варианте ответа представлен ритм, так как одинаковые элементы используются с определенным интервалом."
     >
       <div
-        class="col-start-1 col-end-5 row-start-2 row-end-4 sm:col-start-1 sm:col-end-8 w-[310px] lg:w-[260px] md:w-[220px] sm:w-[150px] aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] lg:rounded-br-[40px] md:rounded-br-[40px] sm:rounded-br-[30px] rounded-tl-[60px] lg:rounded-tl-[40px] md:rounded-tl-[40px] sm:rounded-tl-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] p-16 lg:p-14 md:p-12 sm:p-10 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
+        class="col-start-1 col-end-5 row-start-2 row-end-4 sm:col-start-1 sm:col-end-8 w-[310px] lg:w-[260px] md:w-[220px] sm:w-[150px] aspect-square flex items-center justify-center border-4 border-white rounded-br-[60px] lg:rounded-br-[40px] md:rounded-br-[40px] sm:rounded-br-[30px] rounded-tl-[60px] lg:rounded-tl-[40px] md:rounded-tl-[40px] sm:rounded-tl-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] p-16 lg:p-14 md:p-12 sm:p-10 xs:py-8 hover:bg-customOrange hover:border-customOrange hover:bg-opacity-10"
       >
         <img
           class="hover:scale-110"

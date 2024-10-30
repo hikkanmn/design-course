@@ -8,7 +8,7 @@
     <h1
       @mouseover="isHovered = true"
       @mouseleave="isHovered = false"
-      class="font-myMedium self-center uppercase hover:text-[100px] text-[95px] lg:text-[75px] lg:hover:text-[80px] md:text-[65px] md:hover:text-[70px] sm:text-[40px] sm:hover:text-[45px] xs:text-[30px] xs:hover:text-[35px] text-center col-start-1 col-end-13 row-start-2 row-end-3 sm:row-start-2 sm:row-end-4 text-white hover:text-customOrange hover:mt-[-20px] leading-relaxed"
+      class="font-myMedium self-center uppercase hover:text-[100px] text-[95px] lg:text-[75px] lg:hover:text-[80px] md:text-[65px] md:hover:text-[67px] sm:text-[40px] xs:text-[30px] xs:hover:text-[32px] text-center col-start-1 col-end-13 row-start-2 row-end-3 sm:row-start-2 sm:row-end-4 text-white hover:text-customOrange hover:mt-[-20px] leading-relaxed"
     >
       композиция
     </h1>
@@ -37,7 +37,9 @@
     >
       дизайна
     </p>
-    <div class="flex items-center col-start-1 col-end-13 row-start-4 row-end-6 sm:row-start-5 sm:row-end-8">
+    <div
+      class="flex items-center col-start-1 col-end-13 row-start-4 row-end-6 sm:row-start-5 sm:row-end-8"
+    >
       <div>
         <p
           class="font-myUnbounded font-light text-[25px] md:text-[22px] sm:text-[18px] xs:text-[14px] text-white leading-relaxed"

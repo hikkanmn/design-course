@@ -8,9 +8,9 @@
     ></div>
     <div class="flex flex-col">
       <!-- Имя -->
-      <p class="text-white font-myUnbounded font-medium text-[15px] lg:text-[12px]">{{ name }}</p>
+      <p class="text-white font-myUnbounded font-medium text-[15px] lg:text-[12px] xs:text-[10px]">{{ name }}</p>
       <!-- Email -->
-      <p class="text-white text-opacity-50 font-myUnbounded font-light text-[15px] lg:text-[12px]">
+      <p class="text-white text-opacity-50 font-myUnbounded font-light text-[15px] lg:text-[12px] xs:text-[10px]">
         {{ email }}
       </p>
     </div>

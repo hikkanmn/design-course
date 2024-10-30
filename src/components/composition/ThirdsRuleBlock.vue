@@ -5,7 +5,9 @@
   <div
     class="pr-16 xs:pr-8 py-2 bg-customPurple hover:bg-opacity-50 hover:border-r-4 hover:border-white rounded-r-full pl-[135px] lg:pl-[100px] md:pl-[50px] sm:pl-[20px] mr-[135px] lg:mr-[100px] md:mr-[50px] sm:mr-[20px] mt-28 lg:mt-10 mb-10 text-white flex justify-between items-center"
   >
-    <p class="text-[65px] lg:text-[35px] md:text-[30px] sm:text-[24px] xs:text-[18px] font-myMedium">
+    <p
+      class="text-[65px] lg:text-[35px] md:text-[30px] sm:text-[24px] xs:text-[18px] font-myMedium"
+    >
       правило третей
     </p>
     <span
@@ -34,7 +36,7 @@
     </div>
 
     <div
-      class="col-start-3 col-end-13 row-start-2 row-end-5 sm:col-start-1 sm:row-end-4 border-4 w-fit hover:bg-white hover:bg-opacity-10 border-white rounded-bl-[60px] rounded-tl-[60px] rounded-tr-[60px] flex flex-col justify-center items-center py-4 px-16 lg:px-14 md:px-12 sm:px-8 gap-8 justify-self-end"
+      class="col-start-3 col-end-13 row-start-2 row-end-5 sm:col-start-1 sm:row-end-4 border-4 w-fit hover:bg-white hover:bg-opacity-10 border-white rounded-bl-[60px] lg:rounded-bl-[40px] md:rounded-bl-[40px] sm:rounded-bl-[30px] rounded-tl-[60px] lg:rounded-tl-[40px] md:rounded-tl-[40px] sm:rounded-tl-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] flex flex-col justify-center items-center py-4 px-16 lg:px-14 md:px-12 sm:px-8 gap-8 justify-self-end"
     >
       <p
         class="font-myUnbounded text-white font-light text-[22px] lg:text-[18px] sm:text-[16px] xs:text-[14px]"
@@ -51,7 +53,7 @@
       </p>
     </div>
     <div
-      class="col-start-1 col-end-10 row-start-5 row-end-7 sm:col-end-13 sm:row-start-6 sm:row-end-8 h-fit border-4 hover:bg-white hover:bg-opacity-10 border-white rounded-br-[60px] rounded-tl-[60px] rounded-tr-[60px] flex flex-col justify-center items-center py-4 px-16 lg:px-14 md:px-12 sm:px-8 gap-8"
+      class="col-start-1 col-end-10 row-start-5 row-end-7 sm:col-end-13 sm:row-start-6 sm:row-end-8 h-fit border-4 hover:bg-white hover:bg-opacity-10 border-white rounded-br-[60px] lg:rounded-br-[40px] md:rounded-br-[40px] sm:rounded-br-[30px] rounded-tl-[60px] lg:rounded-tl-[40px] md:rounded-tl-[40px] sm:rounded-tl-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] flex flex-col justify-center items-center py-4 px-16 lg:px-14 md:px-12 sm:px-8 gap-8"
     >
       <p
         class="font-myUnbounded text-white font-light text-[22px] lg:text-[18px] sm:text-[16px] xs:text-[14px]"
