@@ -122,7 +122,7 @@
     >
 
     <div
-      class="group self-center hover:bg-opacity-20 hover:bg-customOrange col-start-5 col-end-9 row-start-9 row-end-10 md:col-start-4 md:col-end-10 md:row-start-7 md:row-end-8 border-4 border-customOrange p-2 rounded-[100px] flex items-center justify-center"
+      class="h-full group self-center hover:bg-opacity-20 hover:bg-customOrange col-start-5 col-end-9 row-start-9 row-end-10 md:col-start-4 md:col-end-10 md:row-start-7 md:row-end-8 border-4 border-customOrange p-2 rounded-[100px] flex items-center justify-center"
     >
       <p
         class="text-white font-myUnbounded font-medium text-center text-[22px] lg:text-[18px] sm:text-[16px] xs:text-[12px]"
