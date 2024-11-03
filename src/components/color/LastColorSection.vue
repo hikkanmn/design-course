@@ -25,7 +25,7 @@
       alt="Ошибка загрузки изображения! Попробуйте перезагрузить страницу"
     />
     <h2
-      class="col-start-7 col-end-13 row-start-5 row-end-6 font-myMedium uppercase text-[45px] lg:text-[30px] md:text-[25px] sm:text-[20px] xs:text-[16px] md:flex text-white leading-none mb-4"
+      class="col-start-7 col-end-13 row-start-5 row-end-6 font-myMedium uppercase text-[45px] lg:text-[30px] md:text-[25px] sm:text-[20px] xs:text-[14px] md:flex text-white leading-none mb-4"
     >
       колористика
     </h2>
