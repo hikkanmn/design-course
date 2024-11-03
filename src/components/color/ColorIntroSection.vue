@@ -8,7 +8,7 @@
     <h1
       @mouseover="isHovered = true"
       @mouseleave="isHovered = false"
-      class="group font-myMedium uppercase text-[90px] lg:text-[70px] md:text-[55px] sm:text-[38px] xs:text-[30px] text-center col-start-1 col-end-13 row-start-1 row-end-2 text-white mt-[-10px] leading-relaxed flex items-center justify-center"
+      class="group font-myMedium uppercase text-[90px] lg:text-[70px] md:text-[55px] sm:text-[38px] xs:text-[28px] text-center col-start-1 col-end-13 row-start-1 row-end-2 text-white mt-[-10px] leading-relaxed flex items-center justify-center"
     >
       <span class="group-hover:text-customPurple">к</span
       ><span class="text-customOrange group-hover:text-customLime">о</span

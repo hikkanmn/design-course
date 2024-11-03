@@ -41,12 +41,12 @@
     </div>
 
     <h2
-      class="col-start-1 col-end-9 row-start-4 row-end-6 font-myMedium uppercase text-[45px] lg:text-[35px] md:text-[25px] sm:text-[24px] xs:text-[18px] text-white leading-none mb-4"
+      class="col-start-1 col-end-9 row-start-4 row-end-6 font-myMedium uppercase text-[45px] lg:text-[35px] md:text-[25px] sm:text-[24px] xs:text-[16px] text-white leading-none mb-4"
     >
       психология цвета
     </h2>
     <p
-      class="col-start-9 col-end-13 row-start-4 row-end-6 font-myUnbounded font-light lowercase text-[22px] lg:text-[18px] sm:text-[14px] xs:text-[12px] text-white leading-snug"
+      class="col-start-9 col-end-13 row-start-4 row-end-6 font-myUnbounded font-light lowercase text-[22px] lg:text-[18px] sm:text-[14px] xs:text-[10px] text-white leading-snug"
     >
       — изучение того, как разные цвета влияют на эмоции, ассоциации и восприятие информации у
       людей.
@@ -69,7 +69,7 @@
   </div>
 
   <!-- основные принципы  -->
-  <div class="flex justify-end mb-10">
+  <div class="flex justify-end my-10">
     <div
       class="w-fit py-5 pr-[135px] lg:pr-[100px] md:pr-[50px] sm:pr-[20px] pl-12 border-b-4 border-l-4 border-t-4 border-customLime hover:bg-customLime hover:bg-opacity-10 rounded-l-[60px]"
     >

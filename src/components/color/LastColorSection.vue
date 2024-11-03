@@ -30,7 +30,7 @@
       колористика
     </h2>
     <p
-      class="col-start-3 col-end-13 row-start-6 row-end-7 sm:row-end-8 font-myUnbounded font-light lowercase text-[22px] lg:text-[18px] sm:text-[16px] xs:text-[10px] text-white leading-snug"
+      class="col-start-3 col-end-13 row-start-6 row-end-7 sm:row-end-8 font-myUnbounded font-light lowercase text-[22px] lg:text-[18px] sm:text-[16px] xs:text-[12px] text-white leading-snug"
     >
       — это не про случайный выбор красивых цветов. Это глубокая и многогранная дисциплина, которая
       требует понимания психологии цвета, цветовых гармоний и принципов баланса.

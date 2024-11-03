@@ -35,12 +35,12 @@
       class="col-start-8 col-end-13 row-start-2 row-end-5 sm:row-start-1 flex flex-col text-start ml-4 py-12 gap-10 sm:gap-4"
     >
       <h2
-        class="font-myMedium uppercase text-[52px] lg:text-[40px] md:text-[30px] sm:text-[20px] xs:text-[14px] text-white leading-none mb-4"
+        class="font-myMedium uppercase text-[52px] lg:text-[40px] md:text-[30px] sm:text-[20px] xs:text-[12px] text-white leading-none mb-4"
       >
         цветовой баланс
       </h2>
       <p
-        class="font-myUnbounded font-light lowercase text-[22px] lg:text-[18px] sm:text-[14px] xs:text-[12px] text-white leading-snug"
+        class="font-myUnbounded font-light lowercase text-[22px] lg:text-[18px] sm:text-[14px] xs:text-[10px] text-white leading-snug"
       >
         — это гармоничное сочетание цветов, которое создает приятное и уравновешенное восприятие
         дизайна.

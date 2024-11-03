@@ -7,7 +7,7 @@ import QuizBlock from '/src/components/QuizBlock.vue'
   <div class="mb-28 lg:mb-20 md:mb-10 sm:mb-4">
     <div class="flex justify-start">
       <div
-        class="pr-10 w-fit py-2 bg-customPurple hover:bg-opacity-50 hover:border-t-2 hover:border-white rounded-r-[100px] duration-100 pl-[135px] lg:pl-[100px] md:pl-[50px] sm:pl-[20px] mr-10 sm:mr-4 my-20 text-white flex items-center"
+        class="pr-10 sm:pr-4 w-fit py-2 bg-customPurple hover:bg-opacity-50 hover:border-t-2 hover:border-white rounded-r-[100px] duration-100 pl-[135px] lg:pl-[100px] md:pl-[50px] sm:pl-[20px] mr-10 sm:mr-4 my-20 text-white flex items-center"
       >
         <p class="text-[40px] lg:text-[30px] md:text-[25px] sm:text-[20px] font-myMedium">квиз</p>
       </div>
