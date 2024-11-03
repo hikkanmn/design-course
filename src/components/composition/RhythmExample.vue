@@ -5,7 +5,9 @@
     class="grid grid-cols-12 grid-rows-4 gap-y-[30px] sm:gap-y-[15px] gap-x-[10px] px-[135px] lg:px-[100px] md:px-[50px] sm:px-[20px] mb-10 xs:mb-0"
   >
     <div class="col-start-1 col-end-13 row-start-1 row-end-2 flex items-end">
-      <p class="text-white font-myUnbounded font-light text-[22px] lg:text-[18px] sm:text-[16px] xs:text-[14px] ">
+      <p
+        class="text-white font-myUnbounded font-light text-[22px] lg:text-[18px] sm:text-[16px] xs:text-[14px]"
+      >
         <span class="text-customOrange font-medium">{{ main_text }}&ensp;</span>
         {{ text_about }}
       </p>

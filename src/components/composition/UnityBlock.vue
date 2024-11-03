@@ -4,7 +4,11 @@
   <div
     class="pr-16 xs:pr-8 py-2 bg-customPurple hover:bg-opacity-50 hover:border-r-4 hover:border-white rounded-r-full pl-[135px] lg:pl-[100px] md:pl-[50px] sm:pl-[20px] mr-[135px] lg:mr-[100px] md:mr-[50px] sm:mr-[20px] mt-28 lg:mt-10 mb-10 text-white flex justify-between items-center"
   >
-    <p class="text-[65px] lg:text-[35px] md:text-[30px] sm:text-[24px] xs:text-[18px] font-myMedium">единство</p>
+    <p
+      class="text-[65px] lg:text-[35px] md:text-[30px] sm:text-[24px] xs:text-[18px] font-myMedium"
+    >
+      единство
+    </p>
     <span
       class="font-myUnbounded font-medium text-[65px] lg:text-[35px] md:text-[30px] sm:text-[24px]"
       >4</span

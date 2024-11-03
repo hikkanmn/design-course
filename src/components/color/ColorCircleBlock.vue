@@ -1,29 +1,38 @@
 <script setup></script>
 
 <template>
-  <div class="grid grid-cols-12 grid-rows-9 gap-y-[30px] gap-x-[10px] px-[135px]">
+  <div
+    class="grid grid-cols-12 grid-rows-9 sm:grid-rows-12 gap-y-[30px] gap-x-[10px] px-[135px] lg:px-[100px] md:px-[50px] sm:px-[20px]"
+  >
     <div
-      class="col-start-1 col-end-13 row-start-1 row-end-2 z-10 bg-customPurple h-1/3 rounded-r-[60px] rounded-tl-[60px]"
+      class="col-start-1 col-end-13 row-start-1 row-end-2 z-10 bg-customPurple h-1/3 rounded-r-[60px] lg:rounded-r-[40px] md:rounded-r-[40px] sm:rounded-r-[30px] rounded-tl-[60px] lg:rounded-tl-[40px] md:rounded-tl-[40px] sm:rounded-tl-[30px]"
     ></div>
     <div
-      class="col-start-1 col-end-2 row-start-1 row-end-4 bg-customLime rounded-b-[100px] rounded-tl-[60px] flex items-end justify-center p-4"
+      class="col-start-1 col-end-2 row-start-1 row-end-4 bg-customLime rounded-b-[100px] lg:rounded-b-[40px] md:rounded-b-[40px] sm:rounded-b-[30px] rounded-tl-[60px] lg:rounded-tl-[40px] md:rounded-tl-[40px] sm:rounded-tl-[30px] flex items-end justify-center p-4"
     >
-      <span class="font-myUnbounded font-medium text-[55px] text-customBlack">1</span>
+      <span
+        class="font-myUnbounded font-medium text-[55px] md:text-[45px] sm:text-[35px] xs:text-[20px] text-customBlack"
+        >1</span
+      >
     </div>
     <div
       class="col-start-2 col-end-13 row-start-2 row-end-4 flex flex-col text-start ml-4 justify-end"
     >
-      <h2 class="font-myMedium uppercase text-[52px] text-white leading-none mb-6">
+      <h2
+        class="font-myMedium uppercase text-[52px] lg:text-[40px] md:text-[30px] sm:text-[20px] xs:text-[14px] text-white leading-none mb-6"
+      >
         цветовой круг
       </h2>
-      <p class="font-myUnbounded font-light lowercase text-[22px] text-white leading-shug">
+      <p
+        class="font-myUnbounded font-light lowercase text-[22px] lg:text-[18px] sm:text-[14px] xs:text-[12px] text-white leading-shug"
+      >
         — это инструмент, который помогает дизайнерам понимать взаимосвязи между цветами и создавать
         гармоничные цветовые сочетания.
       </p>
     </div>
 
     <div
-      class="col-start-1 col-end-9 row-start-4 row-end-10 font-myUnbounded font-light text-[22px] space-y-5 flex flex-col my-14"
+      class="col-start-1 col-end-9 row-start-4 row-end-10 sm:row-end-13 font-myUnbounded font-light text-[22px] lg:text-[18px] sm:text-[14px] xs:text-[12px] space-y-5 flex flex-col my-14"
     >
       <h3 class="text-customOrange">Основные элементы цветового круга:</h3>
       <p class="text-white">
@@ -47,7 +56,7 @@
       </p>
     </div>
     <img
-      class="col-start-9 col-end-13 row-start-4 row-end-10 self-end mb-14 ml-6"
+      class="col-start-9 col-end-13 row-start-4 row-end-10 sm:row-end-13 self-end h-full"
       src="/src/img/color_circle.svg"
       alt="Ошибка загрузки изображения! Попробуйте перезагрузить страницу"
     />

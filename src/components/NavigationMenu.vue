@@ -5,7 +5,7 @@ import MenuLink from '/src/components/MenuLink.vue'
 <template>
   <header class="flex justify-center">
     <div
-      class="px-[135px] lg:px-[100px] md:px-[50px] sm:px-[20px] py-[50px] w-full flex justify-between items-center"
+      class="px-[135px] lg:px-[100px] md:px-[50px] sm:px-[20px] py-[50px] md:py-[30px] xs:py-[15px] w-full flex justify-between items-center"
     >
       <!-- Главная страница -->
       <MenuLink
