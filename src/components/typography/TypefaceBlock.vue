@@ -29,27 +29,27 @@
       class="group col-start-1 col-end-8 md:col-end-7 row-start-3 row-end-8 sm:row-end-7 font-myMedium flex flex-col justify-center"
     >
       <span
-        class="text-[64px] lg:text-[45px] md:text-[35px] sm:text-[22px] xs:text-[18px] leading-3 text-customPurple_o66 group-hover:text-customPurple"
+        class="text-[64px] lg:text-[45px] md:text-[35px] sm:text-[22px] xs:text-[16px] leading-3 text-customPurple_o66 group-hover:text-customPurple"
         >начертания</span
       >
       <span
-        class="text-[83px] lg:text-[60px] md:text-[50px] sm:text-[26px] xs:text-[20px] text-customPurple group-hover:text-customPurple_o66"
+        class="text-[83px] lg:text-[60px] md:text-[50px] sm:text-[26px] xs:text-[18px] text-customPurple group-hover:text-customPurple_o66"
         >очень</span
       >
       <span
-        class="text-[105px] lg:text-[80px] md:text-[60px] sm:text-[38px] xs:text-[31px] leading-10 text-customPurple group-hover:text-customPurple_o66"
+        class="text-[105px] lg:text-[80px] md:text-[60px] sm:text-[38px] xs:text-[28px] leading-10 text-customPurple group-hover:text-customPurple_o66"
         >важны</span
       >
       <span
-        class="text-[64px] lg:text-[45px] md:text-[35px] sm:text-[22px] xs:text-[18px] leading-relaxed text-customPurple_o66 group-hover:text-customPurple"
+        class="text-[64px] lg:text-[45px] md:text-[35px] sm:text-[22px] xs:text-[16px] leading-relaxed text-customPurple_o66 group-hover:text-customPurple"
         >для</span
       >
       <span
-        class="text-[64px] lg:text-[45px] md:text-[35px] sm:text-[22px] xs:text-[18px] leading-6 text-customPurple_o66 group-hover:text-customPurple"
+        class="text-[64px] lg:text-[45px] md:text-[35px] sm:text-[22px] xs:text-[16px] leading-6 text-customPurple_o66 group-hover:text-customPurple"
         >восприятия</span
       >
       <span
-        class="text-[60px] lg:text-[40px] md:text-[32px] sm:text-[20px] xs:text-[17px] text-customPurple group-hover:text-customPurple_o66"
+        class="text-[60px] lg:text-[40px] md:text-[32px] sm:text-[20px] xs:text-[15px] text-customPurple group-hover:text-customPurple_o66"
         >информации</span
       >
     </p>

@@ -5,7 +5,7 @@
     class="mr-[135px] lg:mr-[100px] md:mr-[50px] sm:mr-[20px] bg-customPurple rounded-r-[100px] h-[40px]"
   ></div>
   <div
-    class="grid grid-cols-12 grid-rows-2 gap-y-[30px] gap-x-[10px] px-[135px] lg:px-[100px] md:px-[50px] sm:px-[20px] mb-20 mt-10"
+    class="grid grid-cols-12 grid-rows-2 gap-y-[30px] gap-x-[10px] px-[135px] lg:px-[100px] md:px-[50px] sm:px-[20px] mb-20 xs:mb-0 mt-10"
   >
     <div
       class="col-start col-end-2 row-start-1 row-end-2 group aspect-square hover:bg-customOrange bg-customLime rounded-[60px] px-12 md:px-8 xs:px-6 py-2 flex items-center justify-center"
@@ -28,10 +28,10 @@
     </p>
   </div>
   <div
-    class="grid grid-cols-12 grid-rows-10 md:grid-rows-7 gap-y-[30px] gap-x-[10px] px-[135px] lg:px-[100px] md:px-[50px] sm:px-[20px] mb-20"
+    class="grid grid-cols-12 grid-rows-10 md:grid-rows-7 gap-y-[30px] gap-x-[10px] px-[135px] lg:px-[100px] md:px-[50px] sm:px-[20px] mb-20 xs:mb-0"
   >
     <h3
-      class="text-customLime col-start-1 col-end-8 row-start-1 row-end-2 font-myUnbounded self-center font-light text-[22px] lg:text-[18px] sm:text-[14px] xs:text-[12px]"
+      class="text-customLime xs:self-end col-start-1 col-end-8 row-start-1 row-end-2 font-myUnbounded self-center font-light text-[22px] lg:text-[18px] sm:text-[14px] xs:text-[12px]"
     >
       Основные принципы сочетания шрифтов:
     </h3>
@@ -105,7 +105,7 @@
 
     <!-- text block  -->
     <div
-      class="col-start-1 col-end-13 row-start-9 row-end-11 md:row-start-6 md:row-end-8 font-myUnbounded font-light text-white text-[22px] lg:text-[18px] sm:text-[14px] xs:text-[12px] self-end"
+      class="col-start-1 col-end-13 row-start-9 row-end-11 md:row-start-6 md:row-end-8 xs:self-center font-myUnbounded font-light text-white text-[22px] lg:text-[18px] sm:text-[14px] xs:text-[12px] self-end"
     >
       <h3 class="text-customLime mb-10">Советы по сочетанию шрифтов:</h3>
       <p>• Используйте не более трех шрифтов в одном дизайне;</p>

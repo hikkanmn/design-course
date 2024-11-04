@@ -5,7 +5,7 @@
     class="mr-[135px] lg:mr-[100px] md:mr-[50px] sm:mr-[20px] bg-customPurple rounded-r-[100px] h-[40px]"
   ></div>
   <div
-    class="grid grid-cols-12 grid-rows-2 gap-y-[30px] gap-x-[10px] px-[135px] lg:px-[100px] md:px-[50px] sm:px-[20px] mb-20 mt-10"
+    class="grid grid-cols-12 grid-rows-2 gap-y-[30px] gap-x-[10px] px-[135px] lg:px-[100px] md:px-[50px] sm:px-[20px] mb-20 xs:mb-0 mt-10"
   >
     <div
       class="col-start col-end-2 row-start-1 row-end-2 group aspect-square hover:bg-customOrange bg-customLime rounded-[60px] px-12 md:px-8 xs:px-6 py-2 flex items-center justify-center"
@@ -30,10 +30,10 @@
   </div>
 
   <div
-    class="grid grid-cols-12 grid-rows-12 lg:grid-rows-7 gap-y-[30px] gap-x-[10px] px-[135px] lg:px-[100px] md:px-[50px] sm:px-[20px] mb-40"
+    class="grid grid-cols-12 grid-rows-12 lg:grid-rows-7 gap-y-[30px] gap-x-[10px] px-[135px] lg:px-[100px] md:px-[50px] sm:px-[20px] mb-40 xs:mb-20"
   >
     <h3
-      class="text-customLime col-start-1 col-end-8 row-start-1 row-end-2 font-myUnbounded font-light text-[22px] lg:text-[18px] sm:text-[14px] xs:text-[12px] self-center"
+      class="text-customLime xs:self-end col-start-1 col-end-8 row-start-1 row-end-2 font-myUnbounded font-light text-[22px] lg:text-[18px] sm:text-[14px] xs:text-[12px] self-center"
     >
       Типы шрифтов:
     </h3>

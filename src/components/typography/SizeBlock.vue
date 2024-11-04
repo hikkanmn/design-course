@@ -4,9 +4,9 @@
   <div
     class="mr-[135px] lg:mr-[100px] md:mr-[50px] sm:mr-[20px] bg-customPurple rounded-r-[100px] h-[40px]"
   ></div>
-  
+
   <div
-    class="grid grid-cols-12 grid-rows-4 gap-y-[30px] gap-x-[10px] px-[135px] lg:px-[100px] md:px-[50px] sm:px-[20px] mt-10 mb-20"
+    class="grid grid-cols-12 grid-rows-4 gap-y-[30px] gap-x-[10px] px-[135px] lg:px-[100px] md:px-[50px] sm:px-[20px] mt-10 mb-20 xs:mb-10"
   >
     <div
       class="col-start col-end-2 row-start-1 row-end-2 group aspect-square hover:bg-customOrange bg-customLime rounded-[60px] px-12 md:px-8 xs:px-6 py-2 flex items-center justify-center"
@@ -17,7 +17,7 @@
       >
     </div>
     <h2
-      class="col-start-3 col-end-6 row-start-1 row-end-2 self-center font-myMedium text-white text-[52px] lg:text-[40px] md:text-[30px] sm:text-[20px] xs:text-[14px]"
+      class="col-start-3 col-end-6 row-start-1 row-end-2 xs:self-start xs:pt-5 self-center font-myMedium text-white text-[52px] lg:text-[40px] md:text-[30px] sm:text-[20px] xs:text-[14px]"
     >
       кегль
     </h2>
@@ -27,21 +27,21 @@
       — это размер шрифта, измеряемый в пунктах (pt).
     </p>
     <p
-      class="col-start-1 col-end-5 row-start-2 row-end-4 font-myMedium outline-4 outline-customPurple flex flex-col self-end group"
+      class="col-start-1 col-end-5 row-start-2 row-end-4 xs:row-end-3 xs:self-center font-myMedium outline-4 outline-customPurple flex flex-col self-end group"
     >
       <span
-        class="text-[74px] lg:text-[60px] md:text-[45px] sm:text-[32px] xs:text-[25px] leading-6 text-customPurple group-hover:text-customPurple_o66"
+        class="text-[74px] lg:text-[60px] md:text-[45px] sm:text-[32px] xs:text-[23px] leading-6 text-customPurple group-hover:text-customPurple_o66"
         >кегли</span
       ><span
-        class="text-[55px] lg:text-[45px] md:text-[34px] sm:text-[24px] xs:text-[18px] text-customPurple_o66 group-hover:text-customPurple"
+        class="text-[55px] lg:text-[45px] md:text-[34px] sm:text-[24px] xs:text-[17px] text-customPurple_o66 group-hover:text-customPurple"
         >бывают</span
       ><span
-        class="text-[47px] lg:text-[38px] md:text-[28px] sm:text-[20px] xs:text-[16px] leading-3 text-customPurple group-hover:text-customPurple_o66"
+        class="text-[47px] lg:text-[38px] md:text-[28px] sm:text-[20px] xs:text-[14px] leading-3 text-customPurple group-hover:text-customPurple_o66"
         >разными</span
       >
     </p>
     <div
-      class="col-start-6 col-end-13 row-start-2 row-end-5 font-myUnbounded font-light text-white text-[22px] lg:text-[18px] sm:text-[14px] xs:text-[12px] self-center"
+      class="col-start-6 col-end-13 row-start-2 row-end-5 xs:col-start-1 xs:row-start-3 font-myUnbounded font-light text-white text-[22px] lg:text-[18px] sm:text-[14px] xs:text-[12px] self-center"
     >
       <h3 class="text-customLime mb-10">Преимущества использования гарнитур:</h3>
       <p>
@@ -70,7 +70,7 @@
       </p>
     </div>
     <div
-      class="col-start-6 col-end-13 row-start-1 row-end-2 lg:row-end-3 border-4 hover:bg-customPurple hover:bg-opacity-20 border-customPurple rounded-l-[60px] lg:rounded-l-[40px] md:rounded-l-[40px] sm:rounded-l-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] px-10 py-6 flex items-center text-end lg:self-center"
+      class="col-start-6 col-end-13 row-start-1 row-end-2 lg:row-end-3 border-4 hover:bg-customPurple hover:bg-opacity-20 border-customPurple rounded-l-[60px] lg:rounded-l-[40px] md:rounded-l-[40px] sm:rounded-l-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] px-10 xs:px-4 py-6 flex items-center text-end lg:self-center"
     >
       <p
         class="text-white text-[22px] lg:text-[18px] sm:text-[14px] xs:text-[12px] font-myUnbounded font-light"
@@ -88,7 +88,7 @@
       </p>
     </div>
     <div
-      class="col-start-6 col-end-13 row-start-3 row-end-4 lg:row-end-5 border-4 hover:bg-customLime hover:bg-opacity-20 border-customLime rounded-l-[60px] lg:rounded-l-[40px] md:rounded-l-[40px] sm:rounded-l-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] px-10 py-6 flex items-center text-end lg:self-center"
+      class="col-start-6 col-end-13 row-start-3 row-end-4 lg:row-end-5 border-4 hover:bg-customLime hover:bg-opacity-20 border-customLime rounded-l-[60px] lg:rounded-l-[40px] md:rounded-l-[40px] sm:rounded-l-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] px-10 xs:px-4 py-6 flex items-center text-end lg:self-center"
     >
       <p
         class="text-white text-[22px] lg:text-[18px] sm:text-[14px] xs:text-[12px] font-myUnbounded font-light"
@@ -106,7 +106,7 @@
       </p>
     </div>
     <div
-      class="col-start-6 col-end-13 row-start-5 row-end-6 lg:row-end-7 border-4 hover:bg-customPurple hover:bg-opacity-20 border-customPurple rounded-l-[60px] lg:rounded-l-[40px] md:rounded-l-[40px] sm:rounded-l-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] px-10 py-6 flex items-center text-end lg:self-center"
+      class="col-start-6 col-end-13 row-start-5 row-end-6 lg:row-end-7 border-4 hover:bg-customPurple hover:bg-opacity-20 border-customPurple rounded-l-[60px] lg:rounded-l-[40px] md:rounded-l-[40px] sm:rounded-l-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] px-10 xs:px-4 py-6 flex items-center text-end lg:self-center"
     >
       <p
         class="text-white text-[22px] lg:text-[18px] sm:text-[14px] xs:text-[12px] font-myUnbounded font-light"
