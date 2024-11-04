@@ -50,7 +50,7 @@
       alt="Ошибка загрузки изображения! Попробуйте перезагрузить странцу"
     />
     <div
-      class="col-start-9 col-end-13 row-start-2 row-end-3 hover:bg-opacity-10 border-4 border-customPurple bg-customPurple rounded-l-[60px] lg:rounded-l-[40px] md:rounded-l-[40px] sm:rounded-l-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] px-10 sm:px-4 py-4 lg:py-2 flex items-center justify-end text-end self-center"
+      class="col-start-9 col-end-13 row-start-2 row-end-3 hover:bg-opacity-10 border-4 border-customPurple bg-customPurple rounded-l-[60px] lg:rounded-l-[40px] md:rounded-l-[40px] sm:rounded-l-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] px-10 sm:px-4 xs:pr-2 py-4 lg:py-2 flex items-center justify-end text-end self-center"
     >
       <p class="text-white text-[30px] lg:text-[22px] md:text-[18px] font-myPhudu">Пример шрифта</p>
     </div>
@@ -63,7 +63,7 @@
       часто используются в рекламе и дизайне плакатов.
     </p>
     <div
-      class="col-start-8 col-end-13 row-start-4 row-end-5 lg:row-start-3 lg:row-end-4 group hover:bg-opacity-10 border-4 border-customLime bg-customLime rounded-l-[60px] lg:rounded-l-[40px] md:rounded-l-[40px] sm:rounded-l-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] px-10 sm:px-4 py-4 lg:py-2 flex items-center justify-end text-end self-center"
+      class="col-start-8 col-end-13 row-start-4 row-end-5 lg:row-start-3 lg:row-end-4 group hover:bg-opacity-10 border-4 border-customLime bg-customLime rounded-l-[60px] lg:rounded-l-[40px] md:rounded-l-[40px] sm:rounded-l-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] px-10 sm:px-4 xs:pr-2 py-4 lg:py-2 flex items-center justify-end text-end self-center"
     >
       <p
         class="text-customBlack text-[40px] lg:text-[30px] md:text-[25px] font-mySoledago group-hover:text-white"
@@ -85,7 +85,7 @@
       alt="Ошибка загрузки изображения! Попробуйте перезагрузить странцу"
     />
     <div
-      class="col-start-9 col-end-13 row-start-6 row-end-7 lg:row-start-4 lg:row-end-5 hover:bg-opacity-10 border-4 border-customPurple bg-customPurple rounded-l-[60px] lg:rounded-l-[40px] md:rounded-l-[40px] sm:rounded-l-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] px-10 sm:px-4 py-4 lg:py-2 flex items-center justify-end text-end self-center"
+      class="col-start-9 col-end-13 row-start-6 row-end-7 lg:row-start-4 lg:row-end-5 hover:bg-opacity-10 border-4 border-customPurple bg-customPurple rounded-l-[60px] lg:rounded-l-[40px] md:rounded-l-[40px] sm:rounded-l-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] px-10 sm:px-4 xs:pr-2 py-4 lg:py-2 flex items-center justify-end text-end self-center"
     >
       <p class="text-white text-[30px] lg:text-[22px] md:text-[18px] font-myAlice">Пример шрифта</p>
     </div>
@@ -98,7 +98,7 @@
       элегантностью и формальностью. Используются для книг, журналов, официальных документов.
     </p>
     <div
-      class="col-start-8 col-end-13 row-start-8 row-end-9 lg:row-start-5 lg:row-end-6 group hover:bg-opacity-10 border-4 border-customLime bg-customLime rounded-l-[60px] lg:rounded-l-[40px] md:rounded-l-[40px] sm:rounded-l-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] px-10 sm:px-4 py-4 lg:py-2 flex items-center justify-end text-end self-center"
+      class="col-start-8 col-end-13 row-start-8 row-end-9 lg:row-start-5 lg:row-end-6 group hover:bg-opacity-10 border-4 border-customLime bg-customLime rounded-l-[60px] lg:rounded-l-[40px] md:rounded-l-[40px] sm:rounded-l-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] px-10 sm:px-4 xs:pr-2 py-4 lg:py-2 flex items-center justify-end text-end self-center"
     >
       <p
         class="text-customBlack text-[30px] lg:text-[28px] md:text-[24px] font-myVollkornSC group-hover:text-white"
@@ -120,7 +120,7 @@
       alt="Ошибка загрузки изображения! Попробуйте перезагрузить странцу"
     />
     <div
-      class="col-start-9 col-end-13 row-start-10 row-end-11 lg:row-start-6 lg:row-end-7 hover:bg-opacity-10 border-4 border-customPurple bg-customPurple rounded-l-[60px] lg:rounded-l-[40px] md:rounded-l-[40px] sm:rounded-l-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] px-10 sm:px-4 py-4 lg:py-2 flex items-center justify-end text-end self-center"
+      class="col-start-9 col-end-13 row-start-10 row-end-11 lg:row-start-6 lg:row-end-7 hover:bg-opacity-10 border-4 border-customPurple bg-customPurple rounded-l-[60px] lg:rounded-l-[40px] md:rounded-l-[40px] sm:rounded-l-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] px-10 sm:px-4 xs:pr-2 py-4 lg:py-2 flex items-center justify-end text-end self-center"
     >
       <p class="text-white text-[45px] lg:text-[35px] md:text-[30px] font-myBravoSC leading-8">
         Пример шрифта
@@ -135,7 +135,7 @@
       образом персонализируют текст.
     </p>
     <div
-      class="col-start-8 col-end-13 row-start-12 row-end-13 lg:row-start-7 lg:row-end-8 group hover:bg-opacity-10 border-4 border-customLime bg-customLime rounded-l-[60px] lg:rounded-l-[40px] md:rounded-l-[40px] sm:rounded-l-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] px-10 sm:px-4 py-4 lg:py-2 flex items-center justify-end text-end self-center"
+      class="col-start-8 col-end-13 row-start-12 row-end-13 lg:row-start-7 lg:row-end-8 group hover:bg-opacity-10 border-4 border-customLime bg-customLime rounded-l-[60px] lg:rounded-l-[40px] md:rounded-l-[40px] sm:rounded-l-[30px] rounded-tr-[60px] lg:rounded-tr-[40px] md:rounded-tr-[40px] sm:rounded-tr-[30px] px-10 sm:px-4 xs:pr-2 py-4 lg:py-2 flex items-center justify-end text-end self-center"
     >
       <p
         class="text-customBlack text-[40px] lg:text-[30px] md:text-[25px] font-myStampatelloFaceto group-hover:text-white"
