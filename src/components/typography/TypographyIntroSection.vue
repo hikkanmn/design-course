@@ -1,9 +1,11 @@
 <script setup></script>
 
 <template>
-  <div class="grid grid-cols-12 grid-rows-2 gap-y-[30px] gap-x-[10px] px-[135px] pt-32 mb-20">
+  <div
+    class="grid grid-cols-12 grid-rows-2 gap-y-[30px] gap-x-[10px] px-[135px] lg:px-[100px] md:px-[50px] sm:px-[20px] pt-32 md:pt-14 mb-20"
+  >
     <h1
-      class="font-myMedium uppercase text-[100px] text-end col-start-1 col-end-13 row-start-1 row-end-2 text-white leading-relaxed"
+      class="font-myMedium uppercase text-[100px] lg:text-[80px] md:text-[60px] sm:text-[45px] xs:text-[35px] text-end col-start-1 col-end-13 row-start-1 row-end-2 text-white leading-relaxed"
     >
       <span class="hover:tracking-widest">т</span
       ><span class="font-myPlayfairDisplay hover:tracking-widest lowercase">и</span
@@ -17,8 +19,10 @@
     </h1>
 
     <div class="flex items-center col-start-1 col-end-13 row-start-2 row-end-3">
-      <div>
-        <p class="font-myUnbounded font-light text-[25px] text-white leading-relaxed">
+      <div class="mb-10">
+        <p
+          class="font-myUnbounded font-light text-[25px] md:text-[22px] sm:text-[18px] xs:text-[14px] text-white leading-relaxed"
+        >
           <span class="text-customLime hover:text-customOrange">Типографика </span>
           — это искусство использования шрифтов для создания визуального образа и передачи
           информации.

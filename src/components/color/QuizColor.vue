@@ -3,7 +3,6 @@ import QuizBlock from '/src/components/QuizBlock.vue'
 </script>
 
 <template>
-  <!-- Текст "начинается с основ" -->
   <div class="mb-28 lg:mb-20 md:mb-10 sm:mb-4">
     <div class="flex justify-start">
       <div

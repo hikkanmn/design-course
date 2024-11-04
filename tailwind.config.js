@@ -4,7 +4,7 @@ export default {
   theme: {
     /*инициализация ключевых точек для адаптивной верстки*/
     screens: {
-      xl: {max: '1920px'},
+      xl: { max: '1920px' },
       lg: { max: '1280px' },
       md: { max: '1024px' },
       sm: { max: '768px' },
@@ -22,8 +22,8 @@ export default {
         }
       },
       animation: {
-        scroll: 'scroll 15s linear infinite',
-        scroll_reverse: 'scroll_reverse 15s linear infinite'
+        scroll: 'scroll 10s linear infinite',
+        scroll_reverse: 'scroll_reverse 10s linear infinite'
       },
       colors: {
         customPurple: '#5541BA',

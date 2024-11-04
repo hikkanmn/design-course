@@ -5,7 +5,7 @@
     class="grid grid-cols-12 grid-rows-7 sm:grid-rows-8 gap-y-[30px] gap-x-[10px] px-[135px] lg:px-[100px] md:px-[50px] sm:px-[20px] mb-20"
   >
     <div
-      class="col-start-1 col-end-13 row-start-1 row-end-2 z-10 bg-customLime h-1/3  rounded-r-[60px] rounded-tl-[60px]"
+      class="col-start-1 col-end-13 row-start-1 row-end-2 z-10 bg-customLime h-1/3 rounded-r-[60px] rounded-tl-[60px]"
     ></div>
     <div
       class="col-start-1 col-end-2 row-start-1 row-end-8 sm:row-end-9 bg-customLime rounded-b-[100px] rounded-tl-[60px] flex items-end justify-center p-4"
@@ -36,7 +36,9 @@
       требует понимания психологии цвета, цветовых гармоний и принципов баланса.
     </p>
 
-    <div class="border-b-4 border-b-white col-start-3 col-end-13 row-start-7 row-end-8 sm:row-end-9"></div>
+    <div
+      class="border-b-4 border-b-white col-start-3 col-end-13 row-start-7 row-end-8 sm:row-end-9"
+    ></div>
   </div>
 </template>
 

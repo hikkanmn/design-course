@@ -3,7 +3,7 @@
     title="вернуться к началу страницы"
     v-show="showButton"
     @click="scrollToTop"
-    class="group w-fit aspect-square fixed bottom-10 right-5 bg-customPurple border-none rounded-full pl-2 pr-1 cursor-pointer flex items-center justify-center hover:bg-customLime"
+    class="group z-10 w-fit aspect-square fixed bottom-10 right-5 bg-customPurple border-none rounded-full pl-2 pr-1 cursor-pointer flex items-center justify-center hover:bg-customLime"
   >
     <!-- Иконка или текст кнопки -->
     <svg
