@@ -137,6 +137,7 @@ export default {
     },
     toggleHidden() {
       this.isMenuOpen = !this.isMenuOpen
+      document.body.classList.toggle('overflow-hidden', this.isMenuOpen)
     }
   }
 }
