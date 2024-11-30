@@ -51,30 +51,35 @@ import MenuLink from '/src/components/MenuLink.vue'
       >
         <div class="flex flex-col space-y-12">
           <MenuLink
+            @click="toggleHidden"
             title="переход на Главную страницу"
             text="главная"
             bgColor="bg-customPurple text-white hover:bg-customLime hover:text-customBlack "
             to="/"
           />
           <MenuLink
+            @click="toggleHidden"
             title="переход к разделу Копмозиция"
             text="композиция"
             bgColor="bg-customLime text-customBlack hover:bg-customOrange hover:text-white "
             to="/composition"
           />
           <MenuLink
+            @click="toggleHidden"
             title="переход к разделу Колористика"
             text="колористика"
             bgColor="bg-customLime text-customBlack hover:bg-customOrange hover:text-white "
             to="/color"
           />
           <MenuLink
+            @click="toggleHidden"
             title="переход к разделу Типографика"
             text="типографика"
             bgColor="bg-customLime text-customBlack hover:bg-customOrange hover:text-white "
             to="/typography"
           />
           <MenuLink
+            @click="toggleHidden"
             title="переход к разделу Ресурсы"
             text="ресурсы"
             bgColor="bg-customLime text-customBlack hover:bg-customOrange hover:text-white "
@@ -129,6 +134,9 @@ export default {
           this.isMenuOpen = false
         }
       })
+    },
+    toggleHidden() {
+      this.isMenuOpen = false
     }
   }
 }

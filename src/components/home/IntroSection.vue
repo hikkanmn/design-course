@@ -14,12 +14,12 @@
     </div>
 
     <!-- Текст "начинается с основ" -->
-    <div class="flex justify-end mt-5">
+    <div class="flex justify-end sm:justify-center mt-5">
       <div
-        class="pl-16 py-5 border-customLime border-y-4 border-l-4 rounded-l-full text-end pr-[135px] lg:pr-[100px] md:pr-[50px] sm:pr-[20px]"
+        class="pl-16 py-5 border-customLime border-y-4 border-l-4 sm:border-r-4 sm:rounded-r-full rounded-l-full text-end pr-[135px] lg:pr-[100px] md:pr-[50px] sm:px-[20px]"
       >
         <p
-          class="text-[22px] lg:text-[20px] md:text-[16px] sm:text-[14px] font-myUnbounded font-medium text-white"
+          class="text-[22px] lg:text-[20px] md:text-[16px] sm:text-[14px] sm:px-3 font-myUnbounded font-medium text-white"
         >
           начинается с основ
         </p>
@@ -55,12 +55,12 @@
         </router-link>
       </div>
     </div>
-    <div class="flex justify-end mt-10">
+    <div class="flex justify-end sm:justify-center mt-10">
       <div
-        class="pl-8 py-5 border-customLime border-y-4 border-l-4 rounded-l-full text-end pr-[135px] lg:pr-[100px] md:pr-[50px] sm:pr-[20px]"
+        class="pl-8 py-5 border-customLime border-y-4 border-l-4 sm:border-r-4 sm:rounded-r-full rounded-l-full text-end sm:text-center pr-[135px] lg:pr-[100px] md:pr-[50px] sm:px-[20px]"
       >
         <p
-          class="flex flex-col pl-8 lowercase font-myUnbounded font-medium lg:text-[17px] md:text-[14px] text-[22px] text-white"
+          class="flex flex-col pl-8 sm:px-4 lowercase font-myUnbounded font-medium lg:text-[17px] md:text-[14px] text-[22px] text-white"
         >
           почему дизайн тесно <span> связан с психологией?</span>
         </p>

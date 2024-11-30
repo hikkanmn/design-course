@@ -32,7 +32,7 @@
     </p>
 
     <div
-      class="col-start-1 col-end-13 row-start-3 row-end-6 sm:row-start-4 sm:row-end-6 flex justify-between items-center"
+      class="col-start-1 col-end-13 row-start-3 row-end-6 sm:row-start-4 sm:row-end-6 sm:space-x-5 flex justify-between items-center"
     >
       <div
         @mouseover="isHoveredl = true"

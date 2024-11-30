@@ -17,7 +17,11 @@
   </div>
   <div class="relative overflow-hidden w-full">
     <div class="flex justify-start whitespace-nowrap animate-scroll">
-      <span class="self-center font-myMedium text-white text-[83px] md:text-[60px] sm:text-[30px] mb-20" v-for="n in 50" :key="n">
+      <span
+        class="self-center font-myMedium text-white text-[83px] md:text-[60px] sm:text-[30px] mb-20"
+        v-for="n in 50"
+        :key="n"
+      >
         ШРИФТЫШРИФТЫШРИФТЫШРИФТЫШРИФТЫШРИФТЫШРИФТЫ
       </span>
     </div>
