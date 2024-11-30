@@ -136,7 +136,7 @@ export default {
       })
     },
     toggleHidden() {
-      this.isMenuOpen = false
+      this.isMenuOpen = !this.isMenuOpen
     }
   }
 }
